@@ -51,7 +51,6 @@
         "color": {
         "field": "Death rate",
         "type": "quantitative",
-        "scale": {"type": "log", "nice": false},
         "legend": {"title": "Death Rate"}
         },
         "tooltip": [

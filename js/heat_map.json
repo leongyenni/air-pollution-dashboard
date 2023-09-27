@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json","background":"black",
+  "data": {
+    "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/number-of-deaths-by-risk-factor.csv"
+  },
+  "width": 200,
+  "height": 350,
+  "mark": {"type": "rect"},
+  "encoding": {
+    "x": {
+      "field": "Region",
+      "type": "nominal",
+      "sort": "ascending",
+      "title": "Region"
+    },
+    "y": {
+      "field": "Death Factor",
+      "type": "nominal",
+      "sort": "ascending",
+      "title": "Factor"
+    },
+    "tooltip": {
+      "field": "Death Count",
+      "type": "quantitative",
+      "format": ".2f"
+    },
+    "color": {
+      "field": "Death Count",
+      "type": "quantitative",
+      "scale": {"scheme": "GoldRed", "type": "linear", "reverse": false},
+      "legend": {"title": "Death Count", "titleFontSize": 12, "titlePadding": 4, "titleColor": "white", "labelColor": "white"}
+    }
+  },
+  "config": {
+    "axis": {
+      "grid": false,
+      "tickBand": "center",
+      "labelBaseline": "middle",
+      "titleFontSize": 11,
+      "titleColor": "white",
+      "labelFontSize": 10,
+      "labelColor": "white"
+    }
+  }
+}
