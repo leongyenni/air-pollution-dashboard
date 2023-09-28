@@ -12,7 +12,9 @@
 
 </head>
 <body>
-  
+
+<div id="heat_map_death_rate"></div>
+<div id="heat_map_disease_burden"></div>
 <div id="choropleth_map"></div>
 
 <!--Vegalite Embed-->
@@ -20,7 +22,7 @@
   var heat_map_death_rate = "js/heat_map_death_rate.vg.json";
   var heat_map_disease_burden = "js/heat_map_disease_burden.vg.json";
   var choropleth_map = "js/choropleth_map.vg.json";
-  vegaEmbed('#heat_map_death_rate', hheat_map_death_rate).then(function(result) {}).catch(console.error);
+  vegaEmbed('#heat_map_death_rate', heat_map_death_rate).then(function(result) {}).catch(console.error);
   vegaEmbed('#heat_map_disease_burden', heat_map_disease_burden).then(function(result) {}).catch(console.error);
   vegaEmbed('#choropleth_map', choropleth_map).then(function(result) {}).catch(console.error);
 </script>

@@ -3,10 +3,6 @@
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rate-by-risk-factor.csv"
   },
- "transform": [
-    {"filter": "datum.Country !== 'Global'"},
-    {"filter": "datum.Factor !== 'All risk factors'"}
-  ],
   "width": 200,
   "height": 350,
   "mark": {"type": "rect"},
@@ -24,15 +20,15 @@
       "title": "Factor"
     },
     "tooltip": {
-      "field": "Death Rate",
+      "field": "Rate",
       "type": "quantitative",
       "format": ".2f"
     },
     "color": {
-      "field": "Death Rate",
+      "field": "Rate",
       "type": "quantitative",
       "scale": {"scheme": "tealblues", "type": "linear", "reverse": false},
-      "legend": {"title": "Number of Death", "titleFontSize": 12, "titlePadding": 4, "titleColor": "white", "labelColor": "white"}
+      "legend": {"title": "Death Rate", "titleFontSize": 12, "titlePadding": 4, "titleColor": "white", "labelColor": "white"}
     }
   },
   "config": {

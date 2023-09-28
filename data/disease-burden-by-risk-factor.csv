@@ -1,81 +1,71 @@
 Country,Factor,Rate
-United States of America,Unsafe water source,0.116380445
-United States of America,Air pollution,18.36375593
-United States of America,Lead exposure,6.341863677
-United States of America,Smoking,160.9056163
-United States of America,Alcohol use,41.66828624
-United States of America,Drug use,31.93383426
-United States of America,High systolic blood pressure,150.9857583
-United States of America,High body-mass index,120.0867857
-United States of America,Kidney dysfunction,65.47399759
-United States of America,High LDL cholesterol,69.0113632
-United Kingdom,Unsafe water source,0.059492115
-United Kingdom,Air pollution,22.35362403
-United Kingdom,Lead exposure,3.435752185
-United Kingdom,Smoking,178.1851369
-United Kingdom,Alcohol use,37.55146645
-United Kingdom,Drug use,7.459670487
-United Kingdom,High systolic blood pressure,130.5581712
-United Kingdom,High body-mass index,83.62904392
-United Kingdom,Kidney dysfunction,32.67641041
-United Kingdom,High LDL cholesterol,71.44825542
-Malaysia,Unsafe water source,2.320168124
-Malaysia,Air pollution,35.01501915
-Malaysia,Lead exposure,3.671043255
-Malaysia,Smoking,78.55140694
-Malaysia,Alcohol use,10.82409563
-Malaysia,Drug use,4.46572945
-Malaysia,High systolic blood pressure,131.2430907
-Malaysia,High body-mass index,61.03569416
-Malaysia,Kidney dysfunction,42.85706406
-Malaysia,High LDL cholesterol,63.30668536
-Japan,Unsafe water source,0.424311257
-Japan,Air pollution,33.30910672
-Japan,Lead exposure,3.070313184
-Japan,Smoking,156.036206
-Japan,Alcohol use,37.40148587
-Japan,Drug use,8.243743605
-Japan,High systolic blood pressure,153.6795168
-Japan,High body-mass index,40.55304256
-Japan,Kidney dysfunction,61.36528918
-Japan,High LDL cholesterol,59.30273921
-Global,Unsafe water source,15.89866862
-Global,Air pollution,86.2264306
-Global,Lead exposure,11.65389335
-Global,Smoking,99.43008884
-Global,Alcohol use,31.560382
-Global,Drug use,6.390875044
-Global,High systolic blood pressure,140.1698838
-Global,High body-mass index,64.87085837
-Global,Kidney dysfunction,40.86030759
-Global,High LDL cholesterol,56.82718406
-China,Unsafe water source,0.229908781
-China,Air pollution,129.9450192
-China,Lead exposure,19.84042561
-China,Smoking,170.0470254
-China,Alcohol use,36.18366583
-China,Drug use,5.992770011
-China,High systolic blood pressure,182.7875233
-China,High body-mass index,53.76298571
-China,Kidney dysfunction,40.32319915
-China,High LDL cholesterol,64.39925346
-India,Unsafe water source,36.54901073
-India,Air pollution,119.8908994
-India,Lead exposure,16.7190445
-India,Smoking,72.86095959
-India,Alcohol use,24.71369016
-India,Drug use,5.242138547
-India,High systolic blood pressure,105.8374738
-India,High body-mass index,41.64126409
-India,Kidney dysfunction,33.75398928
-India,High LDL cholesterol,45.30740356
-Switzerland,Unsafe water source,0.057148433
-Switzerland,Air pollution,18.31972457
-Switzerland,Lead exposure,4.431568294
-Switzerland,Smoking,116.4168332
-Switzerland,Alcohol use,44.87204657
-Switzerland,Drug use,7.03950337
-Switzerland,High systolic blood pressure,143.2521874
-Switzerland,High body-mass index,69.84297605
-Switzerland,Kidney dysfunction,50.29519955
-Switzerland,High LDL cholesterol,73.14745479
+China,Unsafe water source,55.60839425
+China,Air pollution,2988.694099
+China,Lead exposure,397.7855144
+China,Smoking,4025.050972
+China,Alcohol use,1213.840131
+China,Drug use,360.0936472
+China,High systolic blood pressure,3827.581059
+China,High body-mass index,1745.704888
+China,Kidney dysfunction,938.8620847
+China,High LDL cholesterol,1393.043624
+United States of America,Unsafe water source,4.422173773
+United States of America,Air pollution,433.4004887
+United States of America,Lead exposure,106.0541213
+United States of America,Smoking,4253.734988
+United States of America,Alcohol use,1584.382176
+United States of America,Drug use,2218.210255
+United States of America,High systolic blood pressure,2775.383763
+United States of America,High body-mass index,3822.230228
+United States of America,Kidney dysfunction,1199.631965
+United States of America,High LDL cholesterol,1270.592108
+Malaysia,Unsafe water source,116.5218811
+Malaysia,Air pollution,997.5727825
+Malaysia,Lead exposure,93.08537914
+Malaysia,Smoking,2238.904596
+Malaysia,Alcohol use,440.3363656
+Malaysia,Drug use,330.0180747
+Malaysia,High systolic blood pressure,3328.893543
+Malaysia,High body-mass index,2274.284731
+Malaysia,Kidney dysfunction,1167.836642
+Malaysia,High LDL cholesterol,1659.245363
+Japan,Unsafe water source,7.784118846
+Japan,Air pollution,628.3305845
+Japan,Lead exposure,42.64928969
+Japan,Smoking,3297.185605
+Japan,Alcohol use,980.3054969
+Japan,Drug use,267.8135587
+Japan,High systolic blood pressure,2443.782091
+Japan,High body-mass index,1065.682976
+Japan,Kidney dysfunction,974.6583678
+Japan,High LDL cholesterol,859.4949028
+India,Unsafe water source,1161.670366
+India,Air pollution,3847.072611
+India,Lead exposure,500.7537493
+India,Smoking,1929.491594
+India,Alcohol use,1057.154783
+India,Drug use,280.4203714
+India,High systolic blood pressure,2664.821265
+India,High body-mass index,1511.306457
+India,Kidney dysfunction,964.3821617
+India,High LDL cholesterol,1271.232311
+Switzerland,Unsafe water source,2.065647215
+Switzerland,Air pollution,356.7983458
+Switzerland,Lead exposure,58.33930029
+Switzerland,Smoking,2833.929776
+Switzerland,Alcohol use,1386.853124
+Switzerland,Drug use,408.3653189
+Switzerland,High systolic blood pressure,1832.841903
+Switzerland,High body-mass index,1659.806916
+Switzerland,Kidney dysfunction,627.7235591
+Switzerland,High LDL cholesterol,954.3868543
+United Kingdom,Unsafe water source,2.371790617
+United Kingdom,Air pollution,475.3703059
+United Kingdom,Lead exposure,53.54665777
+United Kingdom,Smoking,4044.403398
+United Kingdom,Alcohol use,1434.19679
+United Kingdom,Drug use,604.6154944
+United Kingdom,High systolic blood pressure,2145.049002
+United Kingdom,High body-mass index,2560.620546
+United Kingdom,Kidney dysfunction,522.484262
+United Kingdom,High LDL cholesterol,1157.280763
