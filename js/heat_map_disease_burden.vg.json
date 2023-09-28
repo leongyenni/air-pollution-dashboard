@@ -12,6 +12,15 @@
       "as": "RateQuantitative"
     },
     {
+      "filter": "datum.Factor !== 'High LDL cholesterol'"
+    },
+    {
+      "filter": "datum.Factor !== 'High body-mass index'"
+    },
+    {
+      "filter": "datum.Factor !== 'Kidney dysfunction'"
+    },
+    {
       "groupby": ["Country"],
       "window": [
         {
