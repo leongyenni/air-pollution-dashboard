@@ -3,6 +3,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rate-by-risk-factor.csv"
   },
+ "transform": [
+    {"filter": "datum.Country !== 'Global'"}
+  ],
   "width": 200,
   "height": 350,
   "mark": {"type": "rect"},
