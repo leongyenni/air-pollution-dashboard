@@ -10,7 +10,7 @@ China,Lead exposure,19.84042561
 China,Occupational risks,23.98
 China,Smoking,170.0470254
 China,Unsafe water source,0.229908781
-China,Air pollution,119.8908994
+India,Air pollution,119.8908994
 India,Alcohol use,24.71369016
 India,Drug use,5.242138547
 India,High LDL cholesterol,45.30740356
@@ -21,7 +21,7 @@ India,Lead exposure,16.7190445
 India,Occupational risks,17.24
 India,Smoking,72.86095959
 India,Unsafe water source,36.54901073
-India,Air pollution,33.30910672
+Japan,Air pollution,33.30910672
 Japan,Alcohol use,37.40148587
 Japan,Drug use,8.243743605
 Japan,High LDL cholesterol,59.30273921
@@ -32,7 +32,7 @@ Japan,Lead exposure,3.070313184
 Japan,Occupational risks,22.8
 Japan,Smoking,156.036206
 Japan,Unsafe water source,0.424311257
-Japan,Air pollution,35.01501915
+Malaysia,Air pollution,35.01501915
 Malaysia,Alcohol use,10.82409563
 Malaysia,Drug use,4.46572945
 Malaysia,High LDL cholesterol,63.30668536
@@ -43,7 +43,7 @@ Malaysia,Lead exposure,3.671043255
 Malaysia,Occupational risks,8.79
 Malaysia,Smoking,78.55140694
 Malaysia,Unsafe water source,2.320168124
-Malaysia,Air pollution,18.31972457
+Switzerland,Air pollution,18.31972457
 Switzerland,Alcohol use,44.87204657
 Switzerland,Drug use,7.03950337
 Switzerland,High LDL cholesterol,73.14745479
@@ -54,7 +54,7 @@ Switzerland,Lead exposure,4.431568294
 Switzerland,Occupational risks,21.89
 Switzerland,Smoking,116.4168332
 Switzerland,Unsafe water source,0.057148433
-Switzerland,Air pollution,22.35362403
+United Kingdom,Air pollution,22.35362403
 United Kingdom,Alcohol use,37.55146645
 United Kingdom,Drug use,7.459670487
 United Kingdom,High LDL cholesterol,71.44825542
@@ -65,7 +65,7 @@ United Kingdom,Lead exposure,3.435752185
 United Kingdom,Occupational risks,34.59
 United Kingdom,Smoking,178.1851369
 United Kingdom,Unsafe water source,0.059492115
-United Kingdom,Air pollution,18.36375593
+United States of America,Air pollution,18.36375593
 United States of America,Alcohol use,41.66828624
 United States of America,Drug use,31.93383426
 United States of America,High LDL cholesterol,69.0113632
@@ -76,7 +76,7 @@ United States of America,Lead exposure,6.341863677
 United States of America,Occupational risks,22.19
 United States of America,Smoking,160.9056163
 United States of America,Unsafe water source,0.116380445
-United States of America,Air pollution,86.2264306
+World,Air pollution,86.2264306
 World,Alcohol use,31.560382
 World,Drug use,6.390875044
 World,High LDL cholesterol,56.82718406
