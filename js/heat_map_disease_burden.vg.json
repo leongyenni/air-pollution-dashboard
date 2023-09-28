@@ -1,5 +1,6 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json","background":"black",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json","background":"white",
+  "title": "Disease Burden by Risk Factor",
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/disease-burden-by-risk-factor.csv"
   },
@@ -28,7 +29,7 @@
       "field": "Rate",
       "type": "quantitative",
       "scale": {"scheme": "tealblues", "type": "linear", "reverse": false},
-      "legend": {"title": "DALYs Rate", "titleFontSize": 12, "titlePadding": 4, "titleColor": "white", "labelColor": "white"}
+      "legend": {"title": "DALYs Rate", "titleFontSize": 12, "titlePadding": 4, "titleColor": "black", "labelColor": "black"}
     }
   },
   "config": {
@@ -37,9 +38,9 @@
       "tickBand": "center",
       "labelBaseline": "middle",
       "titleFontSize": 11,
-      "titleColor": "white",
+      "titleColor": "black",
       "labelFontSize": 10,
-      "labelColor": "white"
+      "labelColor": "black"
     }
   }
 }

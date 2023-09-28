@@ -1,5 +1,6 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json","background":"black",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Death Rate by Risk Factor",
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rate-by-risk-factor.csv"
   },
@@ -31,7 +32,7 @@
       "field": "Rate",
       "type": "quantitative",
       "scale": {"scheme": "tealblues", "type": "linear", "reverse": false},
-      "legend": {"title": "Death Rate", "titleFontSize": 12, "titlePadding": 4, "titleColor": "white", "labelColor": "white"}
+      "legend": {"title": "Death Rate", "titleFontSize": 12, "titlePadding": 4, "titleColor": "black", "labelColor": "black"}
     }
   },
   "config": {
@@ -40,9 +41,9 @@
       "tickBand": "center",
       "labelBaseline": "middle",
       "titleFontSize": 11,
-      "titleColor": "white",
+      "titleColor": "black",
       "labelFontSize": 10,
-      "labelColor": "white"
+      "labelColor": "black"
     }
   }
 }
