@@ -51,6 +51,9 @@
         "color": {
         "field": "Death rate",
         "type": "quantitative",
+          "scale":{"type": "threshold",
+                "domain": [0,25,50,100,250,500],
+                "scheme": "tealblues"},
         "legend": {"title": "Death Rate"}
         },
         "tooltip": [
