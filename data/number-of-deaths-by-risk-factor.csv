@@ -1,225 +1,273 @@
-Country,Year,Factor,Death Number
-China,2019,high systolic blood pressure,2599879
-India,2019,high systolic blood pressure,1471889.1
-Japan,2019,high systolic blood pressure,196384.61
-Malaysia,2019,high systolic blood pressure,41080.93
-Switzerland,2019,high systolic blood pressure,12570.672
-United Kingdom,2019,high systolic blood pressure,87761.79
-United States,2019,high systolic blood pressure,495201.2
-World,2019,high systolic blood pressure,10845595
-China,2019,diet high in sodium,855385
-India,2019,diet high in sodium,174797.08
-Japan,2019,diet high in sodium,38087.49
-Malaysia,2019,diet high in sodium,7907.6587
-Switzerland,2019,diet high in sodium,977.60065
-United Kingdom,2019,diet high in sodium,6668.3306
-United States,2019,diet high in sodium,48500.992
-World,2019,diet high in sodium,1885355.9
-China,2019,diet low in whole grains,383477.9
-India,2019,diet low in whole grains,258256.98
-Japan,2019,diet low in whole grains,30877.293
-Malaysia,2019,diet low in whole grains,6539.5645
-Switzerland,2019,diet low in whole grains,2679.6025
-United Kingdom,2019,diet low in whole grains,20848.984
-United States,2019,diet low in whole grains,102246.77
-World,2019,diet low in whole grains,1844836.1
-China,2019,alcohol,514658.53
-India,2019,alcohol,343695
-Japan,2019,alcohol,47794.766
-Malaysia,2019,alcohol,3388.0938
-Switzerland,2019,alcohol,3937.6135
-United Kingdom,2019,alcohol,25242.264
-United States,2019,alcohol,136663.11
-World,2019,alcohol,2441973.5
-China,2019,diet low in fruits,231119.73
-India,2019,diet low in fruits,256232.2
-Japan,2019,diet low in fruits,19205.877
-Malaysia,2019,diet low in fruits,2790.023
-Switzerland,2019,diet low in fruits,795.39386
-United Kingdom,2019,diet low in fruits,10066.505
-United States,2019,diet low in fruits,40171.805
-World,2019,diet low in fruits,1046014.9
-China,2019,unsafe water source,3270.1086
-India,2019,unsafe water source,508289.62
-Japan,2019,unsafe water source,542.22064
-Malaysia,2019,unsafe water source,726.2452
-Switzerland,2019,unsafe water source,5.0148916
-United Kingdom,2019,unsafe water source,39.990864
-United States,2019,unsafe water source,381.7031
-World,2019,unsafe water source,1230153.9
-China,2019,secondhand smoke,416054.06
-India,2019,secondhand smoke,240097.83
-Japan,2019,secondhand smoke,16796.174
-Malaysia,2019,secondhand smoke,5964.133
-Switzerland,2019,secondhand smoke,677.08295
-United Kingdom,2019,secondhand smoke,1339.4551
-United States,2019,secondhand smoke,35583.277
-World,2019,secondhand smoke,1304318.4
-China,2019,low birth weight,34444.246
-India,2019,low birth weight,445535.38
-Japan,2019,low birth weight,358.00443
-Malaysia,2019,low birth weight,1065.8851
-Switzerland,2019,low birth weight,117.11752
-United Kingdom,2019,low birth weight,161.91476
-United States,2019,low birth weight,9606.032
-World,2019,low birth weight,1703121.2
-China,2019,child wasting,20497.404
-India,2019,child wasting,118283.47
-Japan,2019,child wasting,1470.361
-Malaysia,2019,child wasting,400.7392
-Switzerland,2019,child wasting,78.35873
-United Kingdom,2019,child wasting,1956.0353
-United States,2019,child wasting,5898.4116
-World,2019,child wasting,993046.25
-China,2019,unsafe sex,74859.4
-India,2019,unsafe sex,78978.586
-Japan,2019,unsafe sex,4498.7793
-Malaysia,2019,unsafe sex,1806.2708
-Switzerland,2019,unsafe sex,232.93709
-United Kingdom,2019,unsafe sex,11139.845
-United States,2019,unsafe sex,14354.091
-World,2019,unsafe sex,984365.8
-China,2019,diet low in nuts and seeds,86309.25
-India,2019,diet low in nuts and seeds,164172.34
-Japan,2019,diet low in nuts and seeds,12030.685
-Malaysia,2019,diet low in nuts and seeds,83.43709
-Switzerland,2019,diet low in nuts and seeds,313.47394
-United Kingdom,2019,diet low in nuts and seeds,11.840199
-United States,2019,diet low in nuts and seeds,11028.839
-World,2019,diet low in nuts and seeds,575139.25
-China,2019,household air pollution from solid fuels,363029.44
-India,2019,household air pollution from solid fuels,606889.75
-Japan,2019,household air pollution from solid fuels,95.03132
-Malaysia,2019,household air pollution from solid fuels,110.92361
-Switzerland,2019,household air pollution from solid fuels,1.3587359
-United Kingdom,2019,household air pollution from solid fuels,5935.866
-United States,2019,household air pollution from solid fuels,149.77454
-World,2019,household air pollution from solid fuels,2313991.2
-China,2019,diet low in vegetables,15705.735
-India,2019,diet low in vegetables,134007.48
-Japan,2019,diet low in vegetables,3447.791
-Malaysia,2019,diet low in vegetables,3123.961
-Switzerland,2019,diet low in vegetables,714.8475
-United Kingdom,2019,diet low in vegetables,10215.814
-United States,2019,diet low in vegetables,7840.903
-World,2019,diet low in vegetables,529381.3
-China,2019,smoking,2418664.5
-India,2019,smoking,1013282.44
-Japan,2019,smoking,199396.19
-Malaysia,2019,smoking,24587.691
-Switzerland,2019,smoking,1607.5931
-United Kingdom,2019,smoking,6128.8633
-United States,2019,smoking,56215.816
-World,2019,smoking,7693368
-China,2019,high fasting plasma glucose,1067554.2
-India,2019,high fasting plasma glucose,1121913.8
-Japan,2019,high fasting plasma glucose,101140.94
-Malaysia,2019,high fasting plasma glucose,24609.312
-Switzerland,2019,high fasting plasma glucose,7840.903
-United Kingdom,2019,high fasting plasma glucose,56215.816
-United States,2019,high fasting plasma glucose,56215.816
-World,2019,high fasting plasma glucose,6501397.5
-China,2019,air pollution,1848273.5
-India,2019,air pollution,1667331.1
-Japan,2019,air pollution,42565.18
-Malaysia,2019,air pollution,10960.192
-Switzerland,2019,air pollution,1607.5931
-United Kingdom,2019,air pollution,7840.903
-United States,2019,air pollution,7840.903
-World,2019,air pollution,6671739.5
-China,2019,high body-mass index,764698.06
-India,2019,high body-mass index,579107.94
-Japan,2019,high body-mass index,51822.09
-Malaysia,2019,high body-mass index,19105.027
-Switzerland,2019,high body-mass index,6128.8633
-United Kingdom,2019,high body-mass index,529381.3
-United States,2019,high body-mass index,529381.3
-World,2019,high body-mass index,5019359.5
-China,2019,unsafe sanitation,1900.4158
-India,2019,unsafe sanitation,291102.78
-Japan,2019,unsafe sanitation,102.912056
-Malaysia,2019,unsafe sanitation,79.9863
-Switzerland,2019,unsafe sanitation,2.2111704
-United Kingdom,2019,unsafe sanitation,7.824474
-United States,2019,unsafe sanitation,7.824474
-World,2019,unsafe sanitation,756584.94
-China,2019,drug use,85238.19
-India,2019,drug use,72902.79
-Japan,2019,drug use,10534.549
-Malaysia,2019,drug use,1397.8359
-Switzerland,2019,drug use,617.7308
-United Kingdom,2019,drug use,5014.424
-United States,2019,drug use,5014.424
-World,2019,drug use,494491.7
-China,2019,low bone mineral density,89857.086
-India,2019,low bone mineral density,118682.336
-Japan,2019,low bone mineral density,8920.783
-Malaysia,2019,low bone mineral density,1400.2432
-Switzerland,2019,low bone mineral density,1268.4695
-United Kingdom,2019,low bone mineral density,4962.3413
-United States,2019,low bone mineral density,4962.3413
-World,2019,low bone mineral density,437884.4
-China,2019,vitamin a deficiency,20.777645
-India,2019,vitamin a deficiency,1500.5435
-Japan,2019,vitamin a deficiency,0.063311145
-Malaysia,2019,vitamin a deficiency,0.32599908
-Switzerland,2019,vitamin a deficiency,0.002727998
-United Kingdom,2019,vitamin a deficiency,0.020535814
-United States,2019,vitamin a deficiency,0.0732612
-World,2019,vitamin a deficiency,23849.85
-China,2019,child stunting,1047.5344
-India,2019,child stunting,21575.477
-Japan,2019,child stunting,8.473066
-Malaysia,2019,child stunting,24.553904
-Switzerland,2019,child stunting,0.10638614
-United Kingdom,2019,child stunting,1.9382862
-United States,2019,child stunting,14.1594
-World,2019,child stunting,164237.11
-China,2019,non-exclusive breastfeeding,1636.8561
-India,2019,non-exclusive breastfeeding,17973.398
-Japan,2019,non-exclusive breastfeeding,11.7155905
-Malaysia,2019,non-exclusive breastfeeding,27.550941
-Switzerland,2019,non-exclusive breastfeeding,1.4182621
-United Kingdom,2019,non-exclusive breastfeeding,11.398799
-United States,2019,non-exclusive breastfeeding,75.149734
-World,2019,non-exclusive breastfeeding,139731.9
-China,2019,iron deficiency,201.78636
-India,2019,iron deficiency,10098.36
-Japan,2019,iron deficiency,4.7177577
-Malaysia,2019,iron deficiency,41.71656
-Switzerland,2019,iron deficiency,0.36699688
-United Kingdom,2019,iron deficiency,3.7074313
-United States,2019,iron deficiency,113.924774
-World,2019,iron deficiency,42349.24
-China,2019,ambient particulate matter pollution,1423632.6
-India,2019,ambient particulate matter pollution,979681.5
-Japan,2019,ambient particulate matter pollution,39691.707
-Malaysia,2019,ambient particulate matter pollution,10550.8125
-Switzerland,2019,ambient particulate matter pollution,1373.6882
-United Kingdom,2019,ambient particulate matter pollution,14449.102
-United States,2019,ambient particulate matter pollution,47787.188
-World,2019,ambient particulate matter pollution,4140971
-China,2019,low physical activity,149530.73
-India,2019,low physical activity,96012.21
-Japan,2019,low physical activity,20536.309
-Malaysia,2019,low physical activity,3538.8987
-Switzerland,2019,low physical activity,1808.5736
-United Kingdom,2019,low physical activity,14335.149
-United States,2019,low physical activity,37146.617
-World,2019,low physical activity,831502
-China,2019,handwashing facility,7574.705
-India,2019,handwashing facility,173939.28
-Japan,2019,handwashing facility,2359.7405
-Malaysia,2019,handwashing facility,472.3121
-Switzerland,2019,handwashing facility,22.907368
-United Kingdom,2019,handwashing facility,443.63107
-United States,2019,handwashing facility,987.35535
-World,2019,handwashing facility,627918.9
-China,2019,high ldl cholesterol,915983.06
-India,2019,high ldl cholesterol,630093.2
-Japan,2019,high ldl cholesterol,75782.03
-Malaysia,2019,high ldl cholesterol,19815.88
-Switzerland,2019,high ldl cholesterol,6418.8384
-United Kingdom,2019,high ldl cholesterol,48027.836
-United States,2019,high ldl cholesterol,226342.6
-World,2019,high ldl cholesterol,4396983.5
+Country,Risk Factor,Death Rate
+United States of America,Unsafe water source,0.116380445
+United States of America,Unsafe sanitation,0.207878928
+United States of America,Air pollution,18.36375593
+United States of America,Lead exposure,6.341863677
+United States of America,Iron deficiency,0.034735415
+United States of America,Vitamin A deficiency,2.23E-05
+United States of America,Zinc deficiency,7.49E-06
+United States of America,Smoking,160.9056163
+United States of America,Secondhand smoke,10.84926378
+United States of America,Alcohol use,41.66828624
+United States of America,Drug use,31.93383426
+United States of America,High fasting plasma glucose,133.9656037
+United States of America,High systolic blood pressure,150.9857583
+United States of America,High body-mass index,120.0867857
+United States of America,Diet low in fruits,12.24829526
+United States of America,Diet low in vegetables,8.530072438
+United States of America,Diet low in whole grains,31.17481729
+United States of America,Diet low in nuts and seeds,3.362668947
+United States of America,Diet low in milk,2.198545133
+United States of America,Diet high in red meat,20.01730688
+United States of America,Diet high in processed meat,15.518494
+United States of America,Diet high in sugar-sweetened beverages,6.579030812
+United States of America,Diet low in fiber,10.69500358
+United States of America,Diet low in seafood omega-3 fatty acids,4.899493479
+United States of America,Diet low in polyunsaturated fatty acids,0.647768218
+United States of America,Diet high in trans fatty acids,19.63116808
+United States of America,Diet high in sodium,14.78784704
+United States of America,Diet low in calcium,1.322735497
+United States of America,All risk factors,546.5443856
+United States of America,Child growth failure,1.803591251
+United States of America,Diet low in legumes,23.42919911
+United States of America,Low birth weight and short gestation,3.072449307
+United States of America,Kidney dysfunction,65.47399759
+United States of America,High LDL cholesterol,69.0113632
+United Kingdom,Unsafe water source,0.059492115
+United Kingdom,Unsafe sanitation,0.011640021
+United Kingdom,Air pollution,22.35362403
+United Kingdom,Lead exposure,3.435752185
+United Kingdom,Iron deficiency,0.005515333
+United Kingdom,Vitamin A deficiency,3.05E-05
+United Kingdom,Zinc deficiency,1.32E-05
+United Kingdom,Smoking,178.1851369
+United Kingdom,Secondhand smoke,12.31299404
+United Kingdom,Alcohol use,37.55146645
+United Kingdom,Drug use,7.459670487
+United Kingdom,High fasting plasma glucose,112.247942
+United Kingdom,High systolic blood pressure,130.5581712
+United Kingdom,High body-mass index,83.62904392
+United Kingdom,Diet low in fruits,14.97536167
+United Kingdom,Diet low in vegetables,8.830447696
+United Kingdom,Diet low in whole grains,31.01583844
+United Kingdom,Diet low in nuts and seeds,16.572107
+United Kingdom,Diet low in milk,4.07517611
+United Kingdom,Diet high in red meat,13.29268203
+United Kingdom,Diet high in processed meat,11.73464787
+United Kingdom,Diet high in sugar-sweetened beverages,4.684498716
+United Kingdom,Diet low in fiber,9.698814854
+United Kingdom,Diet low in seafood omega-3 fatty acids,4.865258319
+United Kingdom,Diet low in polyunsaturated fatty acids,3.600290567
+United Kingdom,Diet high in trans fatty acids,10.17826666
+United Kingdom,Diet high in sodium,9.920092608
+United Kingdom,Diet low in calcium,1.755778309
+United Kingdom,All risk factors,517.319753
+United Kingdom,Child growth failure,0.243676283
+United Kingdom,Diet low in legumes,17.94246978
+United Kingdom,Low birth weight and short gestation,2.051136539
+United Kingdom,Kidney dysfunction,32.67641041
+United Kingdom,High LDL cholesterol,71.44825542
+Malaysia,Unsafe water source,2.320168124
+Malaysia,Unsafe sanitation,0.255535836
+Malaysia,Air pollution,35.01501915
+Malaysia,Lead exposure,3.671043255
+Malaysia,Iron deficiency,0.133273778
+Malaysia,Vitamin A deficiency,0.001041484
+Malaysia,Zinc deficiency,0.000257277
+Malaysia,Smoking,78.55140694
+Malaysia,Secondhand smoke,19.05388365
+Malaysia,Alcohol use,10.82409563
+Malaysia,Drug use,4.46572945
+Malaysia,High fasting plasma glucose,78.62047888
+Malaysia,High systolic blood pressure,131.2430907
+Malaysia,High body-mass index,61.03569416
+Malaysia,Diet low in fruits,8.913411751
+Malaysia,Diet low in vegetables,9.9802586
+Malaysia,Diet low in whole grains,20.89224151
+Malaysia,Diet low in nuts and seeds,0.266560215
+Malaysia,Diet low in milk,3.058783738
+Malaysia,Diet high in red meat,5.474904518
+Malaysia,Diet high in processed meat,1.818960934
+Malaysia,Diet high in sugar-sweetened beverages,1.744668024
+Malaysia,Diet low in fiber,13.49589049
+Malaysia,Diet low in seafood omega-3 fatty acids,3.654768567
+Malaysia,Diet low in polyunsaturated fatty acids,3.808087506
+Malaysia,Diet high in trans fatty acids,6.421358733
+Malaysia,Diet high in sodium,25.26295356
+Malaysia,Diet low in calcium,3.387934955
+Malaysia,All risk factors,314.6137612
+Malaysia,Child growth failure,1.338184952
+Malaysia,Diet low in legumes,16.25167498
+Malaysia,Low birth weight and short gestation,3.629846921
+Malaysia,Kidney dysfunction,42.85706406
+Malaysia,High LDL cholesterol,63.30668536
+Japan,Unsafe water source,0.424311257
+Japan,Unsafe sanitation,0.080533171
+Japan,Air pollution,33.30910672
+Japan,Lead exposure,3.070313184
+Japan,Iron deficiency,0.003691851
+Japan,Vitamin A deficiency,4.95E-05
+Japan,Zinc deficiency,5.91E-05
+Japan,Smoking,156.036206
+Japan,Secondhand smoke,13.14373813
+Japan,Alcohol use,37.40148587
+Japan,Drug use,8.243743605
+Japan,High fasting plasma glucose,79.14718798
+Japan,High systolic blood pressure,153.6795168
+Japan,High body-mass index,40.55304256
+Japan,Diet low in fruits,15.02943511
+Japan,Diet low in vegetables,2.698046696
+Japan,Diet low in whole grains,24.16282752
+Japan,Diet low in nuts and seeds,9.414534729
+Japan,Diet low in milk,8.44668696
+Japan,Diet high in red meat,8.714485273
+Japan,Diet high in processed meat,5.712403269
+Japan,Diet high in sugar-sweetened beverages,2.463424698
+Japan,Diet low in fiber,9.03448156
+Japan,Diet low in seafood omega-3 fatty acids,4.114261621
+Japan,Diet low in polyunsaturated fatty acids,2.694149789
+Japan,Diet high in trans fatty acids,5.465447627
+Japan,Diet high in sodium,29.80512025
+Japan,Diet low in calcium,6.758105931
+Japan,All risk factors,514.6176257
+Japan,Child growth failure,1.155498977
+Japan,Diet low in legumes,6.857657287
+Japan,Low birth weight and short gestation,0.292771886
+Japan,Kidney dysfunction,61.36528918
+Japan,High LDL cholesterol,59.30273921
+Switzerland,Unsafe water source,0.057148433
+Switzerland,Unsafe sanitation,0.025197939
+Switzerland,Air pollution,18.31972457
+Switzerland,Lead exposure,4.431568294
+Switzerland,Iron deficiency,0.004182204
+Switzerland,Vitamin A deficiency,3.11E-05
+Switzerland,Zinc deficiency,2.83E-05
+Switzerland,Smoking,116.4168332
+Switzerland,Secondhand smoke,7.715865424
+Switzerland,Alcohol use,44.87204657
+Switzerland,Drug use,7.03950337
+Switzerland,High fasting plasma glucose,89.35294341
+Switzerland,High systolic blood pressure,143.2521874
+Switzerland,High body-mass index,69.84297605
+Switzerland,Diet low in fruits,9.06410667
+Switzerland,Diet low in vegetables,8.146221019
+Switzerland,Diet low in whole grains,30.53607067
+Switzerland,Diet low in nuts and seeds,3.572269687
+Switzerland,Diet low in milk,2.493538121
+Switzerland,Diet high in red meat,17.72014169
+Switzerland,Diet high in processed meat,9.160490327
+Switzerland,Diet high in sugar-sweetened beverages,2.938894685
+Switzerland,Diet low in fiber,13.51923867
+Switzerland,Diet low in seafood omega-3 fatty acids,4.422551427
+Switzerland,Diet low in polyunsaturated fatty acids,4.81161362
+Switzerland,Diet high in trans fatty acids,9.775476591
+Switzerland,Diet high in sodium,11.14048971
+Switzerland,Diet low in calcium,1.022721662
+Switzerland,All risk factors,456.008626
+Switzerland,Child growth failure,0.894090993
+Switzerland,Diet low in legumes,20.48095441
+Switzerland,Low birth weight and short gestation,1.44765304
+Switzerland,Kidney dysfunction,50.29519955
+Switzerland,High LDL cholesterol,73.14745479
+Global,Unsafe water source,15.89866862
+Global,Unsafe sanitation,9.778202393
+Global,Air pollution,86.2264306
+Global,Lead exposure,11.65389335
+Global,Iron deficiency,0.547327069
+Global,Vitamin A deficiency,0.308238552
+Global,Zinc deficiency,0.036263946
+Global,Smoking,99.43008884
+Global,Secondhand smoke,16.85718008
+Global,Alcohol use,31.560382
+Global,Drug use,6.390875044
+Global,High fasting plasma glucose,84.02491017
+Global,High systolic blood pressure,140.1698838
+Global,High body-mass index,64.87085837
+Global,Diet low in fruits,13.5188321
+Global,Diet low in vegetables,6.841792761
+Global,Diet low in whole grains,23.84290247
+Global,Diet low in nuts and seeds,7.433174246
+Global,Diet low in milk,2.151303606
+Global,Diet high in red meat,11.57581856
+Global,Diet high in processed meat,3.932611563
+Global,Diet high in sugar-sweetened beverages,3.130459456
+Global,Diet low in fiber,7.834917303
+Global,Diet low in seafood omega-3 fatty acids,4.359046941
+Global,Diet low in polyunsaturated fatty acids,4.474778379
+Global,Diet high in trans fatty acids,8.335818336
+Global,Diet high in sodium,24.36658467
+Global,Diet low in calcium,1.78218511
+Global,All risk factors,452.3452025
+Global,Child growth failure,13.76039771
+Global,Diet low in legumes,14.42880954
+Global,Low birth weight and short gestation,23.33427808
+Global,Kidney dysfunction,40.86030759
+Global,High LDL cholesterol,56.82718406
+India,Unsafe water source,36.54901073
+India,Unsafe sanitation,20.93199881
+India,Air pollution,119.8908994
+India,Lead exposure,16.7190445
+India,Iron deficiency,0.726131428
+India,Vitamin A deficiency,0.107897892
+India,Zinc deficiency,0.024947217
+India,Smoking,72.86095959
+India,Secondhand smoke,17.26444373
+India,Alcohol use,24.71369016
+India,Drug use,5.242138547
+India,High fasting plasma glucose,80.67218804
+India,High systolic blood pressure,105.8374738
+India,High body-mass index,41.64126409
+India,Diet low in fruits,18.42460106
+India,Diet low in vegetables,9.635925626
+India,Diet low in whole grains,18.57019367
+India,Diet low in nuts and seeds,11.80495622
+India,Diet low in milk,1.178797263
+India,Diet high in red meat,1.794488162
+India,Diet high in processed meat,1.880053359
+India,Diet high in sugar-sweetened beverages,1.79020855
+India,Diet low in fiber,6.421154311
+India,Diet low in seafood omega-3 fatty acids,4.580013213
+India,Diet low in polyunsaturated fatty acids,5.674256308
+India,Diet high in trans fatty acids,10.38634277
+India,Diet high in sodium,12.56893722
+India,Diet low in calcium,0.971073298
+India,All risk factors,421.0129943
+India,Child growth failure,8.988091616
+India,Diet low in legumes,13.96828642
+India,Low birth weight and short gestation,32.88584113
+India,Kidney dysfunction,33.75398928
+India,High LDL cholesterol,45.30740356
+China,Unsafe water source,0.229908781
+China,Unsafe sanitation,0.133610936
+China,Air pollution,129.9450192
+China,Lead exposure,19.84042561
+China,Iron deficiency,0.014186825
+China,Vitamin A deficiency,0.001460796
+China,Zinc deficiency,4.40E-05
+China,Smoking,170.0470254
+China,Secondhand smoke,29.25116449
+China,Alcohol use,36.18366583
+China,Drug use,5.992770011
+China,High fasting plasma glucose,75.05564059
+China,High systolic blood pressure,182.7875233
+China,High body-mass index,53.76298571
+China,Diet low in fruits,16.24914146
+China,Diet low in vegetables,1.104209995
+China,Diet low in whole grains,26.96086002
+China,Diet low in nuts and seeds,6.068072351
+China,Diet low in milk,3.537131544
+China,Diet high in red meat,22.73563275
+China,Diet high in processed meat,1.651251111
+China,Diet high in sugar-sweetened beverages,3.278627571
+China,Diet low in fiber,5.439481693
+China,Diet low in seafood omega-3 fatty acids,4.95305864
+China,Diet low in polyunsaturated fatty acids,5.314506511
+China,Diet high in trans fatty acids,7.529839596
+China,Diet high in sodium,60.13883674
+China,Diet low in calcium,2.820546579
+China,All risk factors,509.651183
+China,Child growth failure,1.490819744
+China,Diet low in legumes,14.1878168
+China,Low birth weight and short gestation,2.610390511
+China,Kidney dysfunction,40.32319915
+China,High LDL cholesterol,64.39925346
