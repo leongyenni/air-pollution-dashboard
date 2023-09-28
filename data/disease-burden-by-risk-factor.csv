@@ -7,6 +7,7 @@ China,High body-mass index,1745.704888
 China,High systolic blood pressure,3827.581059
 China,Kidney dysfunction,938.8620847
 China,Lead exposure,397.7855144
+China,Occupational risks,1088.82
 China,Smoking,4025.050972
 China,Unsafe water source,55.60839425
 India,Air pollution,3847.072611
@@ -17,6 +18,7 @@ India,High body-mass index,1511.306457
 India,High systolic blood pressure,2664.821265
 India,Kidney dysfunction,964.3821617
 India,Lead exposure,500.7537493
+India,Occupational risks,843.71
 India,Smoking,1929.491594
 India,Unsafe water source,1161.670366
 Japan,Air pollution,628.3305845
@@ -27,6 +29,7 @@ Japan,High body-mass index,1065.682976
 Japan,High systolic blood pressure,2443.782091
 Japan,Kidney dysfunction,974.6583678
 Japan,Lead exposure,42.64928969
+Japan,Occupational risks,875.51
 Japan,Smoking,3297.185605
 Japan,Unsafe water source,7.784118846
 Malaysia,Air pollution,997.5727825
@@ -37,6 +40,7 @@ Malaysia,High body-mass index,2274.284731
 Malaysia,High systolic blood pressure,3328.893543
 Malaysia,Kidney dysfunction,1167.836642
 Malaysia,Lead exposure,93.08537914
+Malaysia,Occupational risks,676.16
 Malaysia,Smoking,2238.904596
 Malaysia,Unsafe water source,116.5218811
 Switzerland,Air pollution,356.7983458
@@ -47,6 +51,7 @@ Switzerland,High body-mass index,1659.806916
 Switzerland,High systolic blood pressure,1832.841903
 Switzerland,Kidney dysfunction,627.7235591
 Switzerland,Lead exposure,58.33930029
+Switzerland,Occupational risks,1065.63
 Switzerland,Smoking,2833.929776
 Switzerland,Unsafe water source,2.065647215
 United Kingdom,Air pollution,475.3703059
@@ -57,6 +62,7 @@ United Kingdom,High body-mass index,2560.620546
 United Kingdom,High systolic blood pressure,2145.049002
 United Kingdom,Kidney dysfunction,522.484262
 United Kingdom,Lead exposure,53.54665777
+United Kingdom,Occupational risks,965.69
 United Kingdom,Smoking,4044.403398
 United Kingdom,Unsafe water source,2.371790617
 United States of America,Air pollution,433.4004887
@@ -67,6 +73,7 @@ United States of America,High body-mass index,3822.230228
 United States of America,High systolic blood pressure,2775.383763
 United States of America,Kidney dysfunction,1199.631965
 United States of America,Lead exposure,106.0541213
+United States of America,Occupational risks,970.28
 United States of America,Smoking,4253.734988
 United States of America,Unsafe water source,4.422173773
 World,Air pollution,2756.521639
@@ -77,5 +84,6 @@ World,High body-mass index,2071.290343
 World,High systolic blood pressure,3042.658644
 World,Kidney dysfunction,988.5272331
 World,Lead exposure,397.7855144
+World,Occupational risks,854.39
 World,Smoking,4025.050972
 World,Unsafe water source,841.3152004
