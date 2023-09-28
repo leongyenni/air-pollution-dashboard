@@ -15,12 +15,12 @@
   
 <div id="choropleth_map"></div>
 
+<!--Vegalite Embed-->
 <script type="text/javascript">
-
-  var spec = "js/choropleth_map.vg.json";
-  vegaEmbed('#choropleth_map', spec).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+  var heat_map = "js/heat_map.vg.json";
+  var choropleth_map = "js/choropleth_map.vg.json";
+  vegaEmbed('#heat_map', heat_map).then(function(result) {}).catch(console.error);
+  vegaEmbed('#choropleth_map', choropleth_map).then(function(result) {}).catch(console.error);
 </script>
 
 </body>
