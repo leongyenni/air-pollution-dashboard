@@ -1,0 +1,264 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Diarrheal diseases death rate in children vs GDP per capital",
+  "data": {
+    "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/preprocessed-death-rate-from-pm25-vs-pm25-concentration.csv"
+},
+  "width": 800,
+  "height": 500,
+   
+  "layer": [
+    {
+      "transform": [
+        {"filter": {"field": "Country", "equal": "Afghanistan"}},
+        {"filter": {"param": "Year"}}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 100,
+        "x": 420,
+        "y": 250,
+        "opacity": 0.06
+      },
+      "encoding": {"text": {"field": "Year"}}
+    },
+    {
+      "transform": [
+        {
+          "lookup": "Continent",
+          "from": {
+            "key": "id",
+            "fields": ["name"],
+            "data": {
+              "values": [
+                {"id": "Asia", "name": "Asia"},
+                {"id": "Africa", "name": "Africa"},
+                {"id": "South America", "name": "South America"},
+                {"id": "North America", "name": "North America"},
+                {"id": "Europe", "name": "Europe"},
+                {"id": "Oceania", "name": "Oceania"},
+                {"id": "World", "name": "World"}
+              ]
+            }
+          }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "PM2.5 air pollution exposure",
+          "type": "quantitative",
+          "axis": {"tickCount": 5, "title": "PM2.5 air pollution exposure"}
+        },
+        "y": {
+          "field": "Death rate",
+          "type": "quantitative",
+          "axis": {"tickCount": 5, "title": "Death rate"}
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "size": 4,
+            "color": "lightgray",
+            "strokeCap": "round"
+          },
+          "encoding": {
+            "detail": {"field": "Country"},
+            "order": {"field": "Year"},
+            "color": {
+              "field": "Continent",
+              "type": "nominal",
+              "scale": {"scheme": "category20"},
+              "legend": {
+                "orient": "right",
+                "padding": 10,
+                "titleColor": "black",
+                "labelColor": "black"       
+             }
+            },
+            "opacity": {
+              "condition": {
+                "test": {"or": [
+                  {"param": "hovered", "empty": false},
+                  {"param": "clicked", "empty": false}
+                ]},
+                "value": 0.8
+              },
+              "value": 0
+            }
+          }
+        },
+        {
+          "params": [
+            {
+            "name": "Continent_selection",
+            "select":{
+                "type": "point",
+                "fields": ["Continent"]
+              },
+            "bind": {
+              "name": "Continent Selection: ",
+              "input": "select",
+              "options": [
+                null,
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+              ],
+              "labels": [
+                "Show All",
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+              ]
+              }
+            },
+            {"name": "grid", "select": "interval", "bind": "scales"},
+            {
+              "name": "Year",
+              "value": [{"Year": 2000}],
+              "select": {
+                "type": "point",
+                "fields": ["Year"]
+              },
+              "bind": {
+                "name": "Year",
+                "input": "range",
+                "min": 2000, "max": 2017, "step": 1
+              }
+            },
+            {
+              "name": "hovered",
+              "select": {
+                "type": "point",
+                "fields": ["Country"],
+                "toggle": false,
+                "on": "mouseover"
+              }
+            },
+            {
+              "name": "clicked",
+              "select": {"type": "point", "fields": ["Country"]}
+            }
+          ],
+
+          "transform": [
+            {"filter": {"param": "Continent_selection"}}, 
+            {"filter": {"param": "Year"}}],
+            "mark": {
+              "type": "circle", 
+              "size": 210, 
+              "opacity": 0.8, 
+              "tooltip": true
+            },
+              "encoding": {
+              "size": {
+                "field": "Population",
+                "type": "quantitative",
+                "scale": {
+                  "type": "threshold",
+                  "domain": [1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
+                  "range": [10, 50, 100, 150, 200, 300, 400, 500]
+                }
+              },
+              "tooltip": [
+                {"field": "Continent", "type": "nominal"},
+                {"field": "Country", "type": "nominal"},
+                {
+                  "field": "Death rate",
+                  "type": "quantitative",
+                  "format": ".2f"
+                },
+                {
+                  "field": "PM2.5 air pollution exposure",
+                  "type": "quantitative",
+                  "format": ".2f"
+                },
+                {
+                  "field": "Population",
+                  "type": "quantitative"
+                }
+              ], 
+              "color": {"field": "name", "title": "Continent"}
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "and": [
+                  {"param": "Year"},
+                  {"or": [
+                    {"param": "clicked", "empty": false},
+                    {"param": "hovered", "empty": false}
+                  ]}
+                ]
+              }
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "yOffset": -12,
+            "fontSize": 12,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "text": {"field": "Country"},
+            "color": {"field": "name"}
+          }
+        },
+        {
+          "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "fontSize": 11,
+              "fontStyle": "italic"
+          }, 
+          "transform": [
+            {"filter": {"param": "Continent_selection"}}, 
+            {"filter": {"param": "Year"}}],
+          "encoding": {
+            "text": {"field": "Country", "type": "nominal"},
+            "color": {"value": "black"},
+            "opacity": {
+              "condition": {
+                "test": "datum['Population'] > 100000000",
+                "value": 1
+              }, 
+              "value": 0
+            }
+          } 
+        },
+        {
+          "transform": [
+            {"filter": {"param": "hovered", "empty": false}},
+            {"filter": {"not": {"param": "Year"}}}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "yOffset": -12,
+                "fontSize": 12,
+                "color": "gray"
+              },
+              "encoding": {"text": {"field": "Year"}}
+            },
+            {"mark": {"type": "circle", "color": "gray"}}
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {
+    "title": { "fontSize": 20}
+  }
+}
