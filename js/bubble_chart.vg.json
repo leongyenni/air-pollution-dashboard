@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Diarrheal diseases death rate in children vs GDP per capital",
+  "title": "Ambient Particulate Matter Pollution Death Rate vs PM 2.5 Air Pollution Exposure",
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/preprocessed-death-rate-from-pm25-vs-pm25-concentration.csv",
     "format": {
       "parse": {
         "Death rate": "number",
-        "PM2.5 air pollution exposure": "number",
+        "Air_pollution_exposure": "number",
         "Population": "number",
         "Year": "number"
       }
@@ -14,7 +14,11 @@
 },
   "width": 800,
   "height": 500,
-   
+    "transform": [
+    {
+      "calculate": "datum.Air_pollution_exposure* 1",
+      "as": "air_pollution_exposure"
+    }],
   "layer": [
     {
       "transform": [
@@ -45,8 +49,7 @@
                 {"id": "North America", "name": "North America"},
                 {"id": "Europe", "name": "Europe"},
                 {"id": "Oceania", "name": "Oceania"},
-                {"id": "World", "name": "World"},
-                {"id": "Unknown", "name":"Unknown"}
+                {"id": "World", "name": "World"}
               ]
             }
           }
@@ -54,7 +57,7 @@
       ],
       "encoding": {
         "x": {
-          "field": "Population",
+          "field": "air_pollution_exposure",
           "type": "quantitative",
           "scale": { "domain": [0, 100]},
           "axis": {"tickCount": 5, "title": "PM2.5 air pollution exposure"}
@@ -175,8 +178,8 @@
                 "type": "quantitative",
                 "scale": {
                   "type": "threshold",
-                  "domain": [1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000],
-                  "range": [10, 50, 100, 150, 200, 300, 400]
+                  "domain": [1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
+                  "range": [10, 50, 100, 150, 200, 300, 400, 500]
                 }
               },
               "tooltip": [
@@ -188,7 +191,7 @@
                   "format": ".2f"
                 },
                 {
-                  "field": "PM2.5 air pollution exposure",
+                  "field": "air_pollution_exposure",
                   "type": "quantitative",
                   "format": ".2f"
                 },
@@ -241,7 +244,7 @@
             "color": {"value": "black"},
             "opacity": {
               "condition": {
-                "test": "datum['Population'] > 100000",
+                "test": "datum['Population'] > 100000000",
                 "value": 1
               }, 
               "value": 0
