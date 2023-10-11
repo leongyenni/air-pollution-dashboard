@@ -1,4 +1,4 @@
-Country,Death rate,PM2.5 air pollution exposure,Population,Year,Continent
+Country,Death rate,Air_pollution_exposure,Population,Year,Continent
 Afghanistan,30.252176,64.92246,19542986,2000,Asia
 Afghanistan,29.658394,64.52268,24411196,2005,Asia
 Afghanistan,38.090736,65.24559,28189672,2010,Asia

@@ -2,7 +2,15 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Diarrheal diseases death rate in children vs GDP per capital",
   "data": {
-    "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/preprocessed-death-rate-from-pm25-vs-pm25-concentration.csv"
+    "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/preprocessed-death-rate-from-pm25-vs-pm25-concentration.csv",
+    "format": {
+      "parse": {
+        "Death rate": "number",
+        "PM2.5 air pollution exposure": "number",
+        "Population": "number",
+        "Year": "number"
+      }
+    }
 },
   "width": 800,
   "height": 500,
@@ -46,15 +54,15 @@
       ],
       "encoding": {
         "x": {
-          "field": "PM2.5 air pollution exposure",
+          "field": "Population",
           "type": "quantitative",
-          "scale": { "type": "log", "domain": [0, 100]},
+          "scale": { "domain": [0, 100]},
           "axis": {"tickCount": 5, "title": "PM2.5 air pollution exposure"}
         },
         "y": {
           "field": "Death rate",
           "type": "quantitative",
-          "scale": {"type": "log", "domain": [1, 20]},
+          "scale": {"domain": [1, 200]},
           "axis": {"tickCount": 5, "title": "Death rate"}
         }
       },
