@@ -16,6 +16,8 @@
 <div id="choropleth_map"></div>
 <div id="heat_map_death_rate"></div>
 <div id="heat_map_disease_burden"></div>
+<div id="line_chart"></div>
+<div id="bubble_chart"></div>
 
 
 <!--Vegalite Embed-->
@@ -23,10 +25,16 @@
   var choropleth_map = "js/choropleth_map.vg.json";
   var heat_map_death_rate = "js/heat_map_death_rate.vg.json";
   var heat_map_disease_burden = "js/heat_map_disease_burden.vg.json";
+  var line_chart = "js/line_chart.vg.json";
+  var bubble_chart = "js/bubble_chart.vg.json";
   
   vegaEmbed('#choropleth_map', choropleth_map).then(function(result) {}).catch(console.error);
   vegaEmbed('#heat_map_death_rate', heat_map_death_rate).then(function(result) {}).catch(console.error);
   vegaEmbed('#heat_map_disease_burden', heat_map_disease_burden).then(function(result) {}).catch(console.error);
+vegaEmbed('#line_chart', line_chart).then(function(result) {}).catch(console.error);
+  vegaEmbed('#bubble_chart', bubble_chart).then(function(result) {}).catch(console.error);
+
+
 </script>
 
 </body>

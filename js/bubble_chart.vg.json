@@ -37,7 +37,8 @@
                 {"id": "North America", "name": "North America"},
                 {"id": "Europe", "name": "Europe"},
                 {"id": "Oceania", "name": "Oceania"},
-                {"id": "World", "name": "World"}
+                {"id": "World", "name": "World"},
+                {"id": "Unknown", "name":"Unknown"}
               ]
             }
           }
@@ -47,11 +48,13 @@
         "x": {
           "field": "PM2.5 air pollution exposure",
           "type": "quantitative",
+          "scale": { "type": "log", "domain": [0, 100]},
           "axis": {"tickCount": 5, "title": "PM2.5 air pollution exposure"}
         },
         "y": {
           "field": "Death rate",
           "type": "quantitative",
+          "scale": {"type": "log", "domain": [1, 20]},
           "axis": {"tickCount": 5, "title": "Death rate"}
         }
       },
@@ -164,8 +167,8 @@
                 "type": "quantitative",
                 "scale": {
                   "type": "threshold",
-                  "domain": [1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000, 5000000000],
-                  "range": [10, 50, 100, 150, 200, 300, 400, 500]
+                  "domain": [1000000, 5000000, 10000000, 50000000, 100000000, 500000000, 1000000000],
+                  "range": [10, 50, 100, 150, 200, 300, 400]
                 }
               },
               "tooltip": [
@@ -230,7 +233,7 @@
             "color": {"value": "black"},
             "opacity": {
               "condition": {
-                "test": "datum['Population'] > 100000000",
+                "test": "datum['Population'] > 100000",
                 "value": 1
               }, 
               "value": 0
