@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Death Rate by Risk Factor (Factor Ranking)",
+  "title": "Disease Burden by Risk Factor",
   "data": {
     "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/disease-burden-by-risk-factor.csv"
   },
@@ -77,6 +77,7 @@
       "titleColor": "black",
       "labelFontSize": 10,
       "labelColor": "black"
-    }
+    },
+    "title": { "fontSize": 20}
   }
 }

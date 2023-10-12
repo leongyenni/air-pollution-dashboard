@@ -1,0 +1,35 @@
+body * {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 36px;
+}
+
+#choropleth_map {
+	margin: 1rem 6rem;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+#line_chart {
+    margin: 2rem 8rem;
+	text-align: center;
+	padding: 2rem;
+}
+
+#bubble_chart {
+	margin: 2rem 8rem;
+	text-align: center;
+	padding: 2rem;
+
+}
+
+#heat_map_death_rate{
+    margin-left: 10rem;
+    padding-bottom: 5rem;
+}

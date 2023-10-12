@@ -1,0 +1,102 @@
+[{
+    "id": 1,
+    "name": "Sources"
+},
+{
+    "id": 2,
+    "name": "Ammonia",
+    "parent": 1
+}, 
+{
+    "id": 3,
+    "name": "NMVOC",
+    "parent": 1
+},
+{
+    "id": 4,
+    "name": "Nitrogen oxides",
+    "parent": 1
+}, 
+{
+    "id": 5,
+    "name": "PM10",
+    "parent": 1
+},
+{
+    "id": 6,
+    "name": "PM2.5",
+    "parent": 1
+},
+{
+    "id": 7,
+    "name": "Sulphur dioxide",
+    "parent": 1
+}, 
+{
+    "id": 8,
+    "name": "Agriculture",
+    "parent": 2,
+    "size": 253000 
+},
+{
+    "id": 9,
+    "name": "Energy production",
+    "parent": 2,
+    "size": 200
+},
+{
+    "id": 10,
+    "name": "Fugitive emissions",
+    "parent": 2,
+    "size": 200
+}, 
+{
+    "id": 11,
+    "name": "Industrial processes",
+    "parent": 2,
+    "size": 3800
+
+},
+{
+    "id": 12,
+    "name": "Manufacturing industry & construction",
+    "parent": 2,
+    "size": 2100
+},
+{
+    "id": 13,
+    "name": "Military aircraft and naval shipping",
+    "parent": 2,
+    "size": 0
+},
+{
+    "id": 14,
+    "name": "Non-road transport",
+    "parent": 2,
+    "size": 0
+},
+{
+    "id": 15,
+    "name": "Other",
+    "parent": 2,
+    "size": 12900
+},
+{
+    "id": 16,
+    "name": "Road transport",
+    "parent": 2,
+    "size": 4400
+},
+{
+    "id": 17,
+    "name": "Small non-road mobile sources & machinery",
+    "parent": 2,
+    "size": 2200
+},
+{
+    "id": 18,
+    "name": "Waste",
+    "parent": 2,
+    "size": 10100
+}
+]

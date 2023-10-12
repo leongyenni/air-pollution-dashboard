@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rates-from-air-pollution-year.csv"},
-  "width": 660,
-  "height": 600,
+  "width": 850,
+  "height": 450,
   "title": "Death rate from air pollution (1990 to 2019)",
     
   "encoding": {"x": {"field": "Year", "type": "temporal"}},
@@ -50,5 +50,5 @@
         }
       ]
     }
-  ]
+  ], "config": {"title": { "fontSize": 20}}
 }
