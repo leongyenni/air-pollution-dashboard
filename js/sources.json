@@ -6,65 +6,65 @@
     "id": 2,
     "name": "Ammonia",
     "parent": 1,
-    "color0": 1
+    "color": 1
 }, 
 {
     "id": 3,
     "name": "NMVOC",
     "parent": 1,
-    "color1": 3
+    "color": 3
 },
 {
     "id": 4,
     "name": "Nitrogen oxides",
     "parent": 1,
-    "color2": 5
+    "color": 5
 }, 
 {
     "id": 5,
     "name": "PM10",
     "parent": 1,
-    "color3": 7
+    "color": 7
 },
 {
     "id": 6,
     "name": "PM2.5",
     "parent": 1,
-    "color4": 9
+    "color": 9
 },
 {
     "id": 7,
     "name": "Sulphur dioxide",
     "parent": 1,
-    "color5": 11
+    "color": 11
 }, 
 {
     "id": 8,
     "name": "Agriculture",
     "parent": 2,
     "size": 253000 ,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 9,
     "name": "Energy production",
     "parent": 2,
     "size": 200,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 10,
     "name": "Fugitive emissions",
     "parent": 2,
     "size": 200,
-    "color1": 2
+    "color": 2
 }, 
 {
     "id": 11,
     "name": "Industrial processes",
     "parent": 2,
     "size": 3800,
-    "color1": 2
+    "color": 2
 
 },
 {
@@ -72,433 +72,433 @@
     "name": "Manufacturing industry & construction",
     "parent": 2,
     "size": 2100,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 13,
     "name": "Military aircraft and naval shipping",
     "parent": 2,
     "size": 0,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 14,
     "name": "Non-road transport",
     "parent": 2,
     "size": 0,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 15,
     "name": "Other",
     "parent": 2,
     "size": 12900,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 16,
     "name": "Road transport",
     "parent": 2,
     "size": 4400,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 17,
     "name": "Small non-road mobile sources & machinery",
     "parent": 2,
     "size": 2200,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 18,
     "name": "Waste",
     "parent": 2,
     "size": 10100,
-    "color1": 2
+    "color": 2
 },
 {
     "id": 19,
     "name": "Agriculture",
     "parent": 3,
     "size": 117500,
-    "color2": 4
+    "color": 4
 }, 
 {
     "id": 20,
     "name": "Energy production",
     "parent": 3,
     "size": 4000,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 21,
     "name": "Fugitive emissions",
     "parent": 3,
     "size": 129300,
-    "color2": 4
+    "color": 4
 }, 
 {
     "id": 22,
     "name": "Industrial processes",
     "parent": 3,
     "size": 443000,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 23,
     "name": "Manufacturing industry & construction",
     "parent": 3,
     "size": 19400,
-    "color2": 4
+    "color": 4
 }, 
 {
     "id": 24,
     "name": "Military aircraft and naval shipping",
     "parent": 3,
     "size": 600,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 25,
     "name": "Non-road transport",
     "parent": 3,
     "size": 12500,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 26,
     "name": "Other",
     "parent": 3,
     "size": 3600,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 27,
     "name": "Road transport",
     "parent": 3,
     "size": 31800,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 28,
     "name": "Small non-road mobile sources & machinery",
     "parent": 3,
     "size": 50400,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 29,
     "name": "Waste",
     "parent": 3,
     "size": 6500,
-    "color2": 4
+    "color": 4
 },
 {
     "id": 30,
     "name": "Agriculture",
     "parent": 4,
     "size": 7200,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 31,
     "name": "Energy production",
     "parent": 4,
     "size": 199700,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 32,
     "name": "Fugitive emissions",
     "parent": 4,
     "size": 2000,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 33,
     "name": "Industrial processes",
     "parent": 4,
     "size": 1300,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 34,
     "name": "Manufacturing industry & construction",
     "parent": 4,
     "size": 139100,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 35,
     "name": "Military aircraft and naval shipping",
     "parent": 4,
     "size": 12500,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 36,
     "name": "Non-road transport",
     "parent": 4,
     "size": 137900,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 37,
     "name": "Other",
     "parent": 4,
     "size": 200,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 38,
     "name": "Road transport",
     "parent": 4,
     "size": 299800,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 39,
     "name": "Small non-road mobile sources & machinery",
     "parent": 4,
     "size": 91800,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 40,
     "name": "Waste",
     "parent": 4,
     "size": 1400,
-    "color3": 6
+    "color": 6
 },
 {
     "id": 41,
     "name": "Agriculture",
     "parent": 5,
     "size": 17000,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 42,
     "name": "Energy production",
     "parent": 5,
     "size": 4600,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 43,
     "name": "Fugitive emissions",
     "parent": 5,
     "size": 1900,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 44,
     "name": "Industrial processes",
     "parent": 5,
     "size": 53200,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 45,
     "name": "Manufacturing industry & construction",
     "parent": 5,
     "size": 18000,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 46,
     "name": "Military aircraft and naval shipping",
     "parent": 5,
     "size": 200,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 47,
     "name": "Non-road transport",
     "parent": 5,
     "size": 3900,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 48,
     "name": "Other",
     "parent": 5,
     "size": 200,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 49,
     "name":"Road transport",
     "parent": 5,
     "size": 19900,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 50,
     "name": "Small non-road mobile sources & machinery",
     "parent": 5,
     "size": 47600,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 51,
     "name": "Waste",
     "parent": 5,
     "size": 4000,
-    "color4": 8
+    "color": 8
 },
 {
     "id": 52,
     "name": "Agriculture",
     "parent": 6,
     "size": 4300,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 53,
     "name": "Energy production",
     "parent": 6,
     "size": 3600,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 54,
     "name": "Fugitive emissions",
     "parent": 6,
     "size": 1200,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 55,
     "name": "Industrial processes",
     "parent": 6,
     "size": 13900,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 56,
     "name": "Manufacturing industry & construction",
     "parent": 6,
     "size": 17400,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 57,
     "name": "Military aircraft and naval shipping",
     "parent": 6,
     "size": 200,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 58,
     "name":"Non-road transport",
     "parent": 6,
     "size": 3700,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 59,
     "name": "Other",
     "parent": 6,
     "size": 100,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 60,
     "name": "Road transport",
     "parent": 6,
     "size": 13400,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 61,
     "name":"Small non-road mobile sources & machinery",
     "parent": 6,
     "size": 46600,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 62,
     "name": "Waste",
     "parent": 6,
     "size": 3600,
-    "color5": 10
+    "color": 10
 },
 {
     "id": 63,
     "name":"Agriculture",
     "parent": 7,
     "size": 0,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 64,
     "name": "Energy production",
     "parent": 7,
     "size": 66800,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 65,
     "name": "Fugitive emissions",
     "parent": 7,
     "size": 2500,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 66,
     "name": "Industrial processes",
     "parent": 7,
     "size": 8600,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 67,
     "name": "Manufacturing industry & construction",
     "parent": 7,
     "size": 38700,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 68,
     "name":"Military aircraft and naval shipping",
     "parent": 7,
     "size": 1500,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 69,
     "name": "Non-road transport",
     "parent": 7,
     "size": 13400,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 70,
     "name": "Other",
     "parent": 7,
     "size": 0,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 71,
     "name":"Road transport",
     "parent": 7,
     "size": 1300,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 72,
     "name":"Small non-road mobile sources & machinery",
     "parent": 7,
     "size": 45800,
-    "color6": 12
+    "color": 12
 },
 {
     "id": 73,
     "name": "Waste",
     "parent": 7,
     "size": 700,
-    "color6": 12
+    "color": 12
 }
 ]
