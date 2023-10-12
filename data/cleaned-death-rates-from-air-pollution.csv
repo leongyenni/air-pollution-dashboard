@@ -1,12 +1,12 @@
 Country,Year,Air Pollution Type,Count
-China,2019,Household air pollution,20.729332
-India,2019,Household air pollution,59.58832
-Japan,2019,Household air pollution,0.021538114
-Malaysia,2019,Household air pollution,0.46246266
-Switzerland,2019,Household air pollution,0.006922866
-United Kingdom,2019,Household air pollution,0.008776812
-United States,2019,Household air pollution,0.026754245
-World,2019,Household air pollution,30.145676
+China,2019,Household Air Pollution,20.729332
+India,2019,Household Air Pollution,59.58832
+Japan,2019,Household Air Pollution,0.021538114
+Malaysia,2019,Household Air Pollution,0.46246266
+Switzerland,2019,Household Air Pollution,0.006922866
+United Kingdom,2019,Household Air Pollution,0.008776812
+United States,2019,Household Air Pollution,0.026754245
+World,2019,Household Air Pollution,30.145676
 China,2019,Ambient Particulate Matter Pollution,81.28263
 India,2019,Ambient Particulate Matter Pollution,95.63995
 Japan,2019,Ambient Particulate Matter Pollution,9.329786
