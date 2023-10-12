@@ -13,8 +13,10 @@ columns_to_keep = ['Country', 'Year', 'Household air pollution', 'Ambient Partic
 
 melted_df = pd.melt(selected_countries, id_vars=['Country', 'Year'], value_vars=columns_to_keep[2:], var_name='Air Pollution Type', value_name='Count')
 
+selected_year_df = melted_df[melted_df['Year'] == 2019]
+
 output_csv_file = './data/cleaned-death-rates-from-air-pollution.csv'
 
-melted_df.to_csv(output_csv_file, index=False)
+selected_year_df.to_csv(output_csv_file, index=False)
 
 print(f'Flattened data saved to {output_csv_file}')
