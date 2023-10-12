@@ -1,27 +1,36 @@
-[
+[{
+    "id": 1,
+    "name": "Sources"
+},
 {
     "id": 2,
-    "name": "Ammonia"
+    "name": "Ammonia",
+    "parent": 1
 }, 
 {
     "id": 3,
-    "name": "NMVOC"
+    "name": "NMVOC",
+    "parent": 1
 },
 {
     "id": 4,
-    "name": "Nitrogen oxides"
+    "name": "Nitrogen oxides",
+    "parent": 1
 }, 
 {
     "id": 5,
-    "name": "PM10"
+    "name": "PM10",
+    "parent": 1
 },
 {
     "id": 6,
-    "name": "PM2.5"
+    "name": "PM2.5",
+    "parent": 1
 },
 {
     "id": 7,
-    "name": "Sulphur dioxide"
+    "name": "Sulphur dioxide",
+    "parent": 1
 }, 
 {
     "id": 8,
