@@ -71,7 +71,7 @@
                 "param": "hover",
                 "field": "Factor",
                 "type": "nominal",
-                "title": "Diease Causes",
+                "title": "Disease Causes",
                 "scale": {
                     "domain": [
                         "Air pollution",
@@ -107,7 +107,7 @@
             {
                 "field": "Rate",
                 "type": "quantitative",
-                "title": "Death Rate",
+                "title": "Disease Burden",
                 "format": ".1f"
             },
             { "field": "rank", "type": "ordinal", "title": "Ranking" }
