@@ -1,0 +1,553 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.0.json",
+    "height": 750,
+    "width": 1000,
+    "title": "Death Rate vs Air Pollution Type",
+    "padding": 5,
+    "data": [
+        {
+            "name": "rawData",
+            "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/cleaned-death-rates-from-air-pollution.json",
+            "transform": [
+                {
+                    "type": "formula",
+                    "expr": "datum['Country']",
+                    "as": "stk1"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum['Air Pollution Type']",
+                    "as": "stk2"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum['Count']",
+                    "as": "size"
+                }
+            ]
+        },
+        {
+            "name": "nodes",
+            "source": "rawData",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "!groupSelector || groupSelector.stk1 == datum.stk1 || groupSelector.stk2 == datum.stk2"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum.stk1+datum.stk2",
+                    "as": "key"
+                },
+                {
+                    "type": "fold",
+                    "fields": ["stk1", "stk2"],
+                    "as": ["stack", "grpId"]
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum.stack == 'stk1' ? datum.stk1+' '+datum.stk2 : datum.stk2+' '+datum.stk1",
+                    "as": "sortField"
+                },
+                {
+                    "type": "stack",
+                    "groupby": ["stack"],
+                    "sort": {
+                        "field": "sortField",
+                        "order": "descending"
+                    },
+                    "field": "size"
+                },
+                {
+                    "type": "formula",
+                    "expr": "(datum.y0+datum.y1)/2",
+                    "as": "yc"
+                }
+            ]
+        },
+        {
+            "name": "groups",
+            "source": "nodes",
+            "transform": [
+                {
+                    "type": "aggregate",
+                    "groupby": ["stack", "grpId"],
+                    "fields": ["size"],
+                    "ops": ["sum"],
+                    "as": ["total"]
+                },
+                {
+                    "type": "stack",
+                    "groupby": ["stack"],
+                    "sort": {
+                        "field": "grpId",
+                        "order": "descending"
+                    },
+                    "field": "total"
+                },
+                {
+                    "type": "formula",
+                    "expr": "scale('y', datum.y0)",
+                    "as": "scaledY0"
+                },
+                {
+                    "type": "formula",
+                    "expr": "scale('y', datum.y1)",
+                    "as": "scaledY1"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum.stack == 'stk1'",
+                    "as": "rightLabel"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum.total/domain('y')[1]",
+                    "as": "percentage"
+                }
+            ]
+        },
+        {
+            "name": "destinationNodes",
+            "source": "nodes",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "datum.stack == 'stk2'"
+                }
+            ]
+        },
+        {
+            "name": "edges",
+            "source": "nodes",
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "datum.stack == 'stk1'"
+                },
+                {
+                    "type": "lookup",
+                    "from": "destinationNodes",
+                    "key": "key",
+                    "fields": ["key"],
+                    "as": ["target"]
+                },
+                {
+                    "type": "linkpath",
+                    "orient": "horizontal",
+                    "shape": "diagonal",
+                    "sourceY": {
+                        "expr": "scale('y', datum.yc)"
+                    },
+                    "sourceX": {
+                        "expr": "scale('x', 'stk1') + bandwidth('x')"
+                    },
+                    "targetY": {
+                        "expr": "scale('y', datum.target.yc)"
+                    },
+                    "targetX": {
+                        "expr": "scale('x', 'stk2')"
+                    }
+                },
+                {
+                    "type": "formula",
+                    "expr": "range('y')[0]-scale('y', datum.size)",
+                    "as": "strokeWidth"
+                },
+                {
+                    "type": "formula",
+                    "expr": "datum.size/domain('y')[1]",
+                    "as": "percentage"
+                }
+            ]
+        }
+    ],
+    "scales": [
+        {
+            "name": "x",
+            "type": "band",
+            "range": "width",
+            "domain": ["stk1", "stk2"],
+            "paddingOuter": 0.05,
+            "paddingInner": 0.95
+        },
+        {
+            "name": "y",
+            "type": "linear",
+            "range": "height",
+            "domain": {
+                "data": "nodes",
+                "field": "y1"
+            }
+        },
+        {
+            "name": "color",
+            "type": "ordinal",
+            "range": [
+                "#417D7A",
+                "#91C483",
+                "#FFB085",
+                "#DF7861",
+                "#9C3D54",
+                "#FF96AD",
+                "#E15FED",
+                "#90AACB",
+                "#005A8D",
+                "#556FB5",
+                "#2541B2",
+                "#3F52E3",
+                "#7692E4",
+                "#93ABD3",
+                "#B7657B",
+                "#A799B7",
+                "#AC66CC",
+                "#C689C6",
+                "#FFD372",
+                "#FE7E6D",
+                "#FFAB76",
+                "#FFCCB3",
+                "#E5CB9F",
+                "#85C88A",
+                "#357C3C"
+            ],
+            "domain": [
+                "China",
+                "India",
+                "Japan",
+                "Malaysia",
+                "Switzerland",
+                "United Kingdom",
+                "United States",
+                "World",
+                "Household Air Pollution",
+                "Ambient Particulate Matter Pollution",
+                "Ambient Ozone Pollution"
+            ]
+        },
+        {
+            "name": "stackNames",
+            "type": "ordinal",
+            "range": ["Country", "Air Pollution Type"],
+            "domain": ["stk1", "stk2"]
+        }
+    ],
+    "axes": [
+        {
+            "orient": "bottom",
+            "scale": "x",
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 20,
+            "encode": {
+                "labels": {
+                    "update": {
+                        "text": {
+                            "scale": "stackNames",
+                            "field": "value",
+                            "fontWeight": "bold",
+                            "fontSize": 18
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "orient": "top",
+            "scale": "x",
+            "domain": false,
+            "ticks": false,
+            "labelPadding": 20,
+            "encode": {
+                "labels": {
+                    "update": {
+                        "text": {
+                            "scale": "stackNames",
+                            "field": "value",
+                            "fontWeight": "bold",
+                            "fontSize": 18
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "orient": "left",
+            "scale": "y",
+            "labels": false,
+            "domain": false,
+            "ticks": false
+        }
+    ],
+    "marks": [
+        {
+            "type": "path",
+            "name": "edgeMark",
+            "from": {
+                "data": "edges"
+            },
+            "clip": true,
+            "encode": {
+                "update": {
+                    "stroke": [
+                        {
+                            "test": "groupSelector && groupSelector.stack=='stk1'",
+                            "scale": "color",
+                            "field": "stk2"
+                        },
+                        {
+                            "scale": "color",
+                            "field": "stk1"
+                        }
+                    ],
+                    "strokeWidth": {
+                        "field": "strokeWidth"
+                    },
+                    "path": {
+                        "field": "path"
+                    },
+                    "strokeOpacity": {
+                        "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 0.9 : 0.3"
+                    },
+                    "zindex": {
+                        "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
+                    },
+                    "tooltip": {
+                        "signal": "{\"Country\": datum.stk1, \"Air Pollution Type\": datum.stk2, \"Death Rate\":format(datum.size, ',.0f')}"
+                    }
+                },
+                "hover": {
+                    "strokeOpacity": {
+                        "value": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "rect",
+            "name": "groupMark",
+            "from": {
+                "data": "groups"
+            },
+            "encode": {
+                "enter": {
+                    "fill": {
+                        "scale": "color",
+                        "field": "grpId"
+                    },
+                    "width": {
+                        "scale": "x",
+                        "band": 1
+                    }
+                },
+                "update": {
+                    "x": {
+                        "scale": "x",
+                        "field": "stack"
+                    },
+                    "y": {
+                        "field": "scaledY0"
+                    },
+                    "y2": {
+                        "field": "scaledY1"
+                    },
+                    "fillOpacity": {
+                        "value": 0.8
+                    },
+                    "tooltip": {
+                        "signal": "datum.grpId + ' has death rate of ' + format(datum.total, ',.0f')"
+                    }
+                },
+                "hover": {
+                    "fillOpacity": {
+                        "value": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "from": {
+                "data": "groups"
+            },
+            "interactive": false,
+            "encode": {
+                "update": {
+                    "x": {
+                        "signal": "scale('x', datum.stack) + (datum.rightLabel ? bandwidth('x') + 8 : -8)"
+                    },
+                    "yc": {
+                        "signal": "(datum.scaledY0 + datum.scaledY1)/2"
+                    },
+                    "align": {
+                        "signal": "datum.rightLabel ? 'left' : 'right'"
+                    },
+                    "baseline": {
+                        "value": "middle"
+                    },
+                    "fontWeight": {
+                        "value": "bold"
+                    },
+                    "fontSize": { "value": 12 },
+                    "text": {
+                        "signal": "abs(datum.scaledY0-datum.scaledY1) > 13 ? datum.grpId : ''"
+                    }
+                }
+            }
+        },
+        {
+            "type": "group",
+            "data": [
+                {
+                    "name": "dataForShowAll",
+                    "values": [{}],
+                    "transform": [
+                        {
+                            "type": "filter",
+                            "expr": "groupSelector"
+                        }
+                    ]
+                }
+            ],
+            "encode": {
+                "enter": {
+                    "xc": {
+                        "signal": "width/2"
+                    },
+                    "y": {
+                        "value": 30
+                    },
+                    "width": {
+                        "value": 80
+                    },
+                    "height": {
+                        "value": 30
+                    }
+                }
+            },
+            "marks": [
+                {
+                    "type": "group",
+                    "name": "groupReset",
+                    "from": {
+                        "data": "dataForShowAll"
+                    },
+                    "encode": {
+                        "enter": {
+                            "cornerRadius": {
+                                "value": 6
+                            },
+                            "fill": {
+                                "value": "#f5f5f5"
+                            },
+                            "stroke": {
+                                "value": "#c1c1c1"
+                            },
+                            "strokeWidth": {
+                                "value": 2
+                            },
+                            "height": {
+                                "field": {
+                                    "group": "height"
+                                }
+                            },
+                            "width": {
+                                "field": {
+                                    "group": "width"
+                                }
+                            }
+                        },
+                        "update": {
+                            "opacity": {
+                                "value": 1
+                            }
+                        },
+                        "hover": {
+                            "opacity": {
+                                "value": 0.7
+                            }
+                        }
+                    },
+                    "marks": [
+                        {
+                            "type": "text",
+                            "interactive": false,
+                            "encode": {
+                                "enter": {
+                                    "xc": {
+                                        "field": {
+                                            "group": "width"
+                                        },
+                                        "mult": 0.5
+                                    },
+                                    "yc": {
+                                        "field": {
+                                            "group": "height"
+                                        },
+                                        "mult": 0.5,
+                                        "offset": 2
+                                    },
+                                    "align": {
+                                        "value": "center"
+                                    },
+                                    "baseline": {
+                                        "value": "middle"
+                                    },
+                                    "fontWeight": {
+                                        "value": "bold"
+                                    },
+                                    "text": {
+                                        "value": "Show All"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "signals": [
+        {
+            "name": "groupHover",
+            "value": {},
+            "on": [
+                {
+                    "events": "@groupMark:mouseover",
+                    "update": "{stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}"
+                },
+                {
+                    "events": "mouseout",
+                    "update": "{}"
+                }
+            ]
+        },
+        {
+            "name": "groupSelector",
+            "value": false,
+            "on": [
+                {
+                    "events": "@groupMark:click!",
+                    "update": "{stack:datum.stack, stk1:datum.stack=='stk1' && datum.grpId, stk2:datum.stack=='stk2' && datum.grpId}"
+                },
+
+                {
+                    "events": [
+                        {
+                            "type": "click",
+                            "markname": "groupReset"
+                        },
+                        {
+                            "type": "dblclick"
+                        }
+                    ],
+                    "update": "false"
+                }
+            ]
+        }
+    ],
+    "config": {
+        "view": { "stroke": null },
+        "background": null,
+        "fontSize": { "value": 20 }
+    }
+}

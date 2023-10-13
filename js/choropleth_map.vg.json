@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Death Rate attributed to Air Pollution at 2021",
+  "title": "Death Rate from Air Pollution",
   "width": 1000,
   "height": 500,
   "projection": {

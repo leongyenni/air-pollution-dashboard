@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
-  
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+    <head>
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
+        <!-- CSS file -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/styles.css"
+            media="all"
+        />
+    </head>
+    <body>
+        <h1 class="title">Air Pollution Dashboard</h1>
+        <div id="choropleth_map"></div>
+        <div id="heat_map_death_rate"></div>
+        <div id="heat_map_disease_burden"></div>
+        <div id="line_chart"></div>
+        <div id="bubble_chart"></div>
+        <div id="sunburst_diagram"></div>
+        <div id="alluvial_chart"></div>
 
-</head>
-<body>
+        <!--Vegalite Embed-->
+        <script type="text/javascript">
+            var choropleth_map = "js/choropleth_map.vg.json";
+            var heat_map_death_rate = "js/heat_map_death_rate.vg.json";
+            var heat_map_disease_burden = "js/heat_map_disease_burden.vg.json";
+            var line_chart = "js/line_chart.vg.json";
+            var bubble_chart = "js/bubble_chart.vg.json";
+            var sunburst_diagram = "js/sunburst_diagram.vg.json";
+            var alluvial_chart = "js/alluvial_chart.vg.json";
 
-<h1 class="title">Air Pollution Dashboard</h1>
-<div id="choropleth_map"></div>
-<div id="heat_map_death_rate"></div>
-<div id="heat_map_disease_burden"></div>
-<div id="line_chart"></div>
-<div id="bubble_chart"></div>
+            vegaEmbed("#choropleth_map", choropleth_map)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#heat_map_death_rate", heat_map_death_rate)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#heat_map_disease_burden", heat_map_disease_burden)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#line_chart", line_chart)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#bubble_chart", bubble_chart)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#sunburst_diagram", sunburst_diagram)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#alluvial_chart", alluvial_chart)
+                .then(function (result) {})
+                .catch(console.error);
 
-
-<!--Vegalite Embed-->
-<script type="text/javascript">
-  var choropleth_map = "js/choropleth_map.vg.json";
-  var heat_map_death_rate = "js/heat_map_death_rate.vg.json";
-  var heat_map_disease_burden = "js/heat_map_disease_burden.vg.json";
-  var line_chart = "js/line_chart.vg.json";
-  var bubble_chart = "js/bubble_chart.vg.json";
-  
-  vegaEmbed('#choropleth_map', choropleth_map).then(function(result) {}).catch(console.error);
-  vegaEmbed('#heat_map_death_rate', heat_map_death_rate).then(function(result) {}).catch(console.error);
-  vegaEmbed('#heat_map_disease_burden', heat_map_disease_burden).then(function(result) {}).catch(console.error);
-  vegaEmbed('#line_chart', line_chart).then(function(result) {}).catch(console.error);
-  vegaEmbed('#bubble_chart', bubble_chart).then(function(result) {}).catch(console.error);
-
-  vega.scheme('basic', ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff']);
-
-
-</script>
-
-</body>
+            vega.scheme("basic", [
+                "#f00",
+                "#0f0",
+                "#00f",
+                "#ff0",
+                "#f0f",
+                "#0ff",
+            ]);
+        </script>
+    </body>
 </html>

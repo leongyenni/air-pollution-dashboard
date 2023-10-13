@@ -1,95 +1,124 @@
 {
-  "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "An example of a space-fulling radial layout for hierarchical data.",
-  "width": 700,
-  "height": 700,
-  "padding": 5,
-  "autosize": "none",
-
-  "data": [
-    {
-      "name": "tree",
-      "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/js/sources.json",
-      "transform": [
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "width": 700,
+    "height": 700,
+    "padding": 5,
+    "autosize": "none",
+    "title": "Sources of Air Pollution",
+    "data": [
         {
-          "type": "stratify",
-          "key": "id",
-          "parentKey": "parent"
+            "name": "tree",
+            "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/sources.json",
+            "transform": [
+                {
+                    "type": "stratify",
+                    "key": "id",
+                    "parentKey": "parent"
+                },
+                {
+                    "type": "partition",
+                    "field": "size",
+                    "sort": { "field": "value" },
+                    "size": [{ "signal": "2 * PI" }, { "signal": "width / 2" }],
+                    "as": ["a0", "r0", "a1", "r1", "depth", "children"]
+                }
+            ]
+        }
+    ],
+
+    "scales": [
+        {
+            "name": "color",
+            "type": "ordinal",
+            "domain": { "data": "tree", "field": "color" },
+            "range": { "scheme": "set3" }
+        }
+    ],
+
+    "marks": [
+        {
+            "type": "arc",
+            "from": { "data": "tree" },
+            "encode": {
+                "enter": {
+                    "x": { "signal": "width / 2" },
+                    "y": { "signal": "height / 2" },
+                    "fill": [
+                        {
+                            "test": "datum.id != 1",
+                            "scale": "color",
+                            "field": "color"
+                        },
+                        { "value": "white" }
+                    ],
+                    "fillOpacity": [
+                        { "test": "datum.depth == 2", "value": 0.5 },
+                        { "value": 1 }
+                    ],
+                    "tooltip": {
+                        "signal": "datum.name + (datum.size ? ', ' + datum.size + ' tonnes' : '')"
+                    }
+                },
+                "update": {
+                    "startAngle": { "field": "a0" },
+                    "endAngle": { "field": "a1" },
+                    "innerRadius": { "field": "r0" },
+                    "outerRadius": { "field": "r1" },
+                    "stroke": { "value": "white" },
+                    "strokeWidth": { "value": 0.5 },
+                    "zindex": { "value": 0 }
+                },
+                "hover": {
+                    "stroke": { "value": "red" },
+                    "strokeWidth": { "value": 2 },
+                    "zindex": { "value": 1 }
+                }
+            }
         },
         {
-          "type": "partition",
-          "field": "size",
-          "sort": {"field": "value"},
-          "size": [{"signal": "2 * PI"}, {"signal": "width / 2"}],
-          "as": ["a0", "r0", "a1", "r1", "depth", "children"]
-        }
-      ]
-    }
-  ],
-
-  "scales": [
-    {
-      "name": "color",
-      "type": "ordinal",
-      "domain": {"data": "tree", "field": "color"},
-      "range": {"scheme": "set3"}
-    }
-  ],
-
-  "marks": [
-    {
-      "type": "arc",
-      "from": {"data": "tree"},
-      "encode": {
-        "enter": {
-          "x": {"signal": "width / 2"},
-          "y": {"signal": "height / 2"},
-          "fill": [
-            { "test": "datum.id != 1", "scale": "color", "field": "color"}, {"value": "white"}
-            ],
-          "fillOpacity": [
-            {"test": "datum.depth == 2", "value": 0.5}, {"value": 1}
-          ],
-          "tooltip": {"signal": "datum.name + (datum.size ? ', ' + datum.size + ' tonnes' : '')"}
-        },
-        "update": {
-          "startAngle": {"field": "a0"},
-          "endAngle": {"field": "a1"},
-          "innerRadius": {"field": "r0"},
-          "outerRadius": {"field": "r1"},
-          "stroke": {"value": "white"},
-          "strokeWidth": {"value": 0.5},
-          "zindex": {"value": 0}
-        },
-        "hover": {
-          "stroke": {"value": "red"},
-          "strokeWidth": {"value": 2},
-          "zindex": {"value": 1}
-        }
-      }
-    },
-    {
-      "type": "text",
-      "from": {"data": "tree"},
-      "encode": {
-            "enter": {
-            "text": {"signal": "datum.name + (datum.size? ' ((' + datum.size + ')' : '')"},
-            "fontSize":  [ { "test": "datum.size > 50000", "value": 8}, {"test": "datum.parent == 1", "value": 14}, {"value": 0}],
-            "fontWeight": [{"test": "datum.parent == 1", "value": "600"}, {"value": 100}],
-            "baseline": {"value": "middle"},
-            "align": {"value": "center"},
-            "lineBreak": [ { "test": "datum.name == 'Manufacturing industry & construction'", "value": " "},  {"test": "datum.name == 'Small non-road mobile sources & machinery'", "value": "& machinery ("}, {"value": " ("}],
-            "clip": {"value": true}
-            },
-            "update": {
-            "x": {"signal": "width / 2"},
-            "y": {"signal": "height / 2"},
-            "radius": {"signal": "(datum['r0'] == 0 ? 0 : datum['r0'] + datum['r1']) / 2"},
-            "theta": {"signal": "(datum['a0'] + datum['a1']) / 2"},
-            "angle": {"signal": "datum['r0'] == 0 ? 0 : ((datum['a0'] + datum['a1']) / 2) * 180 / PI + (inrange(((datum['a0'] + datum['a1']) / 2) % (2 * PI), [0, PI]) ? 270 : 90)"}
+            "type": "text",
+            "from": { "data": "tree" },
+            "encode": {
+                "enter": {
+                    "text": {
+                        "signal": "datum.name + (datum.size? ' ((' + datum.size + ')' : '')"
+                    },
+                    "fontSize": [
+                        { "test": "datum.size > 50000", "value": 8 },
+                        { "test": "datum.parent == 1", "value": 14 },
+                        { "value": 0 }
+                    ],
+                    "fontWeight": [
+                        { "test": "datum.parent == 1", "value": "600" },
+                        { "value": 100 }
+                    ],
+                    "baseline": { "value": "middle" },
+                    "align": { "value": "center" },
+                    "lineBreak": [
+                        {
+                            "test": "datum.name == 'Manufacturing industry & construction'",
+                            "value": " "
+                        },
+                        {
+                            "test": "datum.name == 'Small non-road mobile sources & machinery'",
+                            "value": "& machinery ("
+                        },
+                        { "value": " (" }
+                    ],
+                    "clip": { "value": true }
+                },
+                "update": {
+                    "x": { "signal": "width / 2" },
+                    "y": { "signal": "height / 2" },
+                    "radius": {
+                        "signal": "(datum['r0'] == 0 ? 0 : datum['r0'] + datum['r1']) / 2"
+                    },
+                    "theta": { "signal": "(datum['a0'] + datum['a1']) / 2" },
+                    "angle": {
+                        "signal": "datum['r0'] == 0 ? 0 : ((datum['a0'] + datum['a1']) / 2) * 180 / PI + (inrange(((datum['a0'] + datum['a1']) / 2) % (2 * PI), [0, PI]) ? 270 : 90)"
+                    }
+                }
             }
         }
-    }
-  ]
-    
+    ]
 }
