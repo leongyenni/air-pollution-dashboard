@@ -18,8 +18,14 @@ melted_df = pd.melt(selected_countries, id_vars=['Country', 'Year'], value_vars=
 selected_year_df = melted_df[melted_df['Year'] == 2019]
 
 
-output_csv_file = './data/cleaned-death-rates-from-air-pollution.csv'
+# output_csv_file = './data/cleaned-death-rates-from-air-pollution.csv'
 
-selected_year_df.to_csv(output_csv_file, index=False)
+# selected_year_df.to_csv(output_csv_file, index=False)
 
-print(f'Flattened data saved to {output_csv_file}')
+# print(f'Flattened data saved to {output_csv_file}')
+
+output_json_file = './data/cleaned-death-rates-from-air-pollution.json'
+
+selected_year_df.to_json(output_json_file, orient='records')
+
+print(f'Filtered and renamed data saved to {output_json_file}')

@@ -1,0 +1,13 @@
+[
+    {
+        "Country":"China",
+        "Year":2019,
+        "Air Pollution Type":"Household Air Pollution",
+        "Count":20.729332
+    },
+    { 
+        "Country":"India",
+        "Year":2019,
+        "Air Pollution Type":"Household Air Pollution",
+        "Count":59.58832
+    },{"Country":"Japan","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":0.021538114},{"Country":"Malaysia","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":0.46246266},{"Country":"Switzerland","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":0.006922866},{"Country":"United Kingdom","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":0.008776812},{"Country":"United States","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":0.026754245},{"Country":"World","Year":2019,"Air Pollution Type":"Household Air Pollution","Count":30.145676},{"Country":"China","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":81.28263},{"Country":"India","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":95.63995},{"Country":"Japan","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":9.329786},{"Country":"Malaysia","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":43.638363},{"Country":"Switzerland","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":7.049594},{"Country":"United Kingdom","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":10.790584},{"Country":"United States","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":8.487157},{"Country":"World","Year":2019,"Air Pollution Type":"Ambient Particulate Matter Pollution","Count":52.665886},{"Country":"China","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":5.913065},{"Country":"India","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":18.304516},{"Country":"Japan","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":0.5955167},{"Country":"Malaysia","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":1.5944724},{"Country":"Switzerland","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":1.1853346},{"Country":"United Kingdom","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":0.41801172},{"Country":"United States","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":2.1193578},{"Country":"World","Year":2019,"Air Pollution Type":"Ambient Ozone Pollution","Count":4.699628}]
