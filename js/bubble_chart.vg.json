@@ -83,7 +83,7 @@
                             "type": "nominal",
                             "scale": {
                                 "type": "ordinal",
-                                "range": ["#f2cc8f", "#f5cb5c", "#fca311", "#82c0cc", "#3d405b", "#f95738", "#f7a399"],
+                                "range": ["#f2cc8f", "#c18c5d", "#5C4136", "#82c0cc", "#3d405b", "#d1ded7", "#f5cb5c"],
                                 "domain": ["World", "Africa", "Asia", "Europe", "North America", "Oceania", "South America"]
                             },
                             "legend": {
