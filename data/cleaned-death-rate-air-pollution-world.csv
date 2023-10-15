@@ -1,0 +1,229 @@
+Country,Death rate,Year,Continent
+Afghanistan,238.3304,2019,Asia
+Armenia,82.5181,2019,Asia
+Azerbaijan,119.713295,2019,Asia
+Bahrain,107.361885,2019,Asia
+Bangladesh,145.26534,2019,Asia
+Bhutan,132.05751,2019,Asia
+Brunei,18.141619,2019,Asia
+Cambodia,167.1058,2019,Asia
+China,105.92243,2019,Asia
+Cyprus,26.078331,2019,Asia
+East Timor,163.12352,2019,Asia
+Georgia,78.13751,2019,Asia
+India,164.07867,2019,Asia
+Indonesia,98.64608,2019,Asia
+Iran,65.474464,2019,Asia
+Iraq,122.99155,2019,Asia
+Israel,19.976183,2019,Asia
+Japan,9.893774,2019,Asia
+Jordan,56.263794,2019,Asia
+Kazakhstan,80.078865,2019,Asia
+Kuwait,65.00659,2019,Asia
+Kyrgyzstan,101.77051,2019,Asia
+Laos,191.01627,2019,Asia
+Lebanon,65.49797,2019,Asia
+Malaysia,45.512756,2019,Asia
+Maldives,29.865938,2019,Asia
+Mongolia,156.65956,2019,Asia
+Myanmar,181.17802,2019,Asia
+Nepal,221.99744,2019,Asia
+North Korea,187.06485,2019,Asia
+Oman,129.4382,2019,Asia
+Pakistan,194.1466,2019,Asia
+Palestine,92.174,2019,Asia
+Philippines,104.95793,2019,Asia
+Qatar,131.24345,2019,Asia
+Saudi Arabia,111.97603,2019,Asia
+Singapore,18.81165,2019,Asia
+South Korea,27.515686,2019,Asia
+Sri Lanka,62.616005,2019,Asia
+Syria,101.42362,2019,Asia
+Taiwan,31.655106,2019,Asia
+Tajikistan,181.85791,2019,Asia
+Thailand,42.003178,2019,Asia
+Turkey,53.324047,2019,Asia
+Turkmenistan,98.53708,2019,Asia
+United Arab Emirates,103.76123,2019,Asia
+Uzbekistan,199.38559,2019,Asia
+Vietnam,86.5188,2019,Asia
+Yemen,153.9878,2019,Asia
+African Region (WHO),148.27826,2019,Unknown
+Central African Rep.,287.26184,2019,Africa
+Dem. Rep. Congo,188.78119,2019,Africa
+East Asia & Pacific (WB),85.33812,2019,Unknown
+Eastern Mediterranean Region (WHO),140.19257,2019,Asia
+England,11.6798525,2019,Europe
+Eq. Guinea,100.481705,2019,Africa
+Europe & Central Asia (WB),30.200378,2019,Unknown
+European Region (WHO),30.253885,2019,Unknown
+G20,73.5313,2019,Unknown
+High Income (WB),15.136623,2019,Unknown
+Latin America & Caribbean (WB),36.350616,2019,Unknown
+Low Income (WB),188.5465,2019,Unknown
+Lower Middle Income (WB),145.88287,2019,Unknown
+Micronesia (country),123.76124,2019,Unknown
+Middle East & North Africa (WB),98.58476,2019,Unknown
+Middle Income (WB),78.759285,2019,Unknown
+North America (WB),10.071361,2019,Unknown
+Northern Ireland,9.525161,2019,Unknown
+OECD Countries,16.524033,2019,Unknown
+Region of the Americas (WHO),23.935587,2019,Unknown
+Scotland,7.1982756,2019,Europe
+South Asia (WB),165.50208,2019,Unknown
+S. Sudan,159.788,2019,Africa
+South-East Asia Region (WHO),147.17587,2019,Unknown
+Sub-Saharan Africa (WB),154.40019,2019,Unknown
+Wales,10.787013,2019,Unknown
+Western Pacific Region (WHO),83.14126,2019,Unknown
+World,85.6172,2019,World
+Albania,54.937935,2019,Europe
+Andorra,9.064918,2019,Europe
+Austria,13.530594,2019,Europe
+Belarus,53.391163,2019,Europe
+Belgium,14.890251,2019,Europe
+Bosnia and Herzegovina,84.37607,2019,Europe
+Bulgaria,76.10484,2019,Europe
+Croatia,36.93773,2019,Europe
+Czechia,30.400785,2019,Europe
+Denmark,12.015005,2019,Europe
+Estonia,7.289121,2019,Europe
+Finland,3.1384022,2019,Europe
+France,9.344781,2019,Europe
+Germany,14.032331,2019,Europe
+Greece,23.127464,2019,Europe
+Hungary,43.760925,2019,Europe
+Iceland,3.1354923,2019,Europe
+Ireland,7.2405343,2019,Europe
+Italy,16.501757,2019,Europe
+Latvia,29.071781,2019,Europe
+Lithuania,21.843792,2019,Europe
+Luxembourg,9.572945,2019,Europe
+Malta,16.708956,2019,Europe
+Moldova,42.589977,2019,Europe
+Monaco,15.655647,2019,Europe
+Montenegro,77.62823,2019,Europe
+Netherlands,13.864435,2019,Europe
+North Macedonia,118.423386,2019,Europe
+Norway,4.352872,2019,Europe
+Poland,43.375866,2019,Europe
+Portugal,8.813872,2019,Europe
+Romania,45.280422,2019,Europe
+Russia,33.36538,2019,Europe
+San Marino,9.186055,2019,Europe
+Serbia,82.932755,2019,Europe
+Slovakia,39.423428,2019,Europe
+Slovenia,19.903786,2019,Europe
+Spain,10.370437,2019,Europe
+Sweden,3.2338781,2019,Europe
+Switzerland,8.173524,2019,Europe
+Ukraine,60.948162,2019,Europe
+United Kingdom,11.192642,2019,Europe
+Algeria,78.79084,2019,Africa
+Angola,114.73778,2019,Africa
+Benin,179.6229,2019,Africa
+Botswana,125.29787,2019,Africa
+Burkina Faso,201.0339,2019,Africa
+Burundi,205.9962,2019,Africa
+Cameroon,160.83035,2019,Africa
+Cape Verde,100.209274,2019,Africa
+Chad,224.69312,2019,Africa
+Comoros,132.97124,2019,Africa
+Congo,142.39224,2019,Africa
+Côte d'Ivoire,170.73965,2019,Africa
+Djibouti,109.78461,2019,Africa
+Egypt,159.67587,2019,Africa
+Eritrea,189.71269,2019,Africa
+Eswatini,147.77673,2019,Africa
+Ethiopia,149.58932,2019,Africa
+Gabon,92.98806,2019,Africa
+Gambia,193.09525,2019,Africa
+Ghana,150.93765,2019,Africa
+Guinea,219.99084,2019,Africa
+Guinea-Bissau,243.93457,2019,Africa
+Kenya,124.04497,2019,Africa
+Lesotho,204.10683,2019,Africa
+Liberia,152.90193,2019,Africa
+Libya,71.903564,2019,Africa
+Madagascar,201.03522,2019,Africa
+Malawi,157.79648,2019,Africa
+Mali,180.50282,2019,Africa
+Mauritania,119.37616,2019,Africa
+Mauritius,37.868706,2019,Africa
+Morocco,105.50667,2019,Africa
+Mozambique,200.12534,2019,Africa
+Namibia,116.03288,2019,Africa
+Niger,223.49466,2019,Africa
+Nigeria,143.5765,2019,Africa
+Rwanda,153.25407,2019,Africa
+Sao Tome and Principe,146.70773,2019,Africa
+Senegal,150.72742,2019,Africa
+Seychelles,35.563305,2019,Africa
+Sierra Leone,203.1307,2019,Africa
+Somaliland,280.0036,2019,Africa
+South Africa,72.759476,2019,Africa
+Sudan,149.32846,2019,Africa
+Tanzania,148.23813,2019,Africa
+Togo,175.52834,2019,Africa
+Tunisia,65.18696,2019,Africa
+Uganda,152.24588,2019,Africa
+Zambia,150.8416,2019,Africa
+Zimbabwe,165.7244,2019,Africa
+American Samoa,31.204182,2019,Oceania
+Australia,4.3307047,2019,Oceania
+Cook Islands,16.2419,2019,Oceania
+Fiji,93.48948,2019,Oceania
+Guam,19.161098,2019,Oceania
+Kiribati,221.92476,2019,Oceania
+Marshall Islands,109.69927,2019,Oceania
+Nauru,36.417263,2019,Oceania
+New Zealand,4.1493554,2019,Oceania
+Niue,27.336985,2019,Oceania
+Northern Mariana Islands,36.72058,2019,Oceania
+Palau,23.736937,2019,Oceania
+Papua New Guinea,254.16165,2019,Oceania
+Samoa,131.08318,2019,Oceania
+Solomon Islands,432.9278,2019,Oceania
+Tokelau,17.55899,2019,Oceania
+Tonga,65.93516,2019,Oceania
+Tuvalu,39.661762,2019,Oceania
+Vanuatu,250.74625,2019,Oceania
+Antigua and Barbuda,33.3545,2019,North America
+Bahamas,28.088366,2019,North America
+Barbados,36.61268,2019,North America
+Belize,47.24337,2019,North America
+Bermuda,7.258381,2019,North America
+Canada,6.1528773,2019,North America
+Costa Rica,21.008274,2019,North America
+Cuba,31.562246,2019,North America
+Dominica,41.98842,2019,North America
+Dominican Republic,52.108387,2019,North America
+El Salvador,41.515526,2019,North America
+Greenland,12.129156,2019,North America
+Grenada,53.421738,2019,North America
+Guatemala,85.88331,2019,North America
+Haiti,200.67537,2019,North America
+Honduras,103.53689,2019,North America
+Jamaica,38.301197,2019,North America
+Mexico,43.914207,2019,North America
+Nicaragua,72.28412,2019,North America
+Panama,19.63658,2019,North America
+Puerto Rico,5.952139,2019,North America
+Saint Kitts and Nevis,20.684362,2019,North America
+Saint Lucia,41.984207,2019,North America
+Saint Vincent and the Grenadines,52.865406,2019,North America
+Trinidad and Tobago,49.94125,2019,North America
+United States of America,10.551644,2019,North America
+United States Virgin Islands,18.28917,2019,North America
+Argentina,25.40486,2019,South America
+Bolivia,76.702095,2019,South America
+Brazil,27.072227,2019,South America
+Chile,26.471188,2019,South America
+Colombia,29.330505,2019,South America
+Ecuador,34.393444,2019,South America
+Guyana,79.6205,2019,South America
+Paraguay,42.553844,2019,South America
+Peru,35.085163,2019,South America
+Suriname,53.606895,2019,South America
+Uruguay,14.398082,2019,South America
+Venezuela,45.010475,2019,South America
