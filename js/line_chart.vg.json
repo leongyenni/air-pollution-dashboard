@@ -1,54 +1,80 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rates-from-air-pollution-year.csv"},
-  "width": 850,
-  "height": 450,
-  "title": "Death rate from air pollution (1990 to 2019)",
-    
-  "encoding": {"x": {"field": "Year", "type": "temporal"}},
-  "layer": [
-    {
-      "encoding": {
-        "color": {"field": "Country", "type": "nominal", "title": "Country"},
-        "y": {"field": "Death Rate", "type": "quantitative"}
-      },
-      "layer": [
-        {"mark": "line"},
-        {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
-      ]
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rates-from-air-pollution-year.csv"
     },
-    {
-      "transform": [{"pivot": "Country", "value": "Death Rate", "groupby": ["Year"]}],
-      "mark": "rule",
-      "encoding": {
-        "opacity": {
-          "condition": {"value": 0.3, "param": "hover"},
-          "value": 0
-        },
-        "tooltip": [
-          {"field": "China", "type": "quantitative"},
-          {"field": "India", "type": "quantitative"},
-          {"field": "Japan", "type": "quantitative"},
-          {"field": "Malaysia", "type": "quantitative"},
-          {"field": "Switzerland", "type": "quantitative"},
-          {"field": "United Kingdom", "type": "quantitative"},
-          {"field": "United States", "type": "quantitative"},
-          {"field": "World", "type": "quantitative"},
-          {"field": "Year", "type": "temporal", "format": "%Y"}
-        ]
-      },
-      "params": [
+    "width": 850,
+    "height": 450,
+    "title": "Death rate from air pollution (1990 to 2019)",
+
+    "encoding": {
+        "x": { "field": "Year", "type": "temporal" }
+    },
+
+    "layer": [
         {
-          "name": "hover",
-          "select": {
-            "type": "point",
-            "fields": ["Year"],
-            "nearest": true,
-            "on": "mouseover",
-            "clear": "mouseout"
-          }
+            "encoding": {
+                "color": {
+                    "field": "Country",
+                    "type": "nominal",
+                    "title": "Country",
+                    "scale": {
+                        "type": "ordinal",
+                        "range": ["#B28B70", "#8A7862", "#627EA5", "#f5cb5c", "#132043", "#5A8F7B", "#BCE1EA", "#f2cc8f"],
+                        "domain": ["China", "India", "Japan", "Malaysia", "Switzerland", "United Kingdom", "United States", "World"]
+                    }
+                },
+                "y": { "field": "Death Rate", "type": "quantitative" }
+            },
+            "layer": [
+                { "mark": { "type": "line", "point": true, "strokeWidth": 3 } },
+                {
+                    "transform": [{ "filter": { "param": "hover", "empty": false } }],
+                    "mark": "point"
+                }
+            ]
+        },
+        {
+            "transform": [{ "pivot": "Country", "value": "Death Rate", "groupby": ["Year"] }],
+            "mark": "rule",
+            "encoding": {
+                "opacity": {
+                    "condition": { "value": 0.25, "param": "hover" },
+                    "value": 0
+                },
+                "tooltip": [
+                    { "field": "India", "type": "quantitative" },
+                    { "field": "China", "type": "quantitative" },
+                    { "field": "World", "type": "quantitative" },
+                    { "field": "Malaysia", "type": "quantitative" },
+                    { "field": "United Kingdom", "type": "quantitative" },
+                    { "field": "United States", "type": "quantitative" },
+                    { "field": "Switzerland", "type": "quantitative" },
+                    { "field": "Japan", "type": "quantitative" },
+                    { "field": "Year", "type": "temporal", "format": "%Y" }
+                ]
+            },
+            "params": [
+                {
+                    "name": "hover",
+                    "select": {
+                        "type": "point",
+                        "fields": ["Year"],
+                        "nearest": true,
+                        "on": "mouseover",
+                        "clear": "mouseout"
+                    }
+                }
+            ]
         }
-      ]
+    ],
+    "config": {
+        "title": { "fontSize": 20 },
+        "axis": {
+            "grid": true,
+            "gridColor": "#dedede",
+            "gridOpacity": 0.4,
+            "titleFontSize": 15
+        }
     }
-  ], "config": {"title": { "fontSize": 20}}
 }

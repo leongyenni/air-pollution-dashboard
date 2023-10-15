@@ -7,18 +7,15 @@
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
         <!-- CSS file -->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="css/styles.css"
-            media="all"
-        />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
     </head>
     <body>
         <h1 class="title">Air Pollution Dashboard</h1>
         <div id="choropleth_map"></div>
-        <div id="heat_map_death_rate"></div>
-        <div id="heat_map_disease_burden"></div>
+
+        <div id="bump_chart_death_rate"></div>
+        <div id="bump_chart_disease_cause"></div>
+
         <div id="line_chart"></div>
         <div id="bubble_chart"></div>
         <div id="sunburst_diagram"></div>
@@ -27,8 +24,8 @@
         <!--Vegalite Embed-->
         <script type="text/javascript">
             var choropleth_map = "js/choropleth_map.vg.json";
-            var heat_map_death_rate = "js/heat_map_death_rate.vg.json";
-            var heat_map_disease_burden = "js/heat_map_disease_burden.vg.json";
+            var bump_chart_death_rate = "js/bump_chart_death_rate.vg.json";
+            var bump_chart_disease_cause = "js/bump_chart_disease_cause.vg.json";
             var line_chart = "js/line_chart.vg.json";
             var bubble_chart = "js/bubble_chart.vg.json";
             var sunburst_diagram = "js/sunburst_diagram.vg.json";
@@ -37,10 +34,10 @@
             vegaEmbed("#choropleth_map", choropleth_map)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#heat_map_death_rate", heat_map_death_rate)
+            vegaEmbed("#bump_chart_death_rate", bump_chart_death_rate)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#heat_map_disease_burden", heat_map_disease_burden)
+            vegaEmbed("#bump_chart_disease_cause", bump_chart_disease_cause)
                 .then(function (result) {})
                 .catch(console.error);
             vegaEmbed("#line_chart", line_chart)
@@ -56,14 +53,7 @@
                 .then(function (result) {})
                 .catch(console.error);
 
-            vega.scheme("basic", [
-                "#f00",
-                "#0f0",
-                "#00f",
-                "#ff0",
-                "#f0f",
-                "#0ff",
-            ]);
+            vega.scheme("basic", ["#f00", "#0f0", "#00f", "#ff0", "#f0f", "#0ff"]);
         </script>
     </body>
 </html>

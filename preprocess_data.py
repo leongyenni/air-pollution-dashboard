@@ -31,7 +31,7 @@ with open('death-rate-from-pm25-vs-pm25-concentration.csv', mode='r', newline=''
         year = row['Year']
 
         # Check if any of the values are null or empty
-        if death_rate and pm_air_pollution and population and int(year) >= 2000 and int(year) <= 2019:
+        if death_rate and pm_air_pollution and population and int(year) >= 2010 and int(year) <= 2019:
             filtered_data.append({
                 'Country': country,
                 'Death rate': death_rate,
@@ -53,7 +53,7 @@ for row in filtered_data:
     continent_data[continent].append(row)
 
 # Write the grouped and filtered data to a new CSV file
-output_file = 'preprocessed-death-rate-from-pm25-vs-pm25-concentration.csv'
+output_file = 'cleaned-death-rate-from-pm25-vs-pm25-concentration.csv'
 with open(output_file, mode='w', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['Country',
                   'Death rate',
