@@ -4,8 +4,8 @@
         "text": "Ranking of Disease Causes",
         "frame": "bounds"
     },
-    "height": 200,
-    "width": 400,
+    "height": 300,
+    "width": 500,
     "data": {
         "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/disease-burden-by-risk-factor.csv"
     },
@@ -58,7 +58,7 @@
     ],
     "encoding": {
         "x": { "field": "Country", "type": "nominal" },
-        "y": { "field": "rank", "type": "ordinal" },
+        "y": { "field": "rank", "type": "ordinal", "title": "Ranking" },
         "opacity": {
             "condition": {
                 "param": "hover",
@@ -73,26 +73,8 @@
                 "type": "nominal",
                 "title": "Disease Causes",
                 "scale": {
-                    "domain": [
-                        "Air pollution",
-                        "Alcohol use",
-                        "Drug use",
-                        "Lead exposure",
-                        "Occupational risks",
-                        "Smoking",
-                        "Unsafe water source"
-                    ],
-                    "range": [
-                        "#417D7A",
-                        "#91C483",
-                        "#FFB085",
-                        "#DF7861",
-                        "#9C3D54",
-                        "#FF96AD",
-                        "#E15FED",
-                        "#3F52E3",
-                        "#7692E4"
-                    ]
+                    "domain": ["Air pollution", "Alcohol use", "Drug use", "Lead exposure", "Occupational risks", "Smoking", "Unsafe water source"],
+                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
                 }
             },
             "value": "grey"
@@ -113,5 +95,12 @@
             { "field": "rank", "type": "ordinal", "title": "Ranking" }
         ]
     },
-    "config": {}
+    "config": {
+        "axis": {
+            "grid": true,
+            "gridColor": "#dedede",
+            "gridOpacity": 0.1,
+            "titleFontSize": 15
+        }
+    }
 }
