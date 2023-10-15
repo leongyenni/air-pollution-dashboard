@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "width": 700,
-    "height": 700,
-    "padding": 5,
-    "autosize": "none",
-    "title": "Sources of Air Pollution",
+    "width": 660,
+    "height": 680,
+    "padding": 30,
+    "autosize": "pad",
+    "title": { "text": "Sources of Air Pollution" },
     "data": [
         {
             "name": "tree",
@@ -31,7 +31,7 @@
             "name": "color",
             "type": "ordinal",
             "domain": { "data": "tree", "field": "color" },
-            "range": { "scheme": "set3" }
+            "range": ["#DDB094", "#d1ded7", "#997b66", "#606B6D", "#DFD1CE", "#775144"]
         }
     ],
 
@@ -51,12 +51,9 @@
                         },
                         { "value": "white" }
                     ],
-                    "fillOpacity": [
-                        { "test": "datum.depth == 2", "value": 0.5 },
-                        { "value": 1 }
-                    ],
+                    "fillOpacity": [{ "test": "datum.depth == 2", "value": 0.5 }, { "value": 1 }],
                     "tooltip": {
-                        "signal": "datum.name + (datum.size ? ', ' + datum.size + ' tonnes' : '')"
+                        "signal": "datum.size ? {\"Source\": datum.name, \"Emissions\":format(datum.size, ',.0f')} : datum.name == 'Sources'? '':{\"Air pollutant\": datum.name}"
                     }
                 },
                 "update": {
@@ -81,35 +78,23 @@
             "encode": {
                 "enter": {
                     "text": {
-                        "signal": "datum.name + (datum.size? ' ((' + datum.size + ')' : '')"
+                        "signal": "datum.name"
                     },
-                    "fontSize": [
-                        { "test": "datum.size > 50000", "value": 8 },
-                        { "test": "datum.parent == 1", "value": 14 },
-                        { "value": 0 }
-                    ],
-                    "fontWeight": [
-                        { "test": "datum.parent == 1", "value": "600" },
-                        { "value": 100 }
-                    ],
+                    "fontSize": [{ "test": "datum.size > 50000", "value": 10 }, { "test": "datum.parent == 1", "value": 14 }, { "value": 0 }],
+                    "fontWeight": [{ "test": "datum.parent == 1", "value": "600" }, { "value": 500 }],
                     "baseline": { "value": "middle" },
                     "align": { "value": "center" },
                     "lineBreak": [
                         {
-                            "test": "datum.name == 'Manufacturing industry & construction'",
-                            "value": " "
+                            "test": "datum.name == 'Non-road mobile sources & machinery'",
+                            "value": "s "
                         },
-                        {
-                            "test": "datum.name == 'Small non-road mobile sources & machinery'",
-                            "value": "& machinery ("
-                        },
-                        { "value": " (" }
-                    ],
-                    "clip": { "value": true }
+                        { "value": " " }
+                    ]
                 },
                 "update": {
                     "x": { "signal": "width / 2" },
-                    "y": { "signal": "height / 2" },
+                    "y": { "signal": "height / 2.03" },
                     "radius": {
                         "signal": "(datum['r0'] == 0 ? 0 : datum['r0'] + datum['r1']) / 2"
                     },
@@ -120,5 +105,8 @@
                 }
             }
         }
-    ]
+    ],
+    "config": {
+        "title": { "fontSize": 20 }
+    }
 }
