@@ -183,33 +183,7 @@
         {
             "name": "color",
             "type": "ordinal",
-            "range": [
-                "#417D7A",
-                "#91C483",
-                "#FFB085",
-                "#DF7861",
-                "#9C3D54",
-                "#FF96AD",
-                "#E15FED",
-                "#90AACB",
-                "#005A8D",
-                "#556FB5",
-                "#2541B2",
-                "#3F52E3",
-                "#7692E4",
-                "#93ABD3",
-                "#B7657B",
-                "#A799B7",
-                "#AC66CC",
-                "#C689C6",
-                "#FFD372",
-                "#FE7E6D",
-                "#FFAB76",
-                "#FFCCB3",
-                "#E5CB9F",
-                "#85C88A",
-                "#357C3C"
-            ],
+            "range": ["#B28B70", "#645255", "#627EA5", "#f5cb5c", "#132043", "#16697a", "#BCE1EA", "#f2cc8f", "#990100", "#ff8552", "#ec4e20"],
             "domain": [
                 "China",
                 "India",
@@ -219,9 +193,9 @@
                 "United Kingdom",
                 "United States",
                 "World",
-                "Household Air Pollution",
                 "Ambient Particulate Matter Pollution",
-                "Ambient Ozone Pollution"
+                "Ambient Ozone Pollution",
+                "Household Air Pollution"
             ]
         },
         {
@@ -545,9 +519,5 @@
             ]
         }
     ],
-    "config": {
-        "view": { "stroke": null },
-        "background": null,
-        "fontSize": { "value": 20 }
-    }
+    "config": { "view": { "stroke": null }, "background": null, "fontSize": { "value": 20 } }
 }
