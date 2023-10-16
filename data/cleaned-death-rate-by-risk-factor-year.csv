@@ -5,7 +5,6 @@ Lead exposure,1990,9.903858207
 Smoking,1990,109.694522
 Alcohol use,1990,30.65268993
 Drug use,1990,4.409247374
-High systolic blood pressure,1990,126.8767828
 Dietary risks,1990,101.2280917
 Occupational risks,1990,21.28244743
 Unsafe water source,1993,42.20454924
@@ -14,7 +13,6 @@ Lead exposure,1993,10.18500708
 Smoking,1993,111.8410276
 Alcohol use,1993,31.94387466
 Drug use,1993,5.167773899
-High systolic blood pressure,1993,129.4120239
 Dietary risks,1993,102.5014446
 Occupational risks,1993,20.97650855
 Unsafe water source,1991,45.11424265
@@ -23,7 +21,6 @@ Lead exposure,1991,9.988437012
 Smoking,1991,109.8884102
 Alcohol use,1991,30.85142698
 Drug use,1991,4.646613829
-High systolic blood pressure,1991,126.799973
 Dietary risks,1991,100.831266
 Occupational risks,1991,21.18470243
 Unsafe water source,1992,43.98888856
@@ -32,7 +29,6 @@ Lead exposure,1992,10.0821202
 Smoking,1992,110.4566906
 Alcohol use,1992,31.2526146
 Drug use,1992,4.884063346
-High systolic blood pressure,1992,127.3630994
 Dietary risks,1992,101.005113
 Occupational risks,1992,21.11833127
 Unsafe water source,1997,36.70723978
@@ -41,7 +37,6 @@ Lead exposure,1997,10.53240703
 Smoking,1997,109.8578747
 Alcohol use,1997,31.70969898
 Drug use,1997,5.83761038
-High systolic blood pressure,1997,128.1006972
 Dietary risks,1997,99.8879133
 Occupational risks,1997,19.86343134
 Unsafe water source,1994,40.70730751
@@ -50,7 +45,6 @@ Lead exposure,1994,10.23053715
 Smoking,1994,112.1260631
 Alcohol use,1994,32.44625453
 Drug use,1994,5.455951781
-High systolic blood pressure,1994,130.0093394
 Dietary risks,1994,102.7727001
 Occupational risks,1994,20.75461382
 Unsafe water source,1995,39.14950366
@@ -59,7 +53,6 @@ Lead exposure,1995,10.26414987
 Smoking,1995,111.6248417
 Alcohol use,1995,32.43539297
 Drug use,1995,5.67050594
-High systolic blood pressure,1995,129.34815
 Dietary risks,1995,101.8880146
 Occupational risks,1995,20.49588736
 Unsafe water source,1996,37.75937512
@@ -68,7 +61,6 @@ Lead exposure,1996,10.36518596
 Smoking,1996,110.612562
 Alcohol use,1996,32.05937557
 Drug use,1996,5.781415537
-High systolic blood pressure,1996,128.5071821
 Dietary risks,1996,100.7383107
 Occupational risks,1996,20.17486949
 Unsafe water source,1998,35.70272243
@@ -77,7 +69,6 @@ Lead exposure,1998,10.5961119
 Smoking,1998,109.076618
 Alcohol use,1998,31.58936861
 Drug use,1998,5.957191471
-High systolic blood pressure,1998,127.6358674
 Dietary risks,1998,99.00808088
 Occupational risks,1998,19.56610641
 Unsafe water source,2001,31.97807154
@@ -86,7 +77,6 @@ Lead exposure,2001,10.89137248
 Smoking,2001,108.5327069
 Alcohol use,2001,32.26566494
 Drug use,2001,6.298068883
-High systolic blood pressure,2001,129.500502
 Dietary risks,2001,99.7743649
 Occupational risks,2001,18.87858793
 Unsafe water source,1999,34.55337206
@@ -95,7 +85,6 @@ Lead exposure,1999,10.62840824
 Smoking,1999,108.9525322
 Alcohol use,1999,31.85722466
 Drug use,1999,6.144020319
-High systolic blood pressure,1999,128.4610563
 Dietary risks,1999,99.3163732
 Occupational risks,1999,19.33639093
 Unsafe water source,2000,33.30103958
@@ -104,7 +93,6 @@ Lead exposure,2000,10.75691016
 Smoking,2000,109.026115
 Alcohol use,2000,32.15029283
 Drug use,2000,6.287467838
-High systolic blood pressure,2000,129.0174073
 Dietary risks,2000,99.57492397
 Occupational risks,2000,19.16205591
 Unsafe water source,2002,30.63383337
@@ -113,7 +101,6 @@ Lead exposure,2002,11.04609462
 Smoking,2002,108.4884098
 Alcohol use,2002,32.65854686
 Drug use,2002,6.288646863
-High systolic blood pressure,2002,130.7569864
 Dietary risks,2002,100.6116519
 Occupational risks,2002,18.68007586
 Unsafe water source,2005,26.93829765
@@ -122,7 +109,6 @@ Lead exposure,2005,11.08040954
 Smoking,2005,105.9997357
 Alcohol use,2005,33.29239629
 Drug use,2005,6.351348357
-High systolic blood pressure,2005,130.296935
 Dietary risks,2005,99.72525382
 Occupational risks,2005,17.88951978
 Unsafe water source,2003,29.27962413
@@ -131,7 +117,6 @@ Lead exposure,2003,11.09531134
 Smoking,2003,107.9486017
 Alcohol use,2003,32.95563173
 Drug use,2003,6.269366446
-High systolic blood pressure,2003,130.9765068
 Dietary risks,2003,100.6773681
 Occupational risks,2003,18.46671944
 Unsafe water source,2004,27.8659325
@@ -140,7 +125,6 @@ Lead exposure,2004,11.01578822
 Smoking,2004,106.4918977
 Alcohol use,2004,33.0003822
 Drug use,2004,6.253658169
-High systolic blood pressure,2004,129.6225752
 Dietary risks,2004,99.48479406
 Occupational risks,2004,18.11409879
 Unsafe water source,2009,23.69079807
@@ -149,7 +133,6 @@ Lead exposure,2009,11.2422695
 Smoking,2009,101.0491916
 Alcohol use,2009,32.20220514
 Drug use,2009,6.074389351
-High systolic blood pressure,2009,130.2274062
 Dietary risks,2009,97.51839118
 Occupational risks,2009,16.95963693
 Unsafe water source,2006,26.36497946
@@ -158,7 +141,6 @@ Lead exposure,2006,11.0659198
 Smoking,2006,103.587755
 Alcohol use,2006,32.67629126
 Drug use,2006,6.280265513
-High systolic blood pressure,2006,129.0361045
 Dietary risks,2006,98.22200983
 Occupational risks,2006,17.5209678
 Unsafe water source,2007,25.58915472
@@ -167,7 +149,6 @@ Lead exposure,2007,11.09646879
 Smoking,2007,102.3154836
 Alcohol use,2007,32.44754751
 Drug use,2007,6.223612696
-High systolic blood pressure,2007,128.9109538
 Dietary risks,2007,97.60161657
 Occupational risks,2007,17.28305175
 Unsafe water source,2008,24.84650466
@@ -176,7 +157,6 @@ Lead exposure,2008,11.21911886
 Smoking,2008,102.1471301
 Alcohol use,2008,32.67464356
 Drug use,2008,6.203853911
-High systolic blood pressure,2008,130.1201927
 Dietary risks,2008,97.98605114
 Occupational risks,2008,17.18848296
 Unsafe water source,2013,20.18036085
@@ -185,7 +165,6 @@ Lead exposure,2013,11.50066328
 Smoking,2013,98.6058528
 Alcohol use,2013,31.17772334
 Drug use,2013,5.923782191
-High systolic blood pressure,2013,132.8617881
 Dietary risks,2013,98.15962645
 Occupational risks,2013,16.21907704
 Unsafe water source,2010,22.78847026
@@ -194,7 +173,6 @@ Lead exposure,2010,11.33769028
 Smoking,2010,100.6241664
 Alcohol use,2010,32.19911591
 Drug use,2010,6.021648071
-High systolic blood pressure,2010,131.4002568
 Dietary risks,2010,98.02369639
 Occupational risks,2010,16.77921928
 Unsafe water source,2011,22.14896979
@@ -203,7 +181,6 @@ Lead exposure,2011,11.41330962
 Smoking,2011,99.83762866
 Alcohol use,2011,31.60532851
 Drug use,2011,5.988493787
-High systolic blood pressure,2011,131.8593641
 Dietary risks,2011,98.05529106
 Occupational risks,2011,16.6015396
 Unsafe water source,2012,21.02238111
@@ -212,7 +189,6 @@ Lead exposure,2012,11.45008915
 Smoking,2012,99.21676889
 Alcohol use,2012,31.39913966
 Drug use,2012,5.935036035
-High systolic blood pressure,2012,132.3277358
 Dietary risks,2012,98.09055026
 Occupational risks,2012,16.38952
 Unsafe water source,2017,17.41108393
@@ -221,7 +197,6 @@ Lead exposure,2017,11.56917334
 Smoking,2017,98.02004308
 Alcohol use,2017,31.08562384
 Drug use,2017,6.237201991
-High systolic blood pressure,2017,136.6021137
 Dietary risks,2017,100.199411
 Occupational risks,2017,15.6973567
 Unsafe water source,2014,19.19344419
@@ -230,7 +205,6 @@ Lead exposure,2014,11.49202185
 Smoking,2014,98.06081576
 Alcohol use,2014,30.99689094
 Drug use,2014,5.983790725
-High systolic blood pressure,2014,133.2997097
 Dietary risks,2014,98.12215268
 Occupational risks,2014,16.02158357
 Unsafe water source,2015,18.39472308
@@ -239,7 +213,6 @@ Lead exposure,2015,11.53669195
 Smoking,2015,98.20667386
 Alcohol use,2015,31.09698929
 Drug use,2015,6.101954077
-High systolic blood pressure,2015,134.9503391
 Dietary risks,2015,99.16679864
 Occupational risks,2015,15.87207856
 Unsafe water source,2016,17.71466376
@@ -248,7 +221,6 @@ Lead exposure,2016,11.56627482
 Smoking,2016,98.19508445
 Alcohol use,2016,31.12087644
 Drug use,2016,6.209774944
-High systolic blood pressure,2016,135.9766939
 Dietary risks,2016,99.73914465
 Occupational risks,2016,15.78311803
 Unsafe water source,2018,16.58630551
@@ -257,7 +229,6 @@ Lead exposure,2018,11.61087619
 Smoking,2018,98.60789834
 Alcohol use,2018,31.25025735
 Drug use,2018,6.293298922
-High systolic blood pressure,2018,138.2657988
 Dietary risks,2018,101.4052949
 Occupational risks,2018,15.72261324
 Unsafe water source,2019,15.89866862
@@ -266,6 +237,5 @@ Lead exposure,2019,11.65389335
 Smoking,2019,99.43008884
 Alcohol use,2019,31.560382
 Drug use,2019,6.390875044
-High systolic blood pressure,2019,140.1698838
 Dietary risks,2019,102.6569613
 Occupational risks,2019,15.77391884
