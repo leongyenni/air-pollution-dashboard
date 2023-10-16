@@ -5,25 +5,118 @@
         <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap" rel="stylesheet" />
 
         <!-- CSS file -->
         <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
     </head>
     <body>
-        <h1 class="title">Air Pollution Dashboard</h1>
-        <div id="choropleth_map"></div>
+        <div class="header">
+            <h1 class="title">Silent Killer in the Air: Air Pollution</h1>
+            <div class="header-text">by Leong Yen Ni</div>
+        </div>
 
-        <div id="bump_chart_death_rate"></div>
-        <div id="bump_chart_disease_cause"></div>
+        <p class>
+            Outdoor air pollution is one of the world’s largest health and environmental problems – one that tends to worsen for countries as they
+            industralize and transition from low to middle incomes. The Global Burden of Disease study estimates that 4506193 deaths were attributed
+            to outdoor air pollution in the latest year.1 There is also growing evidence that long-term exposure to air pollution can have important
+            impacts on other aspects of health and wellbeing – such as cognitive function.
+        </p>
 
-        <div id="line_chart"></div>
-        <div id="bubble_chart"></div>
-        <div id="sunburst_diagram"></div>
-        <div id="alluvial_chart"></div>
+        <div class="chart">
+            <div name="choropleth-map-section">
+                <div>Share of Total Deaths from Air Pollution Across the World, 1990-2019</div>
+                <div id="choropleth_map"></div>
+                <div>Air pollution contributes to an approximate of 10% of deaths globally.</div>
+                <div>Air pollution exerts a significant impact on lives worldwide, espically in India (18.1%) and China (16.17%).</div>
+                <div>
+                    In contrast, Japan (3.02%), the United States (2%), Switzerland (2.31%), and the United Kingdom (2.4%) maintain cleaner air,
+                    promoting better overall well-being for their citizens.
+                </div>
+
+                <div>Let's delve deeper into the air pollution issue in these countries!</div>
+            </div>
+
+            <div name="radar_chart-section">
+                <div>Air pollution is one of the global leading risk factor ....</div>
+                <div id="radar_chart"></div>
+                <div class="fig-caption">Risk Factors and Their Impact on Mortality</div>
+                <div>
+                    Air pollution is ranked as Top 3 death cause globally, with a rate of 86.23 deaths per 100,000 people. This statistic indicates
+                    that air pollution is a significant global health issue, contributing to a substantial number of deaths worldwide.
+                </div>
+            </div>
+
+            <div name="bump-chart-section">
+                <div>Ranking of Air Pollution as a Cause of Death in Different Countries</div>
+                <div id="bump_chart_death_rate"></div>
+                <!-- <div id="bump_chart_disease_cause"></div> -->
+                <div>Air pollution appears to be a prominent contributes for death in India and China.</div>
+                <div></div>
+            </div>
+
+            <div name="alluvial_chart-section">
+                <div>There are various types of air pollution....</div>
+                <div>Which one has the most devastating impact and leads to the highest rate of deaths?</div>
+
+                <div id="alluvial_chart"></div>
+                <div class="fig-caption">Death Rates from Different Types of Air Pollutions</div>
+
+                <div>Ambient particulate matter pollution is the most harmful air pollution as compared to others. The small particle</div>
+
+                <table>
+                    <tr>
+                        <th>Type of Air Pollution</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Ambient Ozone Pollution</td>
+                        <td>
+                            Ozone is a harmful pollutant formed through chemical reactions between pollutants emited from vehicle, industrial
+                            emissions and fossil fuels.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ambient Particulate Matter Pollution</td>
+                        <td>
+                            Particular matter (PM) is a mixture of solid or liquid particles in the air. These particules are small enough to pass
+                            through our lungs and into the bloodstream through inhalation.
+                            <ul>
+                                <li>PM2.5: Particles with a diameter of 2.5 micrometres or less. PM10 includes PM2.5.</li>
+                                <li>PM10: Particles with a diameter of 10 micrometres or less.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Indoor Pollution</td>
+                        <td>Indoor air contamination in homes or workplaces from sources like cooking fumes, tobacco smoke or household products.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div name="line_chart-section">
+                <div>How Are Death Rates From Air Pollution Changing?</div>
+                <div id="line_chart"></div>
+                <div></div>
+            </div>
+
+            <div name="sunburst-diagram-section">
+                <div>What's Polluting Our Air?</div>
+                <div id="sunburst_diagram"></div>
+            </div>
+
+            <div name="bubble-chart-section">
+                <div>Linking between Exposure to Pollution and Death rates</div>
+                <div id="bubble_chart"></div>
+            </div>
+        </div>
 
         <!--Vegalite Embed-->
         <script type="text/javascript">
             var choropleth_map = "js/choropleth_map.vg.json";
+            var radar_chart = "js/radar_chart.vg.json";
             var bump_chart_death_rate = "js/bump_chart_death_rate.vg.json";
             var bump_chart_disease_cause = "js/bump_chart_disease_cause.vg.json";
             var line_chart = "js/line_chart.vg.json";
@@ -32,6 +125,9 @@
             var alluvial_chart = "js/alluvial_chart.vg.json";
 
             vegaEmbed("#choropleth_map", choropleth_map)
+                .then(function (result) {})
+                .catch(console.error);
+            vegaEmbed("#radar_chart", radar_chart)
                 .then(function (result) {})
                 .catch(console.error);
             vegaEmbed("#bump_chart_death_rate", bump_chart_death_rate)

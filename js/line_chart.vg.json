@@ -4,7 +4,7 @@
         "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rates-from-air-pollution-year.csv"
     },
     "width": 850,
-    "height": 450,
+    "height": 300,
     "title": "Death rate from air pollution (1990 to 2019)",
 
     "encoding": {

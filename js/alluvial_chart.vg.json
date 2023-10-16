@@ -519,5 +519,10 @@
             ]
         }
     ],
-    "config": { "view": { "stroke": null }, "background": null, "fontSize": { "value": 20 } }
+    "config": {
+        "title": { "fontSize": 20 },
+        "view": { "stroke": null },
+        "background": null,
+        "fontSize": { "value": 20 }
+    }
 }

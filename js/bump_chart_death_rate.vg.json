@@ -73,8 +73,17 @@
                 "type": "nominal",
                 "title": "Death Causes",
                 "scale": {
-                    "domain": ["Air pollution", "Alcohol use", "Drug use", "Lead exposure", "Occupational risks", "Smoking", "Unsafe water source"],
-                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
+                    "domain": [
+                        "Air pollution",
+                        "Alcohol use",
+                        "Drug use",
+                        "Lead exposure",
+                        "Occupational risks",
+                        "Smoking",
+                        "Unsafe water source",
+                        "High systolic blood pressure"
+                    ],
+                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2", "#fca311"]
                 }
             },
             "value": "grey"
@@ -96,6 +105,7 @@
         ]
     },
     "config": {
+        "title": { "fontSize": 20 },
         "axis": {
             "grid": true,
             "gridColor": "#dedede",

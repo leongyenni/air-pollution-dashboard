@@ -1,0 +1,76 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "autosize": "fit-x",
+    "height": 400,
+    "width": 700,
+
+    "data": {
+        "values": [
+            { "name": "High systolic blood pressure", "value": 140.16 },
+            { "name": "Smoking", "value": 99.43 },
+            { "name": "Air pollution", "value": 86.23 },
+            { "name": "Alcohol use", "value": 31.56 },
+            { "name": "Unsafe water source", "value": 15.9 },
+            { "name": "Occupational risks", "value": 15.77 },
+            { "name": "Lead exposure", "value": 11.65 },
+            { "name": "Drug use", "value": 6.39 }
+        ]
+    },
+    "layer": [
+        {
+            "mark": { "type": "arc", "innerRadius": 0, "stroke": "#fff" }
+        },
+        {
+            "mark": { "type": "text", "radiusOffset": 20 },
+            "encoding": {
+                "text": { "field": "value", "type": "quantitative" }
+            }
+        },
+        {
+            "mark": { "type": "text", "radiusOffset": -75, "fill": "white", "fontSize": 11 },
+            "encoding": {
+                "text": { "field": "name", "type": "nominal" },
+                "opacity": {
+                    "condition": {
+                        "test": "datum.value > 50",
+                        "value": 1
+                    },
+                    "value": 0
+                }
+            }
+        }
+    ],
+    "encoding": {
+        "theta": {
+            "field": "value",
+            "type": "quantitative",
+            "stack": true,
+            "sort": "size"
+        },
+        "radius": { "field": "value", "scale": { "type": "sqrt", "zero": true, "rangeMin": 20 } },
+        "order": { "field": "value", "type": "quantitative", "sort": "descending" },
+        "color": {
+            "field": "name",
+            "type": "nominal",
+            "title": "Death Causes",
+            "scale": {
+                "domain": [
+                    "Lead exposure",
+                    "Air pollution",
+                    "Alcohol use",
+                    "Drug use",
+                    "High systolic blood pressure",
+                    "Occupational risks",
+                    "Smoking",
+                    "Unsafe water source"
+                ],
+                "range": ["#FCA311", "#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
+            }
+        },
+        "tooltip": [
+            { "field": "name", "type": "nominal", "title": "Risk Factor" },
+            { "field": "value", "type": "quantitative", "title": "Death Rate" }
+        ],
+        "strokeOpacity": { "value": 2 }
+    }
+}

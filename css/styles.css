@@ -1,35 +1,71 @@
-body * {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+body {
+    margin: 0;
+}
+
+* {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 h1 {
-	text-align: center;
-	padding-top: 2rem;
-	font-size: 36px;
+    font-weight: 500;
+}
+
+.title {
+    font-family: "PT Serif", sans-serif;
+    margin: 0;
+    font-size: 3.5rem;
+    text-align: left;
+    color: white;
+}
+
+.header-text {
+	font-family: 'Open Sans';
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.header {
+    margin: 0;
+    padding: 2rem 3rem 8rem 3rem;
+    background-color: #132043;
+}
+
+.chart {
+    margin: 2rem 2rem;
+    align-items: center;
 }
 
 #choropleth_map {
-	margin: 1rem 6rem;
+    margin-top: 2rem;
     text-align: center;
-    align-items: center;
     padding-bottom: 5rem;
 }
 
 #line_chart {
-    margin: 2rem 8rem;
-	text-align: center;
-	padding: 2rem;
+    /* margin: 2rem 8rem; */
+    text-align: center;
+    /* padding: 2rem; */
+}
+
+#bump_chart_death_rate {
+    margin-top: 2rem;
+    text-align: center;
+	display: inline-block;
+}
+
+#bump_chart_disease_cause {
+    margin-top: 2rem;
+    text-align: center;
+	display: inline-block;
 }
 
 #bubble_chart {
-	margin: 2rem 8rem;
-	text-align: center;
-	padding: 2rem;
-
-}
-
-#heat_map_death_rate{
-    margin-left: 10rem;
-    padding-bottom: 5rem;
+    margin: 1rem;
+    text-align: center;
 }
