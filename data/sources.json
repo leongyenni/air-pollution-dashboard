@@ -6,36 +6,42 @@
     "id": 2,
     "name": "Ammonia",
     "parent": 1,
+    "percentage": 1.74,
     "color": 1
 }, 
 {
     "id": 3,
     "name": "NMVOC",
     "parent": 1,
+    "percentage": 34.05,
     "color": 2
 },
 {
     "id": 4,
     "name": "Nitrogen oxides",
     "parent": 1,
+    "percentage": 43.01,
     "color": 3
 }, 
 {
     "id": 5,
     "name": "PM10",
     "parent": 1,
+    "percentage": 7.45,
     "color": 4
 },
 {
     "id": 6,
     "name": "PM2.5",
     "parent": 1,
+    "percentage": 5.04,
     "color": 5
 },
 {
     "id": 7,
     "name": "Sulphur dioxide",
     "parent": 1,
+    "percentage": 8.71,
     "color": 6
 }, 
 {
