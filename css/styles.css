@@ -1,71 +1,146 @@
-body {
-    margin: 0;
-}
-
 * {
     font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #121a31;
     margin: 0;
     text-align: center;
     box-sizing: border-box;
 }
 
-h1 {
+hr {
+    margin: 2.5rem 0rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #020716;
+    padding: 8px;
+    text-align: justify;
+}
+
+th {
+    background-color: #121a31;
+    text-align: center;
+    color: white;
     font-weight: 500;
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
 }
 
 .title {
     font-family: "PT Serif", sans-serif;
     margin: 0;
-    font-size: 3.5rem;
-    text-align: left;
+    font-weight: 500;
+    font-size: 4.25rem;
     color: white;
 }
 
-.header-text {
-	font-family: 'Open Sans';
-    margin-top: 1rem;
-    text-align: left;
-    font-weight: 200;
-    font-size: 1.2rem;
+.subtitle {
+    font-style: italic;
+    font-size: 1.5rem;
     color: white;
+    margin-top: 1rem;
 }
 
 .header {
     margin: 0;
-    padding: 2rem 3rem 8rem 3rem;
+    padding: 2rem 3rem 4rem 3rem;
     background-color: #132043;
 }
 
+.intro-text {
+    margin-top: 2.5rem;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.text-highlight {
+    inherits: true;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.intro {
+    margin: 3rem 14rem;
+}
+
 .chart {
-    margin: 2rem 2rem;
+    margin: 3.5rem 12rem;
     align-items: center;
 }
 
-#choropleth_map {
-    margin-top: 2rem;
+.chart-title {
+    font-family: "PT Serif", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.chart-text-div {
+    margin: 2rem 0;
+}
+
+.chart-text {
+    text-align: justify;
+    font-size: 1.4rem;
+    padding-top: 0.75rem;
+    line-height: 2.3rem;
+}
+
+/* .chart-text-highlight {
+    font-size: 1.7rem;
+    font-weight: 600;
+} */
+
+.chart-subtitle {
     text-align: center;
-    padding-bottom: 5rem;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.fig-caption {
+    font-style: italic;
+    color: grey;
+}
+
+#choropleth_map {
+    margin-bottom: 1.5rem;
+}
+
+#polar_chart {
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+#bump_chart {
+    margin-top: 2rem;
+    margin-bottom:2rem;
 }
 
 #line_chart {
-    /* margin: 2rem 8rem; */
-    text-align: center;
-    /* padding: 2rem; */
-}
-
-#bump_chart_death_rate {
-    margin-top: 2rem;
-    text-align: center;
-	display: inline-block;
-}
-
-#bump_chart_disease_cause {
-    margin-top: 2rem;
-    text-align: center;
-	display: inline-block;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
 }
 
 #bubble_chart {
-    margin: 1rem;
-    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#alluvial_chart {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }

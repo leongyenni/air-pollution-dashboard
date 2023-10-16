@@ -1,8 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.0.json",
-    "height": 750,
+    "height": 550,
     "width": 1000,
-    "title": "Death Rate vs Air Pollution Type",
     "padding": 5,
     "data": [
         {

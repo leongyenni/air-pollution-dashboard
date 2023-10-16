@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Death Rate from Air Pollution",
-    "width": 1000,
+    "width": 900,
     "height": 500,
     "projection": {
         "type": "equalEarth",

@@ -5,7 +5,6 @@
     },
     "width": 850,
     "height": 300,
-    "title": "Death rate from air pollution (1990 to 2019)",
 
     "encoding": {
         "x": { "field": "Year", "type": "temporal" }
@@ -74,7 +73,9 @@
             "grid": true,
             "gridColor": "#dedede",
             "gridOpacity": 0.4,
-            "titleFontSize": 15
+            "titleFontSize": 15,
+            "titleFontWeight": 500,
+            "titlePadding": 20
         }
     }
 }

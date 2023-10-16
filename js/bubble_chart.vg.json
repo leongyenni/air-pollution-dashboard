@@ -1,6 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Ambient Particulate Matter Pollution Death Rate vs PM 2.5 Air Pollution Exposure",
     "data": {
         "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/cleaned-death-rate-from-pm25-vs-pm25-concentration.csv",
         "format": {
@@ -263,7 +262,9 @@
             "grid": true,
             "gridColor": "#dedede",
             "gridOpacity": 0.4,
-            "titleFontSize": 15
+            "titleFontSize": 15,
+            "titleFontWeight": 500,
+            "titlePadding": 20
         }
     }
 }

@@ -15,69 +15,93 @@
     <body>
         <div class="header">
             <h1 class="title">Silent Killer in the Air: Air Pollution</h1>
-            <div class="header-text">by Leong Yen Ni</div>
+            <p class="subtitle">by Leong Yen Ni</p>
         </div>
 
-        <p class>
-            Outdoor air pollution is one of the world’s largest health and environmental problems – one that tends to worsen for countries as they
-            industralize and transition from low to middle incomes. The Global Burden of Disease study estimates that 4506193 deaths were attributed
-            to outdoor air pollution in the latest year.1 There is also growing evidence that long-term exposure to air pollution can have important
-            impacts on other aspects of health and wellbeing – such as cognitive function.
-        </p>
+        <div class="intro">
+            <p class="intro-text">
+                Air pollution stands as a substantial global environmental challenge, posing a significant threat to public health. It is reported
+                that air pollutation contributes to more than <span class="text-highlight">6.5 million deaths </span> worldwide each year.
+            </p>
+            <p class="intro-text">
+                In this visualisation dashboard, we will investigate the impact of air pollution on human lives across the world, explore the types
+                and sources of air pollutants and analyze the trends in death rates attributes to air pollution.
+            </p>
+        </div>
 
         <div class="chart">
-            <div name="choropleth-map-section">
-                <div>Share of Total Deaths from Air Pollution Across the World, 1990-2019</div>
+            <hr />
+            <div name="choropleth-map-div">
+                <h1 class="chart-title">Percentage of Total Deaths from Air Pollution Across the World, 1990-2019</h1>
                 <div id="choropleth_map"></div>
-                <div>Air pollution contributes to an approximate of 10% of deaths globally.</div>
-                <div>Air pollution exerts a significant impact on lives worldwide, espically in India (18.1%) and China (16.17%).</div>
-                <div>
-                    In contrast, Japan (3.02%), the United States (2%), Switzerland (2.31%), and the United Kingdom (2.4%) maintain cleaner air,
-                    promoting better overall well-being for their citizens.
-                </div>
+                <p class="fig-caption">Chart 1: Percentage of Total Deaths from Air Pollution Across the World (1990-2019)</p>
 
-                <div>Let's delve deeper into the air pollution issue in these countries!</div>
-            </div>
-
-            <div name="radar_chart-section">
-                <div>Air pollution is one of the global leading risk factor ....</div>
-                <div id="radar_chart"></div>
-                <div class="fig-caption">Risk Factors and Their Impact on Mortality</div>
-                <div>
-                    Air pollution is ranked as Top 3 death cause globally, with a rate of 86.23 deaths per 100,000 people. This statistic indicates
-                    that air pollution is a significant global health issue, contributing to a substantial number of deaths worldwide.
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        According to the graph above, air pollution contributes to an average of 10% of deaths globally. Air pollution exerts a
+                        significant impact on lives worldwide, espically in <span class="text-highlight"> India (18.1%) </span> and
+                        <span class="text-highlight"> China (16.17%) </span>. In contrast, <span class="text-highlight">Japan (3.02%)</span>,
+                        <span class="text-highlight">United States (2%)</span>, <span class="text-highlight">Switzerland (2.31%)</span>, and
+                        <span class="text-highlight">United Kingdom (2.4%)</span> maintain cleaner air, promoting better overall well-being for their
+                        citizens.
+                    </p>
+                    <br />
+                    <p class="chart-text">Now, let's delve deeper into the air pollution issue in these countries!</p>
                 </div>
             </div>
 
-            <div name="bump-chart-section">
-                <div>Ranking of Air Pollution as a Cause of Death in Different Countries</div>
-                <div id="bump_chart_death_rate"></div>
-                <!-- <div id="bump_chart_disease_cause"></div> -->
-                <div>
-                    Air pollution has consistently ranked as one of the top two leading causes of death in both India and China over the years.
-                    Notably, air pollution has also had a significant impact on mortality in Malaysia, where it is ranked as the fourth leading cause
-                    of death in 2019.
+            <hr />
+
+            <div name="polar_chart-div">
+                <h1 class="chart-title">Global Ranking of Air Pollution as a Cause of Death</h1>
+                <div id="polar_chart"></div>
+                <div class="fig-caption">Chart 2: Global Ranking of Death Rate of Each Risk Factor</div>
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        Air pollution is one of the global leading risk factor. It is ranked as Top 3 death cause globally, with a rate of 86.23
+                        deaths per 100,000 people. This statistic indicates that air pollution is a significant global health issue, contributing to a
+                        substantial number of deaths worldwide.
+                    </p>
                 </div>
-                <div></div>
             </div>
 
-            <div name="alluvial_chart-section">
-                <div>There are various types of air pollution....</div>
-                <div>Which one has the most devastating impact and leads to the highest rate of deaths?</div>
+            <hr />
 
+            <div name="bump-chart-div">
+                <h1 class="chart-title">Ranking of Air Pollution as a Cause of Death in Different Countries</h1>
+                <div id="bump_chart"></div>
+                <div class="fig-caption">Chart 3: Ranking of Death Rate of Each Risk Factor by Country</div>
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        Air pollution has consistently ranked as one of the top two leading causes of death in both India and China over the years.
+                        Notably, air pollution has also had a significant impact on mortality in Malaysia, where it is ranked as the fourth leading
+                        cause of death in 2019.
+                    </p>
+                </div>
+            </div>
+
+            <hr />
+
+            <div name="alluvial-chart-div">
+                <h1 class="chart-title">Various Types of Air Pollution</h1>
+                <div class="chart-subtitle">Which type of air pollution has the most devastating impact and leads to the highest rate of deaths?</div>
                 <div id="alluvial_chart"></div>
                 <div class="fig-caption">Death Rates from Different Types of Air Pollutions</div>
 
-                <div>
-                    Ambient particulate matter (PM) pollution is the most harmful form of air pollution, with a death rate of 309 per 100,000 people,
-                    in comparison to other pollutants such as ambient ozone pollution (35) and household air pollution (111).
-                </div>
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        Ambient particulate matter (PM) pollution is the most harmful form of air pollution, with a death rate of 309 per 100,000
+                        people, in comparison to other pollutants such as ambient ozone pollution (35) and household air pollution (111).
+                    </p>
 
-                <div>
-                    According to the United States Environmental Protection Agency (2022), PM pollution consists of tiny particles that can easily
-                    penetrate our respiratory system and enter the bloodstream, leading to severe health issues, particularly affecting the lungs and
-                    heart. In contrast, ozone and indoor household pollutants are typically composed of gases or larger particles that do not
-                    penetrate as deeply as PM pollutants.
+                    <br />
+
+                    <p class="chart-text">
+                        According to the United States Environmental Protection Agency (2022), PM pollution consists of tiny particles that can easily
+                        penetrate our respiratory system and enter the bloodstream, leading to severe health issues, particularly affecting the lungs
+                        and heart. In contrast, ozone and indoor household pollutants are typically composed of gases or larger particles that do not
+                        penetrate as deeply as PM pollutants.
+                    </p>
                 </div>
 
                 <table>
@@ -110,57 +134,72 @@
                 </table>
             </div>
 
-            <div name="line_chart-section">
-                <div>How Are Death Rates From Air Pollution Changing?</div>
+            <hr />
+
+            <div name="bubble-chart-div">
+                <h1 class="chart-title">
+                    Linking between the Death Rate from Ambient Particulate Matter (PM) Pollution & Exposure to PM 2.5 Air Pollution
+                </h1>
+                <div id="bubble_chart"></div>
+                <div class="fig-caption">Death Rate from Ambient Particulate Matter Pollution Death Rate vs PM 2.5 Air Pollution Exposure</div>
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        The death rate from PM (Particulate Matter) pollution increases with greater exposure to PM 2.5 air pollution, indicating a
+                        positive correlation. According to the visualisation above, we can observe that countries in Asia and Africa have higher
+                        levels of exposure to PM 2.5 pollution. Therefore, we can conclude that the higher death rates from air pollution in China,
+                        Malaysia, and India are likely due to the high emissions of PM 2.5 pollutants in these countries.
+                    </p>
+                </div>
+            </div>
+
+            <hr />
+
+            <div name="sunburst-diagram-div">
+                <h1 class="chart-title">What's Polluting Our Air?</h1>
+                <div id="sunburst_diagram"></div>
+                <div class="fig-caption">Types and Sources of Air Pollutant</div>
+                <div class="chart-text-div">
+                    <p class="chart-text">
+                        Nitrogen oxides (Nitrogen oxides) is the largest pollutant, contributing to 43.01% of total air pollutants. However,The main sources
+                        of air pollutants are industrial processes, emitting 443,000 tonnes of NMVOC per year.
+                    </p>
+                </div>
+            </div>
+
+            <hr />
+
+            <div name="line_chart-div">
+                <h1 class="chart-title">How Are Death Rates From Air Pollution Changing?</h1>
                 <div id="line_chart"></div>
-                <div>
+                <div class="fig-caption">Death rate from air pollution over the year from 1990 to 2019</div>
+                 <div class="chart-text-div">
+                    <p class="chart-text">
                     Encouragingly, the death rate from air pollution has been steadily declining over the years, implying positive progress in
                     improving air quality to safeguard public health.
+                    </p>
                 </div>
-                <div class="fig-caption">Death rate from air pollution over the year from 1990 to 2019</div>
-                <div></div>
-            </div>
-
-            <div name="sunburst-diagram-section">
-                <div>What's Polluting Our Air?</div>
-                <div id="sunburst_diagram"></div>
-                <div>
-                    Sources of air pollutants include agriculture, energy production, fugitive emissions, industrial processes, manufacturing industry
-                    & construction, military aircraft and naval shipping, non-road transport, road transport, small non-road mobile sources &
-                    machinery, and waste.
-                </div>
-            </div>
-
-            <div name="bubble-chart-section">
-                <div>Linking between Exposure to Pollution and Death rates</div>
-                <div id="bubble_chart"></div>
-            </div>
         </div>
 
         <!--Vegalite Embed-->
         <script type="text/javascript">
             var choropleth_map = "js/choropleth_map.vg.json";
-            var radar_chart = "js/radar_chart.vg.json";
-            var bump_chart_death_rate = "js/bump_chart_death_rate.vg.json";
-            var bump_chart_disease_cause = "js/bump_chart_disease_cause.vg.json";
-            var line_chart = "js/line_chart.vg.json";
+            var polar_chart = "js/polar_chart.vg.json";
+            var bump_chart = "js/bump_chart.vg.json";
+            var alluvial_chart = "js/alluvial_chart.vg.json";
             var bubble_chart = "js/bubble_chart.vg.json";
             var sunburst_diagram = "js/sunburst_diagram.vg.json";
-            var alluvial_chart = "js/alluvial_chart.vg.json";
+            var line_chart = "js/line_chart.vg.json";
 
             vegaEmbed("#choropleth_map", choropleth_map)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#radar_chart", radar_chart)
+            vegaEmbed("#polar_chart", polar_chart)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#bump_chart_death_rate", bump_chart_death_rate)
+            vegaEmbed("#bump_chart", bump_chart)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#bump_chart_disease_cause", bump_chart_disease_cause)
-                .then(function (result) {})
-                .catch(console.error);
-            vegaEmbed("#line_chart", line_chart)
+            vegaEmbed("#alluvial_chart", alluvial_chart)
                 .then(function (result) {})
                 .catch(console.error);
             vegaEmbed("#bubble_chart", bubble_chart)
@@ -169,7 +208,7 @@
             vegaEmbed("#sunburst_diagram", sunburst_diagram)
                 .then(function (result) {})
                 .catch(console.error);
-            vegaEmbed("#alluvial_chart", alluvial_chart)
+            vegaEmbed("#line_chart", line_chart)
                 .then(function (result) {})
                 .catch(console.error);
 
