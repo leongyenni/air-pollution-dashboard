@@ -1,13 +1,13 @@
 country,death_cause,year,val,rank
-Global,Unsafe water source,1990,45.64747736,5
-Global,Air pollution,1990,121.521712,2
-Global,Lead exposure,1990,9.903858207,8
-Global,Smoking,1990,109.694522,3
-Global,Alcohol use,1990,30.65268993,6
-Global,Drug use,1990,4.409247374,9
-Global,High systolic blood pressure,1990,126.8767828,1
-Global,Dietary risks,1990,101.2280917,4
-Global,Occupational risks,1990,21.28244743,7
+World,Unsafe water source,1990,45.64747736,5
+World,Air pollution,1990,121.521712,2
+World,Lead exposure,1990,9.903858207,8
+World,Smoking,1990,109.694522,3
+World,Alcohol use,1990,30.65268993,6
+World,Drug use,1990,4.409247374,9
+World,High systolic blood pressure,1990,126.8767828,1
+World,Dietary risks,1990,101.2280917,4
+World,Occupational risks,1990,21.28244743,7
 India,Unsafe water source,1990,107.0496802,2
 India,Air pollution,1990,155.7628709,1
 India,Lead exposure,1990,13.44612577,8
@@ -80,15 +80,15 @@ Japan,Drug use,1991,5.08416604,7
 Japan,High systolic blood pressure,1991,143.071432,1
 Japan,Dietary risks,1991,98.74798933,3
 Japan,Occupational risks,1991,14.27233344,6
-Global,Unsafe water source,1993,42.20454924,5
-Global,Air pollution,1993,117.1897454,2
-Global,Lead exposure,1993,10.18500708,8
-Global,Smoking,1993,111.8410276,3
-Global,Alcohol use,1993,31.94387466,6
-Global,Drug use,1993,5.167773899,9
-Global,High systolic blood pressure,1993,129.4120239,1
-Global,Dietary risks,1993,102.5014446,4
-Global,Occupational risks,1993,20.97650855,7
+World,Unsafe water source,1993,42.20454924,5
+World,Air pollution,1993,117.1897454,2
+World,Lead exposure,1993,10.18500708,8
+World,Smoking,1993,111.8410276,3
+World,Alcohol use,1993,31.94387466,6
+World,Drug use,1993,5.167773899,9
+World,High systolic blood pressure,1993,129.4120239,1
+World,Dietary risks,1993,102.5014446,4
+World,Occupational risks,1993,20.97650855,7
 China,Unsafe water source,1991,5.90668108,9
 China,Air pollution,1991,158.2534841,1
 China,Lead exposure,1991,13.75725736,7
@@ -188,15 +188,15 @@ Japan,Drug use,1990,4.86652197,7
 Japan,High systolic blood pressure,1990,143.220911,1
 Japan,Dietary risks,1990,98.7602114,3
 Japan,Occupational risks,1990,14.03522436,6
-Global,Unsafe water source,1991,45.11424265,5
-Global,Air pollution,1991,119.7222466,2
-Global,Lead exposure,1991,9.988437012,8
-Global,Smoking,1991,109.8884102,3
-Global,Alcohol use,1991,30.85142698,6
-Global,Drug use,1991,4.646613829,9
-Global,High systolic blood pressure,1991,126.799973,1
-Global,Dietary risks,1991,100.831266,4
-Global,Occupational risks,1991,21.18470243,7
+World,Unsafe water source,1991,45.11424265,5
+World,Air pollution,1991,119.7222466,2
+World,Lead exposure,1991,9.988437012,8
+World,Smoking,1991,109.8884102,3
+World,Alcohol use,1991,30.85142698,6
+World,Drug use,1991,4.646613829,9
+World,High systolic blood pressure,1991,126.799973,1
+World,Dietary risks,1991,100.831266,4
+World,Occupational risks,1991,21.18470243,7
 Malaysia,Unsafe water source,1992,3.519676033,7
 Malaysia,Air pollution,1992,39.52949308,4
 Malaysia,Lead exposure,1992,3.135361302,8
@@ -224,15 +224,15 @@ China,Drug use,1992,8.130935305,8
 China,High systolic blood pressure,1992,104.6612898,3
 China,Dietary risks,1992,95.14779538,4
 China,Occupational risks,1992,35.68111587,5
-Global,Unsafe water source,1992,43.98888856,5
-Global,Air pollution,1992,118.3528651,2
-Global,Lead exposure,1992,10.0821202,8
-Global,Smoking,1992,110.4566906,3
-Global,Alcohol use,1992,31.2526146,6
-Global,Drug use,1992,4.884063346,9
-Global,High systolic blood pressure,1992,127.3630994,1
-Global,Dietary risks,1992,101.005113,4
-Global,Occupational risks,1992,21.11833127,7
+World,Unsafe water source,1992,43.98888856,5
+World,Air pollution,1992,118.3528651,2
+World,Lead exposure,1992,10.0821202,8
+World,Smoking,1992,110.4566906,3
+World,Alcohol use,1992,31.2526146,6
+World,Drug use,1992,4.884063346,9
+World,High systolic blood pressure,1992,127.3630994,1
+World,Dietary risks,1992,101.005113,4
+World,Occupational risks,1992,21.11833127,7
 Switzerland,Unsafe water source,1992,0.036960721,9
 Switzerland,Air pollution,1992,51.20990048,5
 Switzerland,Lead exposure,1992,5.255651895,8
@@ -305,15 +305,15 @@ United Kingdom,Drug use,1993,3.459544238,8
 United Kingdom,High systolic blood pressure,1993,307.5564775,1
 United Kingdom,Dietary risks,1993,229.5586282,3
 United Kingdom,Occupational risks,1993,38.8533795,5
-Global,Unsafe water source,1997,36.70723978,5
-Global,Air pollution,1997,110.6557444,2
-Global,Lead exposure,1997,10.53240703,8
-Global,Smoking,1997,109.8578747,3
-Global,Alcohol use,1997,31.70969898,6
-Global,Drug use,1997,5.83761038,9
-Global,High systolic blood pressure,1997,128.1006972,1
-Global,Dietary risks,1997,99.8879133,4
-Global,Occupational risks,1997,19.86343134,7
+World,Unsafe water source,1997,36.70723978,5
+World,Air pollution,1997,110.6557444,2
+World,Lead exposure,1997,10.53240703,8
+World,Smoking,1997,109.8578747,3
+World,Alcohol use,1997,31.70969898,6
+World,Drug use,1997,5.83761038,9
+World,High systolic blood pressure,1997,128.1006972,1
+World,Dietary risks,1997,99.8879133,4
+World,Occupational risks,1997,19.86343134,7
 Malaysia,Unsafe water source,1993,3.456252095,7
 Malaysia,Air pollution,1993,38.24618693,4
 Malaysia,Lead exposure,1993,3.166346415,8
@@ -341,15 +341,15 @@ Switzerland,Drug use,1993,8.705376037,7
 Switzerland,High systolic blood pressure,1993,173.80165,1
 Switzerland,Dietary risks,1993,158.6238673,3
 Switzerland,Occupational risks,1993,24.98739707,6
-Global,Unsafe water source,1994,40.70730751,5
-Global,Air pollution,1994,115.5454228,2
-Global,Lead exposure,1994,10.23053715,8
-Global,Smoking,1994,112.1260631,3
-Global,Alcohol use,1994,32.44625453,6
-Global,Drug use,1994,5.455951781,9
-Global,High systolic blood pressure,1994,130.0093394,1
-Global,Dietary risks,1994,102.7727001,4
-Global,Occupational risks,1994,20.75461382,7
+World,Unsafe water source,1994,40.70730751,5
+World,Air pollution,1994,115.5454228,2
+World,Lead exposure,1994,10.23053715,8
+World,Smoking,1994,112.1260631,3
+World,Alcohol use,1994,32.44625453,6
+World,Drug use,1994,5.455951781,9
+World,High systolic blood pressure,1994,130.0093394,1
+World,Dietary risks,1994,102.7727001,4
+World,Occupational risks,1994,20.75461382,7
 China,Unsafe water source,1993,4.668709677,9
 China,Air pollution,1993,154.4963377,1
 China,Lead exposure,1993,13.91641122,7
@@ -422,15 +422,15 @@ Malaysia,Drug use,1998,6.679901071,7
 Malaysia,High systolic blood pressure,1998,89.41736996,1
 Malaysia,Dietary risks,1998,73.01538347,2
 Malaysia,Occupational risks,1998,10.28418583,6
-Global,Unsafe water source,1995,39.14950366,5
-Global,Air pollution,1995,113.5880457,2
-Global,Lead exposure,1995,10.26414987,8
-Global,Smoking,1995,111.6248417,3
-Global,Alcohol use,1995,32.43539297,6
-Global,Drug use,1995,5.67050594,9
-Global,High systolic blood pressure,1995,129.34815,1
-Global,Dietary risks,1995,101.8880146,4
-Global,Occupational risks,1995,20.49588736,7
+World,Unsafe water source,1995,39.14950366,5
+World,Air pollution,1995,113.5880457,2
+World,Lead exposure,1995,10.26414987,8
+World,Smoking,1995,111.6248417,3
+World,Alcohol use,1995,32.43539297,6
+World,Drug use,1995,5.67050594,9
+World,High systolic blood pressure,1995,129.34815,1
+World,Dietary risks,1995,101.8880146,4
+World,Occupational risks,1995,20.49588736,7
 Switzerland,Unsafe water source,1995,0.026407079,9
 Switzerland,Air pollution,1995,47.75244305,5
 Switzerland,Lead exposure,1995,5.575614713,8
@@ -485,15 +485,15 @@ United States of America,Drug use,1995,12.43812028,7
 United States of America,High systolic blood pressure,1995,193.4527366,2
 United States of America,Dietary risks,1995,152.3240045,3
 United States of America,Occupational risks,1995,22.87624686,6
-Global,Unsafe water source,1996,37.75937512,5
-Global,Air pollution,1996,111.8607353,2
-Global,Lead exposure,1996,10.36518596,8
-Global,Smoking,1996,110.612562,3
-Global,Alcohol use,1996,32.05937557,6
-Global,Drug use,1996,5.781415537,9
-Global,High systolic blood pressure,1996,128.5071821,1
-Global,Dietary risks,1996,100.7383107,4
-Global,Occupational risks,1996,20.17486949,7
+World,Unsafe water source,1996,37.75937512,5
+World,Air pollution,1996,111.8607353,2
+World,Lead exposure,1996,10.36518596,8
+World,Smoking,1996,110.612562,3
+World,Alcohol use,1996,32.05937557,6
+World,Drug use,1996,5.781415537,9
+World,High systolic blood pressure,1996,128.5071821,1
+World,Dietary risks,1996,100.7383107,4
+World,Occupational risks,1996,20.17486949,7
 United Kingdom,Unsafe water source,1995,0.023978822,9
 United Kingdom,Air pollution,1995,63.62298316,4
 United Kingdom,Lead exposure,1995,7.289326891,7
@@ -611,24 +611,24 @@ United Kingdom,Drug use,1997,4.600296708,8
 United Kingdom,High systolic blood pressure,1997,268.4514998,2
 United Kingdom,Dietary risks,1997,199.1009919,3
 United Kingdom,Occupational risks,1997,35.64981369,5
-Global,Unsafe water source,1998,35.70272243,5
-Global,Air pollution,1998,108.8238853,3
-Global,Lead exposure,1998,10.5961119,8
-Global,Smoking,1998,109.076618,2
-Global,Alcohol use,1998,31.58936861,6
-Global,Drug use,1998,5.957191471,9
-Global,High systolic blood pressure,1998,127.6358674,1
-Global,Dietary risks,1998,99.00808088,4
-Global,Occupational risks,1998,19.56610641,7
-Global,Unsafe water source,2001,31.97807154,6
-Global,Air pollution,2001,105.2384337,3
-Global,Lead exposure,2001,10.89137248,8
-Global,Smoking,2001,108.5327069,2
-Global,Alcohol use,2001,32.26566494,5
-Global,Drug use,2001,6.298068883,9
-Global,High systolic blood pressure,2001,129.500502,1
-Global,Dietary risks,2001,99.7743649,4
-Global,Occupational risks,2001,18.87858793,7
+World,Unsafe water source,1998,35.70272243,5
+World,Air pollution,1998,108.8238853,3
+World,Lead exposure,1998,10.5961119,8
+World,Smoking,1998,109.076618,2
+World,Alcohol use,1998,31.58936861,6
+World,Drug use,1998,5.957191471,9
+World,High systolic blood pressure,1998,127.6358674,1
+World,Dietary risks,1998,99.00808088,4
+World,Occupational risks,1998,19.56610641,7
+World,Unsafe water source,2001,31.97807154,6
+World,Air pollution,2001,105.2384337,3
+World,Lead exposure,2001,10.89137248,8
+World,Smoking,2001,108.5327069,2
+World,Alcohol use,2001,32.26566494,5
+World,Drug use,2001,6.298068883,9
+World,High systolic blood pressure,2001,129.500502,1
+World,Dietary risks,2001,99.7743649,4
+World,Occupational risks,2001,18.87858793,7
 Japan,Unsafe water source,1998,0.162750948,9
 Japan,Air pollution,1998,25.17273125,5
 Japan,Lead exposure,1998,2.830019496,8
@@ -665,15 +665,15 @@ India,Drug use,2001,5.502804977,9
 India,High systolic blood pressure,2001,85.51366331,2
 India,Dietary risks,2001,67.33702448,5
 India,Occupational risks,2001,19.1355746,7
-Global,Unsafe water source,1999,34.55337206,5
-Global,Air pollution,1999,107.3442094,3
-Global,Lead exposure,1999,10.62840824,8
-Global,Smoking,1999,108.9525322,2
-Global,Alcohol use,1999,31.85722466,6
-Global,Drug use,1999,6.144020319,9
-Global,High systolic blood pressure,1999,128.4610563,1
-Global,Dietary risks,1999,99.3163732,4
-Global,Occupational risks,1999,19.33639093,7
+World,Unsafe water source,1999,34.55337206,5
+World,Air pollution,1999,107.3442094,3
+World,Lead exposure,1999,10.62840824,8
+World,Smoking,1999,108.9525322,2
+World,Alcohol use,1999,31.85722466,6
+World,Drug use,1999,6.144020319,9
+World,High systolic blood pressure,1999,128.4610563,1
+World,Dietary risks,1999,99.3163732,4
+World,Occupational risks,1999,19.33639093,7
 India,Unsafe water source,1998,84.19325249,3
 India,Air pollution,1998,142.069698,1
 India,Lead exposure,1998,15.34114994,8
@@ -836,15 +836,15 @@ Japan,Drug use,2000,7.141765205,7
 Japan,High systolic blood pressure,2000,133.8537746,2
 Japan,Dietary risks,2000,92.93941416,3
 Japan,Occupational risks,2000,15.62566427,6
-Global,Unsafe water source,2000,33.30103958,5
-Global,Air pollution,2000,106.3794644,3
-Global,Lead exposure,2000,10.75691016,8
-Global,Smoking,2000,109.026115,2
-Global,Alcohol use,2000,32.15029283,6
-Global,Drug use,2000,6.287467838,9
-Global,High systolic blood pressure,2000,129.0174073,1
-Global,Dietary risks,2000,99.57492397,4
-Global,Occupational risks,2000,19.16205591,7
+World,Unsafe water source,2000,33.30103958,5
+World,Air pollution,2000,106.3794644,3
+World,Lead exposure,2000,10.75691016,8
+World,Smoking,2000,109.026115,2
+World,Alcohol use,2000,32.15029283,6
+World,Drug use,2000,6.287467838,9
+World,High systolic blood pressure,2000,129.0174073,1
+World,Dietary risks,2000,99.57492397,4
+World,Occupational risks,2000,19.16205591,7
 Malaysia,Unsafe water source,2001,2.1183775,9
 Malaysia,Air pollution,2001,31.96890049,4
 Malaysia,Lead exposure,2001,3.389727744,8
@@ -890,15 +890,15 @@ Switzerland,Drug use,2001,7.825603055,7
 Switzerland,High systolic blood pressure,2001,163.7854821,1
 Switzerland,Dietary risks,2001,144.0276283,2
 Switzerland,Occupational risks,2001,23.19391141,6
-Global,Unsafe water source,2002,30.63383337,6
-Global,Air pollution,2002,104.3904747,3
-Global,Lead exposure,2002,11.04609462,8
-Global,Smoking,2002,108.4884098,2
-Global,Alcohol use,2002,32.65854686,5
-Global,Drug use,2002,6.288646863,9
-Global,High systolic blood pressure,2002,130.7569864,1
-Global,Dietary risks,2002,100.6116519,4
-Global,Occupational risks,2002,18.68007586,7
+World,Unsafe water source,2002,30.63383337,6
+World,Air pollution,2002,104.3904747,3
+World,Lead exposure,2002,11.04609462,8
+World,Smoking,2002,108.4884098,2
+World,Alcohol use,2002,32.65854686,5
+World,Drug use,2002,6.288646863,9
+World,High systolic blood pressure,2002,130.7569864,1
+World,Dietary risks,2002,100.6116519,4
+World,Occupational risks,2002,18.68007586,7
 United States of America,Unsafe water source,2001,0.137251854,9
 United States of America,Air pollution,2001,35.74815465,4
 United States of America,Lead exposure,2001,8.565480335,8
@@ -917,15 +917,15 @@ United Kingdom,Drug use,2001,5.687858198,8
 United Kingdom,High systolic blood pressure,2001,223.1105826,2
 United Kingdom,Dietary risks,2001,169.7815633,3
 United Kingdom,Occupational risks,2001,33.26021681,5
-Global,Unsafe water source,2005,26.93829765,6
-Global,Air pollution,2005,99.92208358,3
-Global,Lead exposure,2005,11.08040954,8
-Global,Smoking,2005,105.9997357,2
-Global,Alcohol use,2005,33.29239629,5
-Global,Drug use,2005,6.351348357,9
-Global,High systolic blood pressure,2005,130.296935,1
-Global,Dietary risks,2005,99.72525382,4
-Global,Occupational risks,2005,17.88951978,7
+World,Unsafe water source,2005,26.93829765,6
+World,Air pollution,2005,99.92208358,3
+World,Lead exposure,2005,11.08040954,8
+World,Smoking,2005,105.9997357,2
+World,Alcohol use,2005,33.29239629,5
+World,Drug use,2005,6.351348357,9
+World,High systolic blood pressure,2005,130.296935,1
+World,Dietary risks,2005,99.72525382,4
+World,Occupational risks,2005,17.88951978,7
 India,Unsafe water source,2002,72.21653384,3
 India,Air pollution,2002,131.7663288,1
 India,Lead exposure,2002,15.20833022,8
@@ -1025,15 +1025,15 @@ Japan,Drug use,2003,7.392725414,7
 Japan,High systolic blood pressure,2003,131.8331732,2
 Japan,Dietary risks,2003,92.37125209,3
 Japan,Occupational risks,2003,16.594823,6
-Global,Unsafe water source,2003,29.27962413,6
-Global,Air pollution,2003,102.9722134,3
-Global,Lead exposure,2003,11.09531134,8
-Global,Smoking,2003,107.9486017,2
-Global,Alcohol use,2003,32.95563173,5
-Global,Drug use,2003,6.269366446,9
-Global,High systolic blood pressure,2003,130.9765068,1
-Global,Dietary risks,2003,100.6773681,4
-Global,Occupational risks,2003,18.46671944,7
+World,Unsafe water source,2003,29.27962413,6
+World,Air pollution,2003,102.9722134,3
+World,Lead exposure,2003,11.09531134,8
+World,Smoking,2003,107.9486017,2
+World,Alcohol use,2003,32.95563173,5
+World,Drug use,2003,6.269366446,9
+World,High systolic blood pressure,2003,130.9765068,1
+World,Dietary risks,2003,100.6773681,4
+World,Occupational risks,2003,18.46671944,7
 Switzerland,Unsafe water source,2006,0.030416839,9
 Switzerland,Air pollution,2006,28.83678341,5
 Switzerland,Lead exposure,2006,5.058000375,8
@@ -1106,15 +1106,15 @@ India,Drug use,2003,5.809937563,9
 India,High systolic blood pressure,2003,85.17591038,2
 India,Dietary risks,2003,66.38660575,5
 India,Occupational risks,2003,18.4921692,7
-Global,Unsafe water source,2004,27.8659325,6
-Global,Air pollution,2004,100.9531598,3
-Global,Lead exposure,2004,11.01578822,8
-Global,Smoking,2004,106.4918977,2
-Global,Alcohol use,2004,33.0003822,5
-Global,Drug use,2004,6.253658169,9
-Global,High systolic blood pressure,2004,129.6225752,1
-Global,Dietary risks,2004,99.48479406,4
-Global,Occupational risks,2004,18.11409879,7
+World,Unsafe water source,2004,27.8659325,6
+World,Air pollution,2004,100.9531598,3
+World,Lead exposure,2004,11.01578822,8
+World,Smoking,2004,106.4918977,2
+World,Alcohol use,2004,33.0003822,5
+World,Drug use,2004,6.253658169,9
+World,High systolic blood pressure,2004,129.6225752,1
+World,Dietary risks,2004,99.48479406,4
+World,Occupational risks,2004,18.11409879,7
 Japan,Unsafe water source,2004,0.21812722,9
 Japan,Air pollution,2004,24.83084482,5
 Japan,Lead exposure,2004,2.779924179,8
@@ -1169,15 +1169,15 @@ Switzerland,Drug use,2005,7.075688702,7
 Switzerland,High systolic blood pressure,2005,155.0867736,1
 Switzerland,Dietary risks,2005,129.6747111,3
 Switzerland,Occupational risks,2005,23.42545787,6
-Global,Unsafe water source,2009,23.69079807,6
-Global,Air pollution,2009,94.95148671,4
-Global,Lead exposure,2009,11.2422695,8
-Global,Smoking,2009,101.0491916,2
-Global,Alcohol use,2009,32.20220514,5
-Global,Drug use,2009,6.074389351,9
-Global,High systolic blood pressure,2009,130.2274062,1
-Global,Dietary risks,2009,97.51839118,3
-Global,Occupational risks,2009,16.95963693,7
+World,Unsafe water source,2009,23.69079807,6
+World,Air pollution,2009,94.95148671,4
+World,Lead exposure,2009,11.2422695,8
+World,Smoking,2009,101.0491916,2
+World,Alcohol use,2009,32.20220514,5
+World,Drug use,2009,6.074389351,9
+World,High systolic blood pressure,2009,130.2274062,1
+World,Dietary risks,2009,97.51839118,3
+World,Occupational risks,2009,16.95963693,7
 United States of America,Unsafe water source,2005,0.155144283,9
 United States of America,Air pollution,2005,30.80695917,5
 United States of America,Lead exposure,2005,7.590506392,8
@@ -1223,15 +1223,15 @@ India,Drug use,2009,6.078695638,9
 India,High systolic blood pressure,2009,92.33002457,2
 India,Dietary risks,2009,72.01157474,3
 India,Occupational risks,2009,17.51390423,7
-Global,Unsafe water source,2006,26.36497946,6
-Global,Air pollution,2006,98.23675611,3
-Global,Lead exposure,2006,11.0659198,8
-Global,Smoking,2006,103.587755,2
-Global,Alcohol use,2006,32.67629126,5
-Global,Drug use,2006,6.280265513,9
-Global,High systolic blood pressure,2006,129.0361045,1
-Global,Dietary risks,2006,98.22200983,4
-Global,Occupational risks,2006,17.5209678,7
+World,Unsafe water source,2006,26.36497946,6
+World,Air pollution,2006,98.23675611,3
+World,Lead exposure,2006,11.0659198,8
+World,Smoking,2006,103.587755,2
+World,Alcohol use,2006,32.67629126,5
+World,Drug use,2006,6.280265513,9
+World,High systolic blood pressure,2006,129.0361045,1
+World,Dietary risks,2006,98.22200983,4
+World,Occupational risks,2006,17.5209678,7
 Japan,Unsafe water source,2006,0.272688927,9
 Japan,Air pollution,2006,24.94532121,5
 Japan,Lead exposure,2006,2.836137376,8
@@ -1331,15 +1331,15 @@ Japan,Drug use,2007,7.633223651,7
 Japan,High systolic blood pressure,2007,132.6481386,2
 Japan,Dietary risks,2007,94.70570591,3
 Japan,Occupational risks,2007,18.75001347,6
-Global,Unsafe water source,2007,25.58915472,6
-Global,Air pollution,2007,96.94988269,4
-Global,Lead exposure,2007,11.09646879,8
-Global,Smoking,2007,102.3154836,2
-Global,Alcohol use,2007,32.44754751,5
-Global,Drug use,2007,6.223612696,9
-Global,High systolic blood pressure,2007,128.9109538,1
-Global,Dietary risks,2007,97.60161657,3
-Global,Occupational risks,2007,17.28305175,7
+World,Unsafe water source,2007,25.58915472,6
+World,Air pollution,2007,96.94988269,4
+World,Lead exposure,2007,11.09646879,8
+World,Smoking,2007,102.3154836,2
+World,Alcohol use,2007,32.44754751,5
+World,Drug use,2007,6.223612696,9
+World,High systolic blood pressure,2007,128.9109538,1
+World,Dietary risks,2007,97.60161657,3
+World,Occupational risks,2007,17.28305175,7
 India,Unsafe water source,2006,61.93583457,5
 India,Air pollution,2006,123.4244852,1
 India,Lead exposure,2006,14.97646664,8
@@ -1358,15 +1358,15 @@ Japan,Drug use,2008,7.625477744,7
 Japan,High systolic blood pressure,2008,132.0056906,2
 Japan,Dietary risks,2008,94.98343912,3
 Japan,Occupational risks,2008,19.21813273,6
-Global,Unsafe water source,2008,24.84650466,6
-Global,Air pollution,2008,96.43811554,4
-Global,Lead exposure,2008,11.21911886,8
-Global,Smoking,2008,102.1471301,2
-Global,Alcohol use,2008,32.67464356,5
-Global,Drug use,2008,6.203853911,9
-Global,High systolic blood pressure,2008,130.1201927,1
-Global,Dietary risks,2008,97.98605114,3
-Global,Occupational risks,2008,17.18848296,7
+World,Unsafe water source,2008,24.84650466,6
+World,Air pollution,2008,96.43811554,4
+World,Lead exposure,2008,11.21911886,8
+World,Smoking,2008,102.1471301,2
+World,Alcohol use,2008,32.67464356,5
+World,Drug use,2008,6.203853911,9
+World,High systolic blood pressure,2008,130.1201927,1
+World,Dietary risks,2008,97.98605114,3
+World,Occupational risks,2008,17.18848296,7
 Switzerland,Unsafe water source,2007,0.033430026,9
 Switzerland,Air pollution,2007,28.29143908,5
 Switzerland,Lead exposure,2007,4.974966184,8
@@ -1421,15 +1421,15 @@ United States of America,Drug use,2008,19.2926204,7
 United States of America,High systolic blood pressure,2008,142.0627939,2
 United States of America,Dietary risks,2008,122.9290767,3
 United States of America,Occupational risks,2008,20.99728213,6
-Global,Unsafe water source,2013,20.18036085,6
-Global,Air pollution,2013,91.40315157,4
-Global,Lead exposure,2013,11.50066328,8
-Global,Smoking,2013,98.6058528,2
-Global,Alcohol use,2013,31.17772334,5
-Global,Drug use,2013,5.923782191,9
-Global,High systolic blood pressure,2013,132.8617881,1
-Global,Dietary risks,2013,98.15962645,3
-Global,Occupational risks,2013,16.21907704,7
+World,Unsafe water source,2013,20.18036085,6
+World,Air pollution,2013,91.40315157,4
+World,Lead exposure,2013,11.50066328,8
+World,Smoking,2013,98.6058528,2
+World,Alcohol use,2013,31.17772334,5
+World,Drug use,2013,5.923782191,9
+World,High systolic blood pressure,2013,132.8617881,1
+World,Dietary risks,2013,98.15962645,3
+World,Occupational risks,2013,16.21907704,7
 India,Unsafe water source,2008,59.28820879,5
 India,Air pollution,2008,125.3098744,1
 India,Lead exposure,2008,15.76030854,8
@@ -1565,15 +1565,15 @@ Switzerland,Drug use,2009,6.932945443,7
 Switzerland,High systolic blood pressure,2009,146.7703648,1
 Switzerland,Dietary risks,2009,116.8264436,3
 Switzerland,Occupational risks,2009,23.55306541,6
-Global,Unsafe water source,2010,22.78847026,6
-Global,Air pollution,2010,94.11584016,4
-Global,Lead exposure,2010,11.33769028,8
-Global,Smoking,2010,100.6241664,2
-Global,Alcohol use,2010,32.19911591,5
-Global,Drug use,2010,6.021648071,9
-Global,High systolic blood pressure,2010,131.4002568,1
-Global,Dietary risks,2010,98.02369639,3
-Global,Occupational risks,2010,16.77921928,7
+World,Unsafe water source,2010,22.78847026,6
+World,Air pollution,2010,94.11584016,4
+World,Lead exposure,2010,11.33769028,8
+World,Smoking,2010,100.6241664,2
+World,Alcohol use,2010,32.19911591,5
+World,Drug use,2010,6.021648071,9
+World,High systolic blood pressure,2010,131.4002568,1
+World,Dietary risks,2010,98.02369639,3
+World,Occupational risks,2010,16.77921928,7
 Malaysia,Unsafe water source,2011,2.495748348,9
 Malaysia,Air pollution,2011,31.84271891,4
 Malaysia,Lead exposure,2011,3.363187373,8
@@ -1610,15 +1610,15 @@ India,Drug use,2010,5.98574341,9
 India,High systolic blood pressure,2010,92.95643042,2
 India,Dietary risks,2010,72.92668326,3
 India,Occupational risks,2010,17.17850544,7
-Global,Unsafe water source,2011,22.14896979,6
-Global,Air pollution,2011,93.24150462,4
-Global,Lead exposure,2011,11.41330962,8
-Global,Smoking,2011,99.83762866,2
-Global,Alcohol use,2011,31.60532851,5
-Global,Drug use,2011,5.988493787,9
-Global,High systolic blood pressure,2011,131.8593641,1
-Global,Dietary risks,2011,98.05529106,3
-Global,Occupational risks,2011,16.6015396,7
+World,Unsafe water source,2011,22.14896979,6
+World,Air pollution,2011,93.24150462,4
+World,Lead exposure,2011,11.41330962,8
+World,Smoking,2011,99.83762866,2
+World,Alcohol use,2011,31.60532851,5
+World,Drug use,2011,5.988493787,9
+World,High systolic blood pressure,2011,131.8593641,1
+World,Dietary risks,2011,98.05529106,3
+World,Occupational risks,2011,16.6015396,7
 Switzerland,Unsafe water source,2011,0.053748391,9
 Switzerland,Air pollution,2011,25.88864187,5
 Switzerland,Lead exposure,2011,4.622510633,8
@@ -1628,15 +1628,15 @@ Switzerland,Drug use,2011,6.744378377,7
 Switzerland,High systolic blood pressure,2011,141.7258017,1
 Switzerland,Dietary risks,2011,109.7331606,3
 Switzerland,Occupational risks,2011,23.30432566,6
-Global,Unsafe water source,2012,21.02238111,6
-Global,Air pollution,2012,92.22459207,4
-Global,Lead exposure,2012,11.45008915,8
-Global,Smoking,2012,99.21676889,2
-Global,Alcohol use,2012,31.39913966,5
-Global,Drug use,2012,5.935036035,9
-Global,High systolic blood pressure,2012,132.3277358,1
-Global,Dietary risks,2012,98.09055026,3
-Global,Occupational risks,2012,16.38952,7
+World,Unsafe water source,2012,21.02238111,6
+World,Air pollution,2012,92.22459207,4
+World,Lead exposure,2012,11.45008915,8
+World,Smoking,2012,99.21676889,2
+World,Alcohol use,2012,31.39913966,5
+World,Drug use,2012,5.935036035,9
+World,High systolic blood pressure,2012,132.3277358,1
+World,Dietary risks,2012,98.09055026,3
+World,Occupational risks,2012,16.38952,7
 Malaysia,Unsafe water source,2012,2.236843714,9
 Malaysia,Air pollution,2012,32.22542798,4
 Malaysia,Lead exposure,2012,3.320679342,8
@@ -1700,15 +1700,15 @@ China,Drug use,2012,4.875906143,8
 China,High systolic blood pressure,2012,162.2135913,1
 China,Dietary risks,2012,129.9173425,4
 China,Occupational risks,2012,25.33479208,6
-Global,Unsafe water source,2017,17.41108393,6
-Global,Air pollution,2017,86.62241574,4
-Global,Lead exposure,2017,11.56917334,8
-Global,Smoking,2017,98.02004308,3
-Global,Alcohol use,2017,31.08562384,5
-Global,Drug use,2017,6.237201991,9
-Global,High systolic blood pressure,2017,136.6021137,1
-Global,Dietary risks,2017,100.199411,2
-Global,Occupational risks,2017,15.6973567,7
+World,Unsafe water source,2017,17.41108393,6
+World,Air pollution,2017,86.62241574,4
+World,Lead exposure,2017,11.56917334,8
+World,Smoking,2017,98.02004308,3
+World,Alcohol use,2017,31.08562384,5
+World,Drug use,2017,6.237201991,9
+World,High systolic blood pressure,2017,136.6021137,1
+World,Dietary risks,2017,100.199411,2
+World,Occupational risks,2017,15.6973567,7
 India,Unsafe water source,2012,49.5184247,5
 India,Air pollution,2012,121.3536816,1
 India,Lead exposure,2012,16.15364435,8
@@ -1808,15 +1808,15 @@ China,Drug use,2013,4.983105907,8
 China,High systolic blood pressure,2013,165.2445864,1
 China,Dietary risks,2013,131.3861838,4
 China,Occupational risks,2013,24.72854553,6
-Global,Unsafe water source,2014,19.19344419,6
-Global,Air pollution,2014,90.25862164,4
-Global,Lead exposure,2014,11.49202185,8
-Global,Smoking,2014,98.06081576,3
-Global,Alcohol use,2014,30.99689094,5
-Global,Drug use,2014,5.983790725,9
-Global,High systolic blood pressure,2014,133.2997097,1
-Global,Dietary risks,2014,98.12215268,2
-Global,Occupational risks,2014,16.02158357,7
+World,Unsafe water source,2014,19.19344419,6
+World,Air pollution,2014,90.25862164,4
+World,Lead exposure,2014,11.49202185,8
+World,Smoking,2014,98.06081576,3
+World,Alcohol use,2014,30.99689094,5
+World,Drug use,2014,5.983790725,9
+World,High systolic blood pressure,2014,133.2997097,1
+World,Dietary risks,2014,98.12215268,2
+World,Occupational risks,2014,16.02158357,7
 Switzerland,Unsafe water source,2018,0.058414586,9
 Switzerland,Air pollution,2018,18.00965222,6
 Switzerland,Lead exposure,2018,4.418164847,8
@@ -1862,15 +1862,15 @@ India,Drug use,2014,5.000250977,9
 India,High systolic blood pressure,2014,98.23453788,2
 India,Dietary risks,2014,78.74242372,3
 India,Occupational risks,2014,17.37727557,7
-Global,Unsafe water source,2015,18.39472308,6
-Global,Air pollution,2015,89.58327285,4
-Global,Lead exposure,2015,11.53669195,8
-Global,Smoking,2015,98.20667386,3
-Global,Alcohol use,2015,31.09698929,5
-Global,Drug use,2015,6.101954077,9
-Global,High systolic blood pressure,2015,134.9503391,1
-Global,Dietary risks,2015,99.16679864,2
-Global,Occupational risks,2015,15.87207856,7
+World,Unsafe water source,2015,18.39472308,6
+World,Air pollution,2015,89.58327285,4
+World,Lead exposure,2015,11.53669195,8
+World,Smoking,2015,98.20667386,3
+World,Alcohol use,2015,31.09698929,5
+World,Drug use,2015,6.101954077,9
+World,High systolic blood pressure,2015,134.9503391,1
+World,Dietary risks,2015,99.16679864,2
+World,Occupational risks,2015,15.87207856,7
 Switzerland,Unsafe water source,2015,0.064670363,9
 Switzerland,Air pollution,2015,21.98802336,6
 Switzerland,Lead exposure,2015,4.546264818,8
@@ -1988,15 +1988,15 @@ Japan,Drug use,2016,7.661252509,7
 Japan,High systolic blood pressure,2016,139.447604,2
 Japan,Dietary risks,2016,100.4956706,3
 Japan,Occupational risks,2016,22.37585295,6
-Global,Unsafe water source,2016,17.71466376,6
-Global,Air pollution,2016,88.13095457,4
-Global,Lead exposure,2016,11.56627482,8
-Global,Smoking,2016,98.19508445,3
-Global,Alcohol use,2016,31.12087644,5
-Global,Drug use,2016,6.209774944,9
-Global,High systolic blood pressure,2016,135.9766939,1
-Global,Dietary risks,2016,99.73914465,2
-Global,Occupational risks,2016,15.78311803,7
+World,Unsafe water source,2016,17.71466376,6
+World,Air pollution,2016,88.13095457,4
+World,Lead exposure,2016,11.56627482,8
+World,Smoking,2016,98.19508445,3
+World,Alcohol use,2016,31.12087644,5
+World,Drug use,2016,6.209774944,9
+World,High systolic blood pressure,2016,135.9766939,1
+World,Dietary risks,2016,99.73914465,2
+World,Occupational risks,2016,15.78311803,7
 Switzerland,Unsafe water source,2016,0.063678961,9
 Switzerland,Air pollution,2016,19.3662312,6
 Switzerland,Lead exposure,2016,4.442863024,8
@@ -2024,15 +2024,15 @@ China,Drug use,2017,5.726171498,8
 China,High systolic blood pressure,2017,176.1158699,1
 China,Dietary risks,2017,137.3634138,3
 China,Occupational risks,2017,23.68701886,6
-Global,Unsafe water source,2018,16.58630551,6
-Global,Air pollution,2018,86.25061494,4
-Global,Lead exposure,2018,11.61087619,8
-Global,Smoking,2018,98.60789834,3
-Global,Alcohol use,2018,31.25025735,5
-Global,Drug use,2018,6.293298922,9
-Global,High systolic blood pressure,2018,138.2657988,1
-Global,Dietary risks,2018,101.4052949,2
-Global,Occupational risks,2018,15.72261324,7
+World,Unsafe water source,2018,16.58630551,6
+World,Air pollution,2018,86.25061494,4
+World,Lead exposure,2018,11.61087619,8
+World,Smoking,2018,98.60789834,3
+World,Alcohol use,2018,31.25025735,5
+World,Drug use,2018,6.293298922,9
+World,High systolic blood pressure,2018,138.2657988,1
+World,Dietary risks,2018,101.4052949,2
+World,Occupational risks,2018,15.72261324,7
 India,Unsafe water source,2016,39.39979667,5
 India,Air pollution,2016,119.2424509,1
 India,Lead exposure,2016,16.41192853,8
@@ -2141,15 +2141,15 @@ Switzerland,Drug use,2019,7.03950337,7
 Switzerland,High systolic blood pressure,2019,143.2521874,1
 Switzerland,Dietary risks,2019,107.3465541,3
 Switzerland,Occupational risks,2019,21.89008428,5
-Global,Unsafe water source,2019,15.89866862,6
-Global,Air pollution,2019,86.2264306,4
-Global,Lead exposure,2019,11.65389335,8
-Global,Smoking,2019,99.43008884,3
-Global,Alcohol use,2019,31.560382,5
-Global,Drug use,2019,6.390875044,9
-Global,High systolic blood pressure,2019,140.1698838,1
-Global,Dietary risks,2019,102.6569613,2
-Global,Occupational risks,2019,15.77391884,7
+World,Unsafe water source,2019,15.89866862,6
+World,Air pollution,2019,86.2264306,4
+World,Lead exposure,2019,11.65389335,8
+World,Smoking,2019,99.43008884,3
+World,Alcohol use,2019,31.560382,5
+World,Drug use,2019,6.390875044,9
+World,High systolic blood pressure,2019,140.1698838,1
+World,Dietary risks,2019,102.6569613,2
+World,Occupational risks,2019,15.77391884,7
 India,Unsafe water source,2019,36.54901073,5
 India,Air pollution,2019,119.8908994,1
 India,Lead exposure,2019,16.7190445,8
