@@ -9,35 +9,7 @@
 }
 
 hr {
-    margin: 2.5rem 0rem;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    border: 1px solid #020716;
-    padding: 8px;
-    text-align: justify;
-}
-
-th {
-    background-color: #121a31;
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    font-size: 1.3rem;
-    opacity: 0.8;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    list-style-type: none;
+    margin: 2rem 0rem;
 }
 
 .title {
@@ -58,6 +30,12 @@ ul {
 .header {
     margin: 0;
     padding: 2rem 3rem 4rem 3rem;
+    background-color: #132043;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
     background-color: #132043;
 }
 
@@ -109,6 +87,34 @@ ul {
     text-align: center;
     padding-top: 1.5rem;
     font-size: 1.4rem;
+}
+
+.chart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.chart-table th,
+.chart-table td {
+    border: 1px solid #132043;
+    padding: 8px;
+    text-align: justify;
+}
+
+.chart-table th {
+    background-color: #132043;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+.chart-table ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
 }
 
 .fig-caption {

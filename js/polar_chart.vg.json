@@ -27,7 +27,7 @@
             }
         },
         {
-            "mark": { "type": "text", "radiusOffset": -75, "fill": "white", "fontSize": 11 },
+            "mark": { "type": "text", "radiusOffset": -75, "fill": "white", "fontSize": 13 },
             "encoding": {
                 "text": { "field": "name", "type": "nominal" },
                 "opacity": {

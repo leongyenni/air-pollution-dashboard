@@ -4,7 +4,7 @@
         "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rates-from-air-pollution-year.csv"
     },
     "width": 850,
-    "height": 300,
+    "height": 350,
 
     "encoding": {
         "x": { "field": "Year", "type": "temporal" }
