@@ -7,45 +7,38 @@
     "height": 300,
     "width": 500,
     "data": {
-        "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/death-rate-by-risk-factor.csv"
+        "url": "https://raw.githubusercontent.com/leongyenni/air-pollution-dashboard/master/data/rank-death-cause-year.csv"
     },
-    "transform": [
+    "params": [
         {
-            "calculate": "datum.Rate * 1",
-            "as": "Rate"
-        },
-        {
-            "sort": [{ "field": "Rate", "order": "descending" }],
-            "window": [
-                {
-                    "op": "rank",
-                    "as": "rank"
-                }
-            ],
-            "groupby": ["Country"]
-        },
-        {
-            "filter": "datum.Factor !== 'High LDL cholesterol'"
-        },
-        {
-            "filter": "datum.Factor !== 'High body-mass index'"
-        },
-        {
-            "filter": "datum.Factor !== 'Kidney dysfunction'"
+            "name": "year_selection",
+            "value": 2019,
+            "bind": {
+                "input": "range",
+                "min": 1990,
+                "max": 2019,
+                "step": 1,
+                "name": "Year"
+            }
         }
     ],
-
+    "transform": [],
     "layer": [
         {
             "params": [
                 {
                     "name": "hover",
-                    "value": [{ "Factor": "Air pollution" }],
+                    "value": [{ "death_cause": "Air pollution" }],
                     "select": {
                         "type": "point",
-                        "fields": ["Factor"],
+                        "fields": ["death_cause"],
                         "on": "mouseover"
                     }
+                }
+            ],
+            "transform": [
+                {
+                    "filter": "datum.year == year_selection"
                 }
             ],
             "mark": {
@@ -54,10 +47,17 @@
                 "stroke": "transparent"
             }
         },
-        { "mark": { "type": "line", "cursor": "pointer", "point": true } }
+        {
+            "transform": [
+                {
+                    "filter": "datum.year == year_selection"
+                }
+            ],
+            "mark": { "type": "line", "cursor": "pointer", "point": true }
+        }
     ],
     "encoding": {
-        "x": { "field": "Country", "type": "nominal" },
+        "x": { "field": "country", "type": "nominal" },
         "y": { "field": "rank", "type": "ordinal", "title": "Ranking" },
         "opacity": {
             "condition": {
@@ -69,7 +69,7 @@
         "color": {
             "condition": {
                 "param": "hover",
-                "field": "Factor",
+                "field": "death_cause",
                 "type": "nominal",
                 "title": "Death Causes",
                 "scale": {
@@ -81,27 +81,28 @@
                         "Occupational risks",
                         "Smoking",
                         "Unsafe water source",
-                        "High systolic blood pressure"
+                        "Dietary risks"
                     ],
-                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2", "#fca311"]
+                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2", "#FFE33F"]
                 }
             },
             "value": "grey"
         },
         "tooltip": [
             {
-                "field": "Country",
+                "field": "country",
                 "type": "nominal",
                 "title": "Country"
             },
-            { "field": "Factor", "type": "nominal", "title": "Factor" },
+            { "field": "death_cause", "type": "nominal", "title": "Death Cause" },
             {
-                "field": "Rate",
+                "field": "val",
                 "type": "quantitative",
                 "title": "Death Rate",
                 "format": ".1f"
             },
-            { "field": "rank", "type": "ordinal", "title": "Ranking" }
+            { "field": "rank", "type": "ordinal", "title": "Ranking" },
+            { "field": "year", "type": "ordinal", "title": "Year" }
         ]
     },
     "config": {
