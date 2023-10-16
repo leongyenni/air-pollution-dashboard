@@ -6,7 +6,7 @@
 
     "data": {
         "values": [
-            { "name": "High systolic blood pressure", "value": 140.16 },
+            { "name": "Dietary risks", "value": 102.66 },
             { "name": "Smoking", "value": 99.43 },
             { "name": "Air pollution", "value": 86.23 },
             { "name": "Alcohol use", "value": 31.56 },
@@ -59,7 +59,7 @@
                     "Air pollution",
                     "Alcohol use",
                     "Drug use",
-                    "High systolic blood pressure",
+                    "Dietary risks",
                     "Occupational risks",
                     "Smoking",
                     "Unsafe water source"

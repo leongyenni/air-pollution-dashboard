@@ -32,7 +32,8 @@
                     "select": {
                         "type": "point",
                         "fields": ["death_cause"],
-                        "on": "mouseover"
+                        "on": "mouseover",
+                        "clear": "mouseout"
                     }
                 }
             ],
@@ -74,16 +75,16 @@
                 "title": "Death Causes",
                 "scale": {
                     "domain": [
-                        "Air pollution",
-                        "Alcohol use",
-                        "Drug use",
-                        "Lead exposure",
-                        "Occupational risks",
-                        "Smoking",
-                        "Unsafe water source",
-                        "Dietary risks"
-                    ],
-                    "range": ["#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2", "#FFE33F"]
+                    "Lead exposure",
+                    "Air pollution",
+                    "Alcohol use",
+                    "Drug use",
+                    "Dietary risks",
+                    "Occupational risks",
+                    "Smoking",
+                    "Unsafe water source"
+                ],
+                "range": ["#FCA311", "#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
                 }
             },
             "value": "grey"
