@@ -23,7 +23,7 @@
                         "domain": ["China", "India", "Japan", "Malaysia", "Switzerland", "United Kingdom", "United States", "World"]
                     }
                 },
-                "y": { "field": "Death Rate", "type": "quantitative" }
+                "y": { "field": "Death Rate", "type": "quantitative" , "title": "Death Rate (per 100,000 people)"}
             },
             "layer": [
                 { "mark": { "type": "line", "point": true, "strokeWidth": 3 } },

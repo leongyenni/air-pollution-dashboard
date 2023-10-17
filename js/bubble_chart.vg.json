@@ -57,13 +57,13 @@
                     "field": "air_pollution_exposure",
                     "type": "quantitative",
                     "scale": { "domain": [0, 100] },
-                    "axis": { "tickCount": 5, "title": "PM2.5 air pollution exposure" }
+                    "axis": { "tickCount": 5, "title": "PM 2.5 Exposure (µg/m³)" }
                 },
                 "y": {
                     "field": "Death rate",
                     "type": "quantitative",
                     "scale": { "domain": [1, 200] },
-                    "axis": { "tickCount": 5, "title": "Death rate" }
+                    "axis": { "tickCount": 5, "title": "Death Rate" }
                 }
             },
             "layer": [
@@ -181,7 +181,7 @@
                                 "field": "air_pollution_exposure",
                                 "type": "quantitative",
                                 "format": ".2f",
-                                "title": "PM 2.5 exposure"
+                                "title": "PM 2.5 Exposure (µg/m³)"
                             },
                             {
                                 "field": "Population",

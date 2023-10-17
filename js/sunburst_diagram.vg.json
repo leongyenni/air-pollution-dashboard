@@ -1,10 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "width": 660,
-    "height": 680,
-    "padding": 30,
+    "width": 640,
+    "height": 660,
+    "padding": 15,
     "autosize": "pad",
-    "title": { "text": "Sources of Air Pollution" },
     "data": [
         {
             "name": "tree",

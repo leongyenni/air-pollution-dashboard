@@ -112,7 +112,7 @@
                 },
                 "tooltip": [
                     { "field": "Country", "type": "nominal", "title": "Country" },
-                    { "field": "Share_of_total_deaths", "type": "quantitative", "format": ".2f", "title": "Percentage of Death" }
+                    { "field": "Share_of_total_deaths", "type": "quantitative", "format": ".2f", "title": "Percentage of Total Death (%)" }
                 ]
             }
         }

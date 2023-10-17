@@ -285,7 +285,7 @@
                         "signal": "!groupSelector && (groupHover.stk1 == datum.stk1 || groupHover.stk2 == datum.stk2) ? 1 : 0"
                     },
                     "tooltip": {
-                        "signal": "{\"Country\": datum.stk1, \"Air Pollution Type\": datum.stk2, \"Death Rate\":format(datum.size, ',.0f')}"
+                        "signal": "{\"Country\": datum.stk1, \"Air Pollution Type\": datum.stk2, \"Death Rate \":format(datum.size, ',.0f')}"
                     }
                 },
                 "hover": {
