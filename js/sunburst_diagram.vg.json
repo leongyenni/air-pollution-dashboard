@@ -4,6 +4,7 @@
     "height": 680,
     "padding": 30,
     "autosize": "pad",
+    "title": { "text": "Sources of Air Pollution" },
     "data": [
         {
             "name": "tree",
