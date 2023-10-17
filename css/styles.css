@@ -34,8 +34,16 @@ hr {
 
 .footer {
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     background-color: #132043;
+}
+
+.footer-text {
+    font-size: 1.32rem;
+    color: white;
+    margin: 2.5rem;
+    margin-bottom: 6rem;
+    font-style: italic;
 }
 
 .intro-text {
@@ -43,7 +51,7 @@ hr {
     text-align: justify;
     font-weight: 500;
     font-size: 1.4rem;
-    color: #132043;
+    color: #4C4C6D;
 }
 
 .text-highlight {
@@ -57,7 +65,7 @@ hr {
 }
 
 .chart {
-    margin: 3.5rem 12rem;
+    margin: 3.5rem 14rem;
     align-items: center;
 }
 
@@ -80,11 +88,23 @@ hr {
     line-height: 2.3rem;
 }
 
+.chart-side-text {
+    padding-top: 2.5rem;
+}
 
 .chart-subtitle {
     text-align: center;
     padding-top: 1.5rem;
     font-size: 1.4rem;
+     color: #4C4C6D;
+}
+
+.chart-container {
+    display: flex;
+}
+
+.chart-item {
+    flex: 1;
 }
 
 .chart-table {
@@ -141,6 +161,7 @@ hr {
 #bump_chart {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex: 1;
 }
 
 #line_chart {

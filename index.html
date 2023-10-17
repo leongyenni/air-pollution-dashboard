@@ -25,7 +25,7 @@
             </p>
             <p class="intro-text">
                 In this visualisation dashboard, we will investigate the impact of air pollution on human lives across the world, explore the types
-                and sources of air pollutants and analyze the trends in death rates attributes to air pollution.
+                and sources of air pollutants and analyze the trends in death rates attributed to air pollution.
             </p>
         </div>
 
@@ -71,18 +71,23 @@
 
             <div name="bump-chart-div">
                 <h1 class="chart-title">Ranking of Air Pollution as a Cause of Death in Different Countries</h1>
-                <div id="bump_chart"></div>
-                <div class="fig-caption">Chart 3: Ranking of Death Rate of Each Risk Factor by Country</div>
-                <div class="chart-text-div">
-                    <p class="chart-text">
-                        Air pollution has consistently ranked as <span class="text-highlight">Top 1</span> or
-                        <span class="text-highlight">Top 2</span> leading causes of death in both <span class="text-highlight">India</span> and
-                        <span class="text-highlight">China</span>, with <span class="text-highlight">a rate of over 100 deaths</span> per 100,000
-                        people over the years. Notably, air pollution has also had a significant impact on mortality in
-                        <span class="text-highlight">Malaysia</span>, where it is ranked as the
-                        <span class="text-highlight">4th leading cause of death</span>
-                        in 2019.
-                    </p>
+                <div class="chart-container">
+                    <div class="chart-item">
+                        <div id="bump_chart"></div>
+                        <div class="fig-caption">Chart 3: Ranking of Death Rate of Each Risk Factor by Country</div>
+                    </div>
+                    
+                    <div class="chart-text-div chart-item">
+                        <p class="chart-text chart-side-text">
+                            Air pollution has consistently ranked as <span class="text-highlight">Top 1</span> or
+                            <span class="text-highlight">Top 2</span> leading causes of death in both <span class="text-highlight">India</span> and
+                            <span class="text-highlight">China</span>, with <span class="text-highlight">a rate of over 100 deaths</span> per 100,000
+                            people over the years. Notably, air pollution also had a significant impact on mortality in
+                            <span class="text-highlight">Malaysia</span>, where it is ranked as the
+                            <span class="text-highlight">4th leading cause of death</span>
+                            in 2019.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -90,11 +95,9 @@
 
             <div name="alluvial-chart-div">
                 <h1 class="chart-title">Various Types of Air Pollution</h1>
-                <div class="chart-subtitle">
-                    Chart 4: Which type of air pollution has the most devastating impact and leads to the highest rate of deaths?
-                </div>
+                <div class="chart-subtitle">Which type of air pollution has the most devastating impact and leads to the highest rate of deaths?</div>
                 <div id="alluvial_chart"></div>
-                <div class="fig-caption">Death Rates from Different Types of Air Pollutions</div>
+                <div class="fig-caption">Chart 4: Death Rate from Different Types of Air Pollutions</div>
 
                 <div class="chart-text-div">
                     <p class="chart-text">
@@ -150,7 +153,7 @@
                 </h1>
                 <div id="bubble_chart"></div>
                 <div class="fig-caption">
-                    Chart 5: Death Rate from Ambient Particulate Matter Pollution Death Rate vs PM 2.5 Air Pollution Exposure
+                    Chart 5: Death Rate from Ambient Particulate Matter Pollution vs PM 2.5 Air Pollution Annual Mean Exposure (µg/m³)
                 </div>
                 <div class="chart-text-div">
                     <p class="chart-text">
@@ -186,7 +189,7 @@
             <div name="line_chart-div">
                 <h1 class="chart-title">How Are Death Rates From Air Pollution Changing?</h1>
                 <div id="line_chart"></div>
-                <div class="fig-caption">Chart 7: Death Rate from Air Pollution over the Year from 1990 to 2019</div>
+                <div class="fig-caption">Chart 7: Death Rate from Air Pollution Over the Years, from 1990 to 2019</div>
                 <div class="chart-text-div">
                     <p class="chart-text">
                         Encouragingly, the death rate from air pollution has been <span class="text-highlight">steadily declining</span> over the
@@ -196,7 +199,13 @@
             </div>
         </div>
 
-        <div class="footer">References</div>
+        <div class="footer">
+            <div>
+                <p class="footer-text">
+                    Data Sources from Health Metrics and Evaluation (IHME), World Bank & UK Department of Environment, Food & Rural Affairs (DEFRA)
+                </p>
+            </div>
+        </div>
 
         <!--Vegalite Embed-->
         <script type="text/javascript">
