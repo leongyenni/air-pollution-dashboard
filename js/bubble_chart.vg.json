@@ -11,8 +11,8 @@
             }
         }
     },
-    "width": 800,
-    "height": 500,
+    "width": 600,
+    "height": 400,
     "transform": [
         {
             "calculate": "datum.Air_pollution_exposure* 1",
