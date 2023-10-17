@@ -64,7 +64,7 @@
                     "Smoking",
                     "Unsafe water source"
                 ],
-                "range": ["#FCA311", "#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
+                "range": ["#c0987e", "#7e7f80", "#e07a5f", "#f7a072", "#87A7B3", "#7ABFC4", "#B8DFD8", "#FFE194"]
             }
         },
         "tooltip": [

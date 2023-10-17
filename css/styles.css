@@ -2,14 +2,13 @@
     font-size: 14px;
     font-family: "Open Sans";
     font-weight: 400;
-    color: #121a31;
     margin: 0;
     text-align: center;
     box-sizing: border-box;
 }
 
 hr {
-    margin: 2rem 0rem;
+    margin: 3rem 0rem;
 }
 
 .title {
@@ -44,6 +43,7 @@ hr {
     text-align: justify;
     font-weight: 500;
     font-size: 1.4rem;
+    color: #132043;
 }
 
 .text-highlight {
@@ -65,10 +65,12 @@ hr {
     font-family: "PT Serif", sans-serif;
     font-size: 2.4rem;
     font-weight: 500;
+    color: #4C4C6D;
 }
 
 .chart-text-div {
     margin: 2rem 0;
+    color: #4C4C6D;
 }
 
 .chart-text {
@@ -78,10 +80,6 @@ hr {
     line-height: 2.3rem;
 }
 
-/* .chart-text-highlight {
-    font-size: 1.7rem;
-    font-weight: 600;
-} */
 
 .chart-subtitle {
     text-align: center;
@@ -92,13 +90,15 @@ hr {
 .chart-table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 3rem;
 }
 
 .chart-table th,
 .chart-table td {
     border: 1px solid #132043;
-    padding: 8px;
-    text-align: justify;
+    padding: 1.3rem;
+    text-align: left;
+    font-size: 1.2rem;
 }
 
 .chart-table th {
@@ -106,16 +106,23 @@ hr {
     text-align: center;
     color: white;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     opacity: 0.8;
+    padding: 0.7rem;
 }
 
 .chart-table ul {
     margin: 0;
-    padding: 0;
+    padding-left: 2;
     text-align: left;
-    list-style-type: none;
+    /* list-style-type: none; */
 }
+
+.chart-table li {
+    text-align: left;
+    padding-top: 0.6rem;
+}
+
 
 .fig-caption {
     font-style: italic;
@@ -133,11 +140,11 @@ hr {
 
 #bump_chart {
     margin-top: 2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 #line_chart {
-    margin-top: 2rem; 
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 

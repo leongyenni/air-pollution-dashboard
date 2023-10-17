@@ -18,7 +18,6 @@
             }
         }
     ],
-    "transform": [],
     "layer": [
         {
             "params": [
@@ -51,8 +50,25 @@
                 }
             ],
             "mark": { "type": "line", "cursor": "pointer", "point": true, "strokeWidth": 3 }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.year == '2019'"
+                },
+                {
+                    "filter": "datum.country == 'World'"
+                },
+                {
+                    "filter": "datum.death_cause == 'Air pollution'"
+                }
+            ],
+
+            "mark": { "type": "text", "align": "left", "dx": 6, "fontSize": 14, "fontStyle": "italic" },
+            "encoding": { "text": { "field": "death_cause", "type": "nominal" } }
         }
     ],
+
     "encoding": {
         "x": { "field": "country", "type": "nominal", "title": "Country" },
         "y": { "field": "rank", "type": "ordinal", "title": "Ranking" },
@@ -68,6 +84,7 @@
                 "param": "hover",
                 "field": "death_cause",
                 "type": "nominal",
+                "legend": { "offset": 45 },
                 "title": "Death Causes",
                 "scale": {
                     "domain": [
@@ -80,7 +97,7 @@
                         "Smoking",
                         "Unsafe water source"
                     ],
-                    "range": ["#FCA311", "#7e7f80", "#e07a5f", "#f7a072", "#c0987e", "#7ABFC4", "#196795", "#FBF0B2"]
+                    "range": ["#c0987e", "#7e7f80", "#e07a5f", "#f7a072", "#87A7B3", "#7ABFC4", "#B8DFD8", "#FFE194"]
                 }
             },
             "value": "grey"

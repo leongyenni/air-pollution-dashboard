@@ -180,7 +180,8 @@
                             {
                                 "field": "air_pollution_exposure",
                                 "type": "quantitative",
-                                "format": ".2f"
+                                "format": ".2f",
+                                "title": "PM 2.5 exposure"
                             },
                             {
                                 "field": "Population",
@@ -230,10 +231,40 @@
                         "text": { "field": "Country", "type": "nominal" },
                         "color": { "value": "black" },
                         "opacity": {
-                            "condition": {
-                                "test": "datum['Population'] > 100000000",
-                                "value": 1
-                            },
+                            "condition": [
+                                {
+                                    "test": "datum['Country'] =='Japan'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='China'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='India'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='Malaysia'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='United States'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='United Kingdom'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='Switzerland'",
+                                    "value": 1
+                                },
+                                {
+                                    "test": "datum['Country'] =='World'",
+                                    "value": 1
+                                }
+                            ],
                             "value": 0
                         }
                     }
