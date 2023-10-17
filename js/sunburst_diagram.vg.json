@@ -30,7 +30,7 @@
             "name": "color",
             "type": "ordinal",
             "domain": { "data": "tree", "field": "color" },
-            "range": ["#DDB094", "#d1ded7", "#997b66", "#606B6D", "#DFD1CE", "#775144"]
+            "range": ["#DDB094", "#d1ded7", "#997b66", "#606B6D", "#DFD1CE", "#E5D283"]
         }
     ],
 
