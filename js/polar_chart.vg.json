@@ -18,8 +18,31 @@
     },
     "layer": [
         {
-            "mark": { "type": "arc", "innerRadius": 0, "stroke": "#fff" }
+            "params": [
+                {
+                    "name": "hover",
+                    "select": {
+                        "type": "point",
+                        "on": "mouseover",
+                        "clear": "mouseout"
+                    }
+                }
+            ],
+            "mark": { "type": "arc", "innerRadius": 0, "stroke": "#333333", "strokeWidth": 2 },
+            "encoding": {
+                "strokeOpacity": {
+                    "condition": [
+                        {
+                            "param": "hover",
+                            "empty": false,
+                            "value": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            }
         },
+
         {
             "mark": { "type": "text", "radiusOffset": 20 },
             "encoding": {
@@ -59,7 +82,7 @@
                     "Air pollution",
                     "Alcohol use",
                     "Drug use",
-                    "Dietary risks", 
+                    "Dietary risks",
                     "Occupational risks",
                     "Smoking",
                     "Unsafe water source"
