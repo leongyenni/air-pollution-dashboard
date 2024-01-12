@@ -1,4 +1,4 @@
-https://leongyenni.github.io/air-pollution-dashboard/
+Link: https://leongyenni.github.io/air-pollution-dashboard/
 
 <h1>Data Visualisation Dashboard - Global Air Pollution: Impact and Insights</h1>   
 
@@ -6,7 +6,7 @@ This data visualization examines the impact of air pollution on human lives worl
 
 The primary target audience for this visualization is the general public and public health authorities and organizations in understanding. It aims to raise public concern about environmental and public health issues, and address the global impact of air pollution.
 
-**Dataset**     
+<h2>Dataset</h2>    
 The visualization uses 6 datasets, which are
 1. Shares of Total Deaths from Air Pollution Across the World (1990-2019)
 2. Death Rate of Each Risk Factor by Country and Year (1990-2019)
@@ -21,7 +21,7 @@ All the datasets are open-sourced and freely available. The datasets are retriev
 2. World Development Indicators - World Bank at  https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators  
 3. UK Department of Environment, Food & Rural Affairs (DEFRA) at https://www.gov.uk/government/statistical-data-sets/env01-emissions-of-air-pollutants
 
-**Tech Stack of Data Visualization Dashboard** 
+<h2>Tech Stack of Data Visualization Dashboard</h2> 
 | Languages/Libraries/Tools  | Purpose              |
 | -------------------------- | -------------------- |
 | Numpy library              | Data preprocessing   |
