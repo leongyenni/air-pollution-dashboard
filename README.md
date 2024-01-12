@@ -20,7 +20,6 @@ The visualization uses 6 datasets, which are
 <em> Note: The death rate of air pollution is calculated as the number of deaths per 100,000 people.  </em>
 
 &nbsp;      
-&nbsp; 
        
 All the datasets are open-sourced and freely available. The datasets are retrieved from 
 1. Health Metrics and Evaluation (IHME), Global Burden of Disease at https://www.healthdata.org/research-analysis/health-risks-issues/air-pollution 
