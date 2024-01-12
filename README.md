@@ -22,6 +22,7 @@ All the datasets are open-sourced and freely available. The datasets are retriev
 3. UK Department of Environment, Food & Rural Affairs (DEFRA) at https://www.gov.uk/government/statistical-data-sets/env01-emissions-of-air-pollutants
 
 <h2>Tech Stack of Data Visualization Dashboard</h2> 
+
 | Languages/Libraries/Tools  | Purpose              |
 | -------------------------- | -------------------- |
 | Numpy library              | Data preprocessing   |
