@@ -1,4 +1,3 @@
-# air-pollution-dashboard
 https://leongyenni.github.io/air-pollution-dashboard/
 
 <h1>Data Visualisation Dashboard - Global Air Pollution: Impact and Insights</h1>   
