@@ -7,13 +7,16 @@ This data visualization examines the impact of air pollution on human lives worl
 The primary target audience for this visualization is the general public and public health authorities and organizations in understanding. It aims to raise public concern about environmental and public health issues, and address the global impact of air pollution.
 
 <h2>Dataset</h2>    
-The visualization uses 6 datasets, which are   
-1. Shares of Total Deaths from Air Pollution Across the World (1990-2019)   
-2. Death Rate of Each Risk Factor by Country and Year (1990-2019)   
-3. Death Rate from Different Types of Air Pollutions    
-4. PM 2.5 Air Pollution Mean Exposure   
-5. Types and Sources of Air Pollutant     
-6. Death Rate from Air Pollution Over the Years, from 1990 to 2019    
+The visualization uses 6 datasets, which are 
+<ol>
+  <li> Shares of Total Deaths from Air Pollution Across the World (1990-2019) </li>  
+  <li> Death Rate of Each Risk Factor by Country and Year (1990-2019) </li>
+  <li> Death Rate from Different Types of Air Pollutions </li>    
+  <li> PM 2.5 Air Pollution Mean Exposure </li>   
+  <li> Types and Sources of Air Pollutant </li>     
+  <li> Death Rate from Air Pollution Over the Years, from 1990 to 2019 </li>    
+</ol>
+
 <em> Note: The death rate of air pollution is calculated as the number of deaths per 100,000 people.  </em>
 
 All the datasets are open-sourced and freely available. The datasets are retrieved from 
