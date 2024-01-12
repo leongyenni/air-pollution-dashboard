@@ -26,7 +26,7 @@ All the datasets are open-sourced and freely available. The datasets are retriev
 2. World Development Indicators - World Bank at  https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators  
 3. UK Department of Environment, Food & Rural Affairs (DEFRA) at https://www.gov.uk/government/statistical-data-sets/env01-emissions-of-air-pollutants
 
-<h2>Tech Stack of Data Visualization Dashboard</h2> 
+<h2>Tech Stack</h2> 
 
 | Languages/Libraries/Tools  | Purpose              |
 | -------------------------- | -------------------- |
